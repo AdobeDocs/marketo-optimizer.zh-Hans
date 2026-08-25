@@ -21,7 +21,7 @@ ht-degree: 43%
 
 ## 配置产品配置文件 {#config-profile}
 
-作为管理员，您可以在[!DNL Adobe Admin Console]中完成这些任务，该位置是管理Adobe产品许可证和用户的中心位置。 在Admin Console中，您可以在单个位置而不是在各种单独的解决方案中创建和管理用户。 要了解有关其功能和功能的更多信息，请参阅[Admin Console概述](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)页面。
+作为管理员，您可以在[!DNL Adobe Admin Console]中完成这些任务，该位置是管理Adobe产品许可证和用户的中心位置。 在Admin Console中，您可以在单个位置而不是在各种单独的解决方案中创建和管理用户。 要了解有关其功能和功能的更多信息，请参阅[Admin Console概述](https://helpx.adobe.com/cn/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)页面。
 
 ### 访问Admin Console {#admin-console}
 
@@ -57,7 +57,7 @@ ht-degree: 43%
 
 授予用户访问Adobe解决方案的权限时，您不一定要授予他们完全访问权限。 产品配置文件使每个解决方案都有自己的用户权限集。 使用Admin Console分配产品配置文件。
 
-有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"}。
+有关将产品配置文件用于用户权限的详细信息，请参阅Admin Console文档中的&#x200B;[_管理企业用户的产品配置文件_](https://helpx.adobe.com/cn/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"}。
 
 ![管理员角色要求](../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或[!DNL Experience Platform]产品管理员可以从[https://adminconsole.adobe.com](https://adminconsole.adobe.com)中执行以下步骤。
 
@@ -75,7 +75,7 @@ ht-degree: 43%
 
 用户组是获得一组共享权限的用户集合。 您可以在用户组中添加或删除用户。 当组内的用户发生更改时，组权限保持不变。
 
-有关如何使用用户组管理权限的更多信息，请参阅Admin Console文档中的[管理用户组](https://helpx.adobe.com/business/enterprise/manage-users/user-groups.html){target="_blank"}。
+有关如何使用用户组管理权限的更多信息，请参阅Admin Console文档中的[管理用户组](https://helpx.adobe.com/cn/business/enterprise/manage-users/user-groups.html){target="_blank"}。
 
 ![管理员角色要求](../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员可以从[https://adminconsole.adobe.com](https://adminconsole.adobe.com)中执行以下步骤。
 
@@ -110,7 +110,7 @@ ht-degree: 43%
 
 ### 将用户添加到新组 {#add-users}
 
-有关用户管理的信息，请参阅Admin Console文档中的&#x200B;[_Adobe Admin Console用户_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}。
+有关用户管理的信息，请参阅Admin Console文档中的&#x200B;[_Adobe Admin Console用户_](https://helpx.adobe.com/cn/business/enterprise/manage-users/users.html){target="_blank"}。
 
 ![管理员角色要求](../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或产品管理员可以从[https://adminconsole.adobe.com](https://adminconsole.adobe.com)中执行以下步骤。 产品管理员只能添加其组织中已存在的用户。
 
@@ -146,7 +146,7 @@ ht-degree: 43%
 
 在Adobe Experience Platform的&#x200B;_权限_&#x200B;区域，管理员可以定义用户角色和访问策略，以管理产品应用程序内功能和对象的访问权限。 在此应用程序中，您可以创建和管理角色，并为这些角色分配所需的资源权限。 权限还允许您管理与特定角色关联的沙盒和用户。
 
-有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+有关Experience Platform中角色权限的更多信息，请参阅Experience Platform文档中的[管理角色的权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 1. 转到[experience.adobe.com](https://experience.adobe.com/)。
 
@@ -281,7 +281,7 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 ### 将用户组添加到角色 {#add-user-groups-to-a-role}
 
-有关用户管理的信息，请参阅Admin Console文档中的&#x200B;[_Adobe Admin Console用户_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}。
+有关用户管理的信息，请参阅Admin Console文档中的&#x200B;[_Adobe Admin Console用户_](https://helpx.adobe.com/cn/business/enterprise/manage-users/users.html){target="_blank"}。
 
 ![管理员角色要求](../assets/do-not-localize/icon-admin-user.svg){width="30"}系统管理员或Experience Platform管理员可以执行以下步骤。
 

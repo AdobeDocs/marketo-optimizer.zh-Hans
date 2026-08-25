@@ -46,7 +46,7 @@ ht-degree: 5%
 * **[!UICONTROL Privacy Service权限]** - `Privacy Read Permission`和`Privacy Write Permission`
 * **[!UICONTROL 数据管理]** - `View Privacy Console`
 
-有关更多详细信息，请参阅“[!DNL Privacy Service]”指南中的&#x200B;[_管理Privacy Service的权限_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"}。
+有关更多详细信息，请参阅“[!DNL Privacy Service]”指南中的&#x200B;[_管理Privacy Service的权限_](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/permissions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

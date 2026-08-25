@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ## 将网络研讨会作为资产
 
-网络研讨会是[项目](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)所拥有的资产，与电子邮件或登陆页面相同。 将网络研讨会添加到项目中可在其中注册该研讨会，并使其令牌、属性和活动可用于该计划中的每个历程和资产。
+网络研讨会是[项目](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)所拥有的资产，与电子邮件或登陆页面相同。 将网络研讨会添加到项目中可在其中注册该研讨会，并使其令牌、属性和活动可用于该计划中的每个历程和资产。
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 | 州 | 所有者 | 值 |
 |---|---|---|
-| 项目群成员状态 | 项目 | 可按[程序类型](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types)配置 |
+| 项目群成员状态 | 项目 | 可按[程序类型](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/admin/program-types)配置 |
 | 网络研讨会状态 | 网络研讨会资产 | 邀请、注册、已参加、不显示、按要求参加 |
 | 历程状态 | 历程 | 当前节点、已暂停、已完成和其他历程运行时状态 |
 

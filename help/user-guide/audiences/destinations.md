@@ -79,7 +79,7 @@ ht-degree: 6%
 
 1. 查看数据治理和营销操作设置，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-有关完整设置步骤，请参阅[!DNL Experience Platform]文档中的[新建目标连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
+有关完整设置步骤，请参阅[!DNL Experience Platform]文档中的[新建目标连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
 
 配置后，目标可用于在[!DNL Marketo Optimizer]中选择目标的任意位置进行激活。
 
