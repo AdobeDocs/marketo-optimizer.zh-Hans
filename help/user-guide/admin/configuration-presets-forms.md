@@ -18,7 +18,7 @@ ht-degree: 16%
 
 ## 先决条件
 
-要使用Web窗体，您必须在Adobe Experience Platform中定义一个或多个&#x200B;_**HTTP API流连接**_。 确保要使用的每个连接都满足以下要求：
+要使用Web窗体，您必须在Adobe Experience Platform中定义一个或多个&#x200B;_&#x200B;**HTTP API流连接**&#x200B;_。 确保要使用的每个连接都满足以下要求：
 
 * 数据类型必须设置为XDM（不是原始数据）
 * 必须禁用身份验证（非身份验证连接）

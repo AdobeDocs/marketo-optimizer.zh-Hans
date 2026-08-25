@@ -3,7 +3,8 @@ title: 隐私管理
 description: 了解如何在Marketo Optimizer中遵守GDPR、CCPA和其他隐私法规，并使用Adobe Privacy Service提交请求。
 feature: Setup
 role: Admin
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
 workflow-type: tm+mt
 source-wordcount: 630

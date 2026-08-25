@@ -148,7 +148,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的电子邮件是使用包含锁定内容](./template-content-governance.md)的[模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+>如果您的电子邮件是使用包含锁定内容[&#128279;](./template-content-governance.md)的模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 ### 添加片段 {#visual-fragments}
 

@@ -1,7 +1,8 @@
 ---
 title: Personalization的自定义令牌
 description: 创建和管理自定义的“我的令牌”，以便对营销工件进行动态个性化 — 在Marketo Optimizer中为项目定义文本和数字变量。
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 629

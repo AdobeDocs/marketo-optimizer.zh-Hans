@@ -14,7 +14,7 @@ ht-degree: 0%
 通过&#x200B;_Content Personalization_&#x200B;技能，可以将一封电子邮件转换为基于角色、基于数据的变体，因此您无需为每个受众构建单独的电子邮件。 该技能不是在活动后发送一条消息，而是将受众解析为[派生角色](../audiences/personas.md)同类群组，显示洞察并生成个性化的变体。 每个变体都会另存为一封电子邮件中的条件内容，因此在历程发送时，每个人都会自动收到与其角色匹配的版本。
 
 * **技能** - `content-personalization`
-* **调用** — 从[聊天界面](./chat-interface.md)描述新电子邮件的目标受众，或选择&#x200B;**[!UICONTROL 个性化此电子邮件]**&#x200B;或&#x200B;**[!UICONTROL 在[发送电子邮件节点](../marketing/action-nodes.md)中的现有电子邮件上分析此电子邮件]**
+* **调用** — 从[聊天界面](./chat-interface.md)描述新电子邮件的目标受众，或选择&#x200B;**[!UICONTROL 个性化此电子邮件]**&#x200B;或&#x200B;**在[发送电子邮件节点](../marketing/action-nodes.md)中的现有电子邮件上分析此电子邮件**
 * **从**&#x200B;读取/写入 — [!DNL Marketo Optimizer]
 
 ## 重要概念 {#key-concepts}
