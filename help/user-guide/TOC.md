@@ -3,7 +3,7 @@ user-guide-title: Marketo Optimizer文档
 user-guide-description: 了解Adobe Marketo Optimizer，以及如何使用它为B2B潜在客户和客户通过人工智能支持的个性化内容执行协调的营销和销售参与。
 hide: true
 nudge: red
-source-git-commit: bc9b09fe125aad1909864db4fa7fc7605bf86597
+source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 46%
@@ -56,7 +56,7 @@ ht-degree: 46%
     + [创建网络研讨会](./marketing/create-webinar.md)
     + [网络研讨会历程](./marketing/webinar-journeys.md)
 + [历程流量控制](./marketing/journey-traffic-control.md)
-+ 受众 {#audiences}
++ Audiences {#audiences}
   + [人员列表](./audiences/people-lists.md)
   + [个人详细信息](./audiences/person-details.md)
   + [基于事件的受众](./audiences/event-based-audiences.md)
@@ -66,7 +66,7 @@ ht-degree: 46%
 + 内容 {#content}
   + 资产 {#assets}
     + [概述](./content/digital-asset-management.md)
-    + {hide-from-toc}[C2PA元数据](./content/c2pa-metadata.md)
+    + [C2PA元数据](./content/c2pa-metadata.md)
   + 模板 {#templates}
     + [概述](./content/templates.md)
     + [创建模板](./content/templates-create.md)
