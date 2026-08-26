@@ -26,7 +26,7 @@ ht-degree: 0%
 
 C2PA元数据会随图像文件一起保留。 使用创作AI生成或编辑的图像上传到[!DNL Adobe Marketo Optimizer]或从导出时，其C2PA元数据将保留。
 
-有关跨Adobe CX Enterprise应用程序自动附加C2PA元数据的更多详细信息，请参阅CX Enterprise中的AI指南中的&#x200B;[_创作AI内容透明度_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
+有关跨Adobe CX Enterprise应用程序自动附加C2PA元数据的更多详细信息，请参阅CX Enterprise中的AI指南中的&#x200B;[_创作AI内容透明度_](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
 
 >[!NOTE]
 >
