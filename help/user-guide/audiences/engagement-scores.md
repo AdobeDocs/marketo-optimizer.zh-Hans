@@ -136,7 +136,7 @@ _[!UICONTROL 人员参与度分数]_&#x200B;筛选器显示在&#x200B;**[!UICONT
 
 在[!DNL Marketo Optimizer]中，您可以直接从[同事聊天界面](../agents/chat-interface.md)配置参与度得分权重。
 
-有关参与度得分模型、权重区段和活动权重的背景，请参阅[配置自定义参与度得分权重](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
+有关参与度得分模型、权重区段和活动权重的背景，请参阅[配置自定义参与度得分权重](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
 
 1. 从屏幕左侧打开&#x200B;**[!UICONTROL 同事]**&#x200B;聊天面板（聊天图标）。
 

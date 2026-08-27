@@ -1,9 +1,7 @@
 ---
 title: 表单
 description: 在Marketo Optimizer中创建和管理可重用的业务数据收集表单 — 设计字段、设置感谢页面、发布和跟踪使用情况。
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 2434
