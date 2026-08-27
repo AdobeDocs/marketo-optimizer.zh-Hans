@@ -1,7 +1,7 @@
 ---
 title: Adobe Marketo Optimizer文档
 description: Marketo Optimizer的完整文档 — 探索可用于入门培训、AI支持的营销自动化、人员历程和受众管理的资源。
-source-git-commit: 8ca954d9cd08d8c1938aaf1e1a0d1a4a0c439b11
+source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 3%
@@ -80,7 +80,7 @@ Sales Qualifier
 
 Qualify prospects with AI, run outbound workflows, and connect CRM tasks with BDR activities.
 
-[Learn about Sales Qualifier](./sales-qualifier/sales-qualifier.md)
+[Learn about Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}
 :::
 
 :::

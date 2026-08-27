@@ -3,9 +3,9 @@ title: C2PA元数据
 description: 了解Adobe Marketo Optimizer如何自动将C2PA元数据应用于通过创作AI生成的图像，以及这对于您的内容意味着什么。
 feature: Assets, Content
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 有关资产历史记录的全面信息，您可以使用Adobe Content Authenticity [检查工具](https://contentauthenticity.adobe.com/inspect)。
 
 C2PA元数据会随图像文件一起保留。 使用创作AI生成或编辑的图像上传到[!DNL Adobe Marketo Optimizer]或从导出时，其C2PA元数据将保留。
+
+有关跨Adobe CX Enterprise应用程序自动附加C2PA元数据的更多详细信息，请参阅CX Enterprise中的AI指南中的&#x200B;[_创作AI内容透明度_](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
 
 >[!NOTE]
 >
