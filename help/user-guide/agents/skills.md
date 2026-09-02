@@ -1,16 +1,16 @@
 ---
 title: 同事技能
-description: 查看Marketo Optimizer中的同事技能 — 项目、历程、受众、评分、内容和发送时间优化的打包工作流程。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+description: 查看Marketo Optimizer中的CX Enterprise Co-worker技能 — 为计划、历程、受众、评分、内容和发送时间优化打包的工作流。
+source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '575'
 ht-degree: 5%
 
 ---
 
 # 同事技能
 
-_技能_&#x200B;是代理程序知道如何运行的打包工作流 — `/`菜单和自然语言请求背后的构建块。 每个技能都捆绑了分步说明和一个工作所需的特定工具（例如，“发布历程”、“比较两个人列表”、“构建评分模型”）。
+_技能_&#x200B;是同事知道如何运行的打包工作流 — `/`菜单和自然语言请求背后的构建块。 每个技能都捆绑了分步说明和一个工作所需的特定工具（例如，“发布历程”、“比较两个人列表”、“构建评分模型”）。
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ _技能_&#x200B;是代理程序知道如何运行的打包工作流 — `/`菜�
 
 | 技能 | 作用 | 访问 | 产品表面 | 影响/数据流 |
 |---|---|---|---|---|
-| `falco-program-creation` | 端到端[!DNL Marketo Optimizer]项目创建 — 项目、子文件夹、令牌、列表、历程。 | 写入 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer]。 请参阅&#x200B;_[根据简报创建项目](./program-from-brief.md)_。 |
+| `falco-program-creation` | 端到端[!DNL Marketo Optimizer]项目创建 — 项目、子文件夹、令牌、列表、历程。 <p>请参阅&#x200B;_[根据简报创建项目](./program-from-brief.md)_。 | 写入 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer]。 |
 | `adapt-program` | 从[!DNL Marketo Engage]项目生成迁移故事以进行[!DNL Marketo Optimizer]适应。 | 读取 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Engage]，写入[!DNL Marketo Optimizer] |
 | `folder-creation` | 在资产树中创建组织文件夹。 | 写入 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer] |
 | `program-creation` *（生成程序）* | 从营销活动简报创建Marketo项目。 | 写入 | [!DNL Marketo Engage] | 读取+写入[!DNL Marketo Engage] |
@@ -43,7 +43,7 @@ _技能_&#x200B;是代理程序知道如何运行的打包工作流 — `/`菜�
 
 | 技能 | 作用 | 访问 | 产品 | 后端（数据流） |
 |---|---|---|---|---|
-| `audience-creation` | 调整[!DNL Marketo Engage]智能列表、创建人员列表或添加/更新规则。 | 写入 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Engage] +读取/写入[!DNL Marketo Optimizer]。  请参阅&#x200B;_[为项目创建受众](./audience-creation.md)_。 |
+| `audience-creation` | 调整[!DNL Marketo Engage]智能列表、创建人员列表或添加/更新规则。 <p>请参阅&#x200B;_[为项目创建受众](./audience-creation.md)_。 | 写入 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Engage] +读取/写入[!DNL Marketo Optimizer]。 |
 | `people-list-comparison` | 比较两个人员列表并显示重叠的成员。 | 读取 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Optimizer] |
 | `import-leads` | 检查CSV数据质量并将导入提交到[!DNL Marketo Engage]。 | 读+写 | 两者 | 读取+写入[!DNL Marketo Engage] |
 | `lead-investigation` *（调查潜在客户）* | 调查商机的活动、评分、资格鉴定和生命周期。 | 读取 | [!DNL Marketo Engage] | 读取[!DNL Marketo Engage] |
@@ -60,7 +60,7 @@ _技能_&#x200B;是代理程序知道如何运行的打包工作流 — `/`菜�
 
 | 技能 | 作用 | 访问 | 产品 | 后端（数据流） |
 |---|---|---|---|---|
-| `scoring-studio` | 列出/获取评分模型并构建/发布它们。 | 读+写 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer] （评分服务）；读取[!DNL Marketo Engage]潜在客户字段/活动类型。 请参阅&#x200B;_[创建自定义评分模型](./lead-scoring-model.md)_。 |
+| `scoring-studio` | 列出/获取评分模型并构建/发布它们。 <p>请参阅&#x200B;_[创建自定义评分模型](./lead-scoring-model.md)_。 | 读+写 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer] （评分服务）；读取[!DNL Marketo Engage]潜在客户字段/活动类型。 |
 | `engagementconfiguration` | 显示参与配置和编辑/更新权重。 | 读+写 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer] |
 | `intentconfiguration` | 显示意图配置和设置/更新权重。 | 读+写 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer] |
 | `intent-query` | 按人员/区段/列表查询和解释意图分数。 | 读取 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Optimizer] |
@@ -88,4 +88,3 @@ _技能_&#x200B;是代理程序知道如何运行的打包工作流 — `/`菜�
 - **`scoring-studio`** — 与[!DNL Marketo Optimizer]评分服务一起读取[!DNL Marketo Engage]潜在客户字段/活动类型。
 
 所有`falco-mcp_*`和journey/token/scoring/STO/FCS工具点击[!DNL Marketo Optimizer]服务；CSV/program/lead工具点击[!DNL Marketo Engage]。
-

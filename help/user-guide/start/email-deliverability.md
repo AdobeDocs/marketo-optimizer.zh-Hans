@@ -1,7 +1,7 @@
 ---
 title: 电子邮件可投放性配置
 description: 为Marketo Optimizer配置子域委派、DMARC、SPF、DKIM和IP池。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: 81d9880cb37bb60301252b48bd89637b6656a993
 workflow-type: tm+mt
 source-wordcount: '2502'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 1. [确认用于发送子域电子邮件的IP池](#ip-pools)。
 1. [创建一个或多个绑定子域、IP池和发件人标识的电子邮件通道配置](../admin/email-channel-configuration.md#create-email-channel-configuration)。
 
-为Marketo Optimizer设置![电子邮件可投放性](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+为Marketo Optimizer设置![电子邮件可投放性](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
