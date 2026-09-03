@@ -4,7 +4,7 @@ description: 在同事聊天界面中使用Scoring Studio技能在Marketo Optimi
 source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="使用Scoring Studio技能通过同事聊天界面创建、配置和发布自定义潜在客户评分模型。"
+>abstract="使用 Scoring Studio 技能，通过 Coworker 聊天界面创建、配置和发布自定义潜在客户评分模型。"
 
 [!DNL Adobe Marketo Optimizer]中的&#x200B;[_Scoring Studio_&#x200B;技能](./skills.md#scoring-signals)提供了AI本机潜在客户评分解决方案，允许您创建、配置和发布潜在客户评分模型。 Studio将代理驱动的工作流与可视化UI相结合 — 您可以通过[同事聊天界面](./chat-interface.md)中的自然语言提示或直接与UI控件交互来构建评分模型。
 
