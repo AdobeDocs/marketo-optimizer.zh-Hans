@@ -1,9 +1,9 @@
 ---
 title: 同事技能
 description: 查看Marketo Optimizer中的CX Enterprise Co-worker技能 — 为计划、历程、受众、评分、内容和发送时间优化打包的工作流。
-source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
+source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,7 @@ _技能_&#x200B;是同事知道如何运行的打包工作流 — `/`菜单和�
 | `journey-stop` | 中止、关闭、停止、停止或终止历程。 | 写入 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer] |
 | `journey-reentry` | 配置重新进入：允许/不允许、关闭、最大条目数。 | 写入 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer] |
 | `journey-trafficcontrol` | 运行显示配置文件路由的流量控制模拟。 | 读取 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Optimizer]（模拟） |
-| `journey-observability` | 调试/监控进度 — 路径、计时、拆分、停顿、停顿。 | 读取 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Optimizer] + [!DNL Marketo Engage]（静态列表检查） |
+| `journey-observability` | 调试/监控进度 — 路径、计时、拆分、停顿、停顿。 <p>查看&#x200B;_[调试和监视旅程Progression](./journey-observability.md)_。 | 读取 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Optimizer] + [!DNL Marketo Engage]（静态列表检查） |
 
 ## 受众和人员 {#audiences-people}
 
