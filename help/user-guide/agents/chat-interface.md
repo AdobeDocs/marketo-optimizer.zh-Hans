@@ -1,9 +1,13 @@
 ---
 title: 聊天界面
 description: 使用Marketo Optimizer中的“同事聊天”面板，使用自然语言或斜杠(/)菜单构建程序、历程和列表。
-source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
+TQID: 'https://experienceleague.adobe.com/5oj0glKEbJuzQFem-jxL4qjnzxVG4tlOaiHKM5SuiWQ'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: 928
 ht-degree: 0%
 
 ---
@@ -32,7 +36,7 @@ ht-degree: 0%
 
 [!DNL Adobe Sales Qualifier]是一个可以与[!DNL Marketo Optimizer]一起使用的AI驱动应用程序。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 [!DNL Sales Qualifier]跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程。 它减少了手动BDR负载，加快了企业B2B公司的管道速度。
 
-有关详细信息，请参阅[Sales Qualifier文档](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"}。
+有关详细信息，请参阅[Sales Qualifier文档](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

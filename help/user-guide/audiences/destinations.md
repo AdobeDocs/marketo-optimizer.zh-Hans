@@ -1,10 +1,14 @@
 ---
 title: 目标
 description: 了解所需的权限、支持的目标，以及如何在Marketo Optimizer中连接目标以将静态人员列表激活到广告和社交平台。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 6%
+source-wordcount: 643
+ht-degree: 7%
 
 ---
 
@@ -79,7 +83,7 @@ ht-degree: 6%
 
 1. 查看数据治理和营销操作设置，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-有关完整设置步骤，请参阅[!DNL Experience Platform]文档中的[新建目标连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
+有关完整设置步骤，请参阅[!DNL Experience Platform]文档中的[新建目标连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
 
 配置后，目标可用于在[!DNL Marketo Optimizer]中选择目标的任意位置进行激活。
 

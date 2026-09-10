@@ -1,12 +1,15 @@
 ---
 title: 创建和设计网络研讨会
 description: 将网络研讨会资源添加到程序，在 [!DNL Adobe Connect]中进行设计，添加联合主持人和演示者，运行测试会话，并在 [!DNL Marketo Optimizer]中编辑实时网络研讨会。
-keywords: null
+keywords: 
 role: User
 feature: Channels
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/fFvlOnp8hDF1RNOyohPWkc1whSG3T3deNrJ3RnEDzlo'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: 680
 ht-degree: 0%
 
 ---
@@ -60,8 +63,8 @@ ht-degree: 0%
 
 1. 选择&#x200B;**传递模式**：
 
-   &#x200B;- **实时** — 演示者实时主持会话。
-   &#x200B;- **模拟直播** — 在计划时间播放预先录制的内容，以及实时聊天、投票和问答。
+   - **实时** — 演示者实时主持会话。
+   - **模拟直播** — 在计划时间播放预先录制的内容，以及实时聊天、投票和问答。
 
 1. 选择&#x200B;**网络研讨会会议室**。
 
@@ -111,5 +114,5 @@ ht-degree: 0%
 
 您可以在注册开始后编辑网络研讨会，但请谨慎操作：
 
-&#x200B;- 编辑计划可能会触发对已注册人员的更新通知。 可配置编辑已安排的网络研讨会的功能。
-&#x200B;- 实时电子邮件中令牌引用的字段需要明确确认以便删除，因为这样做会破坏已计划发送的内容。
+- 编辑计划可能会触发对已注册人员的更新通知。 可配置编辑已安排的网络研讨会的功能。
+- 实时电子邮件中令牌引用的字段需要明确确认以便删除，因为这样做会破坏已计划发送的内容。

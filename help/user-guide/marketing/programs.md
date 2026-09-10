@@ -1,9 +1,13 @@
 ---
 title: 项目
 description: 了解如何使用项目从单一位置组织营销工作并管理营销宣传资料和历程。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/RljL2N9P22AbWB6jSSaQ-iKlpTSz8d3cGNrIKatMH4o'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: 804
 ht-degree: 1%
 
 ---
@@ -72,7 +76,7 @@ ht-degree: 1%
 
 ### 更改项目状态 {#change-program-status}
 
-若要将人员添加到计划或更改其状态，他们必须在历程[&#128279;](./action-nodes.md)中传递&#x200B;**_[!UICONTROL 更改计划状态]_** 操作。 这使其成为程序的成员，并在该程序中为其分配状态。
+若要将人员添加到计划或更改其状态，他们必须在历程](./action-nodes.md)中传递&#x200B;**_[!UICONTROL 更改计划状态]_** [操作。 这使其成为程序的成员，并在该程序中为其分配状态。
 
 ### 更正项目状态 {#correct-program-status}
 

@@ -4,10 +4,11 @@ description: 了解Marketo Optimizer中交互式网络研讨会背后的概念�
 keywords: 
 role: User
 feature: Channels
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/rcaoljHUnCghXxc-W0LY5DYM-46-9jc5mz39208eMxE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 2%
@@ -31,7 +32,7 @@ ht-degree: 2%
 
 ## 将网络研讨会作为资产
 
-网络研讨会是[项目](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)所拥有的资产，与电子邮件或登陆页面相同。 将网络研讨会添加到项目中可在其中注册该研讨会，并使其令牌、属性和活动可用于该计划中的每个历程和资产。
+网络研讨会是[项目](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)所拥有的资产，与电子邮件或登陆页面相同。 将网络研讨会添加到项目中可在其中注册该研讨会，并使其令牌、属性和活动可用于该计划中的每个历程和资产。
 
 >[!IMPORTANT]
 >
@@ -41,9 +42,9 @@ ht-degree: 2%
 
 对于包含网络研讨会的计划成员中的任何个人，应同时申请3个独立国家/地区。 每个变量都可以在受众和历程条件中单独引用。
 
-| 州 | 所有者 | 值 |
+| State | 所有者 | 值 |
 |---|---|---|
-| 项目群成员状态 | 项目 | 可按[程序类型](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/admin/program-types)配置 |
+| 项目群成员状态 | 项目 | 可按[程序类型](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types)配置 |
 | 网络研讨会状态 | 网络研讨会资产 | 邀请、注册、已参加、不显示、按要求参加 |
 | 历程状态 | 历程 | 当前节点、已暂停、已完成和其他历程运行时状态 |
 
@@ -71,13 +72,13 @@ ht-degree: 2%
 
 资产级别的令牌直接位于网络研讨会文件夹中：
 
-&#x200B;- 标题
-&#x200B;- 描述
-&#x200B;- 开始日期时间，结束日期时间
-&#x200B;- 持续时间
-&#x200B;- 时区
-&#x200B;- 演示者
-&#x200B;- 录制URL
+- 标题
+- 描述
+- 开始日期时间，结束日期时间
+- 持续时间
+- 时区
+- 演示者
+- 录制URL
 
 >[!NOTE]
 >
@@ -85,9 +86,9 @@ ht-degree: 2%
 
 每个收件人的令牌位于&#x200B;**Member**&#x200B;子文件夹中：
 
-&#x200B;- **状态** — 收件人的当前网络研讨会状态（已邀请、已注册、已参加、不显示或按需）。 查看[网络研讨会状态](#webinar-status)。
-&#x200B;- **正在加入URL** — 收件人的个人[!DNL Adobe Connect]链接。 只有在收件人的网络研讨会状态为“已注册”或稍后版本之后，才会解决此问题。 对于早期阶段的任何人，它都会解析为空白。
-&#x200B;- **录制URL** — 在录制发布到实时会话之后解析，在此之前保持为空。 有条件地在网络研讨会后电子邮件中使用它，以便在要显示录制之前不会显示链接。
+- **状态** — 收件人的当前网络研讨会状态（已邀请、已注册、已参加、不显示或按需）。 查看[网络研讨会状态](#webinar-status)。
+- **正在加入URL** — 收件人的个人[!DNL Adobe Connect]链接。 只有在收件人的网络研讨会状态为“已注册”或稍后版本之后，才会解决此问题。 对于早期阶段的任何人，它都会解析为空白。
+- **录制URL** — 在录制发布到实时会话之后解析，在此之前保持为空。 有条件地在网络研讨会后电子邮件中使用它，以便在要显示录制之前不会显示链接。
 
 >[!NOTE]
 >
@@ -115,7 +116,7 @@ ht-degree: 2%
 
 在开始构建网络研讨会之前，请确保已准备好。
 
-| 先决条件 | 详情 |
+| 先决条件 | 详细信息 |
 |---|---|
 | 程序 | 该网络研讨会添加到现有项目中。 营销运营分析人员通常首先创建项目。 |
 | 网络研讨会许可证（容量） | 在安排网络研讨会之前，必须提供网络研讨会许可证（也称为能力权利）。 您可在安装时选择容量，并且可能提供更高容量的插件。 要增加可用容量，请联系您的Adobe客户团队。 |

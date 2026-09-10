@@ -1,9 +1,12 @@
 ---
 title: 人员历程节点
 description: 了解Marketo Optimizer中的人员旅程节点 — 受众、操作、事件、等待、路径拆分和AI驱动的下一个最佳路径路由。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/DXva-JytBjj7MHwYeeYfsR2GYomHdj5NZWZk0kgdv1M'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hans) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 人员受众节点
 
@@ -27,7 +30,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hans) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 操作节点
 
@@ -37,7 +40,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hans) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 事件节点
 
@@ -47,7 +50,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hans) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 等待节点
 
@@ -57,7 +60,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hans) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 拆分和合并路径节点
 
@@ -67,7 +70,7 @@ _[!UICONTROL 人员受众]_&#x200B;节点自动成为历程中的第一个节点
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hans) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 下一个最佳路径节点
 

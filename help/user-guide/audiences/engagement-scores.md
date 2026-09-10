@@ -1,9 +1,13 @@
 ---
 title: 人员参与度分数
 description: 在Marketo Optimizer中使用加权活动和30天评分窗口计算潜在客户的人员参与度分数。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/I3yy5e-o3lFJh8gHjJ7ZOGakEbD12RhAYenGzR2qZd0'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: 1515
 ht-degree: 7%
 
 ---
@@ -136,7 +140,7 @@ _[!UICONTROL 人员参与度分数]_&#x200B;筛选器显示在&#x200B;**[!UICONT
 
 在[!DNL Marketo Optimizer]中，您可以直接从[同事聊天界面](../agents/chat-interface.md)配置参与度得分权重。
 
-有关参与度得分模型、权重区段和活动权重的背景，请参阅[配置自定义参与度得分权重](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
+有关参与度得分模型、权重区段和活动权重的背景，请参阅[配置自定义参与度得分权重](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
 
 1. 从屏幕左侧打开&#x200B;**[!UICONTROL 同事]**&#x200B;聊天面板（聊天图标）。
 

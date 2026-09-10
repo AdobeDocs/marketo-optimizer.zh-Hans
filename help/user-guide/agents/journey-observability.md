@@ -1,9 +1,12 @@
 ---
 title: 监控和调试历程进程
 description: 了解如何在同事聊天中使用历程可观察性技能来调试和监测人员和潜在客户如何在旅程、拆分路径决策和时间中移动。
-source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
+TQID: 'https://experienceleague.adobe.com/Pnd1fVWUZ-g27UDE-y6Pc2Qwjsx-1pDSCaTGxjrBTRc'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: 634
 ht-degree: 0%
 
 ---
