@@ -2,9 +2,15 @@
 title: 表单
 description: 在Marketo Optimizer中创建和管理可重用的业务数据收集表单 — 设计字段、设置感谢页面、发布和跟踪使用情况。
 TQID: 'https://experienceleague.adobe.com/StexA1TJKaBYnAoIMcxnHIoUwzfMAnJrBO7FDLdLnMo'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 8881ff95-1653-5fea-82af-ce1549c0d99did: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2434

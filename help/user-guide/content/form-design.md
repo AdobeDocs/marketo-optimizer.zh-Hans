@@ -2,8 +2,10 @@
 title: 表单设计
 description: 设计表单，其中包含Marketo Optimizer中用于业务数据收集的字段类型、验证、样式和XDM架构属性。
 TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2177
@@ -17,7 +19,7 @@ ht-degree: 1%
 
 ![窗体设计空间](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-默认情况下，_**提交**_&#x200B;按钮（页脚字段）是表单的一部分，无法删除。 您可以选择表单中的按钮/页脚组件以[更改按钮](#submit-button)的文本和样式。
+默认情况下，_&#x200B;**提交**&#x200B;_&#x200B;按钮（页脚字段）是表单的一部分，无法删除。 您可以选择表单中的按钮/页脚组件以[更改按钮](#submit-button)的文本和样式。
 
 ## 字段 {#fields}
 

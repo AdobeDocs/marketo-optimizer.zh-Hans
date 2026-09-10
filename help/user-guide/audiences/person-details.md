@@ -2,8 +2,10 @@
 title: 人员详细信息
 description: 查看人员人工智能生成的角色、参与和意图摘要、活动历史记录、配置文件属性和公司详细信息，并在Marketo Optimizer中向同事询问有关记录的问题。
 TQID: 'https://experienceleague.adobe.com/uEaZcSheX-jfY-IFnVknekph3A-Iya1aEQqygLlxD5s'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 690

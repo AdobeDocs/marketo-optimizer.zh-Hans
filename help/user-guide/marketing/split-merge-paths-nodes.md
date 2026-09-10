@@ -2,8 +2,10 @@
 title: 拆分和合并路径节点
 description: 了解如何在人员历程中使用拆分和合并路径节点，根据定义的条件将人员划分为不同的路径，然后在下游的某个公共点将其重新联合。
 TQID: 'https://experienceleague.adobe.com/XMN7lgb77bFlJkNXrmPf9ZSCV-GgIuybtr-O3AsqT2U'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 660
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**按人员节点划分的拆分路径的工作方式**_
+_&#x200B;**按人员节点划分的拆分路径的工作方式**&#x200B;_
 
 * 每个路径的评估是从上到下。 如果人员与第一条和第二条路径匹配，则他们仅沿着第一条路径前进。
 * 该节点支持&#x200B;_其他人员_&#x200B;路径的定义，您可以在其中添加与定义的区段/路径之一不匹配的人员的操作或事件。

@@ -2,9 +2,12 @@
 title: 目的配置
 description: 了解如何配置活动权重以驱动人员意图得分模型，从AI建议的默认值到激活自定义权重模型。
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1322
