@@ -4,10 +4,20 @@ description: 了解Marketo Optimizer中交互式网络研讨会背后的概念�
 keywords: 
 role: User
 feature: Channels
+TQID: 'https://experienceleague.adobe.com/rcaoljHUnCghXxc-W0LY5DYM-46-9jc5mz39208eMxE'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+  - id: d4203578-d294-5145-b397-f26f4488a904
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 2%
@@ -41,7 +51,7 @@ ht-degree: 2%
 
 对于包含网络研讨会的计划成员中的任何个人，应同时申请3个独立国家/地区。 每个变量都可以在受众和历程条件中单独引用。
 
-| 州 | 所有者 | 值 |
+| State | 所有者 | 值 |
 |---|---|---|
 | 项目群成员状态 | 项目 | 可按[程序类型](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/admin/program-types)配置 |
 | 网络研讨会状态 | 网络研讨会资产 | 邀请、注册、已参加、不显示、按要求参加 |
@@ -115,7 +125,7 @@ ht-degree: 2%
 
 在开始构建网络研讨会之前，请确保已准备好。
 
-| 先决条件 | 详情 |
+| 先决条件 | 详细信息 |
 |---|---|
 | 程序 | 该网络研讨会添加到现有项目中。 营销运营分析人员通常首先创建项目。 |
 | 网络研讨会许可证（容量） | 在安排网络研讨会之前，必须提供网络研讨会许可证（也称为能力权利）。 您可在安装时选择容量，并且可能提供更高容量的插件。 要增加可用容量，请联系您的Adobe客户团队。 |
