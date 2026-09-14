@@ -4,18 +4,20 @@ description: 使用Marketo Optimizer中的下一个最佳路径节点进行人�
 TQID: 'https://experienceleague.adobe.com/F-pxiABk7vHAktfmBUjZ8BYnxYIwQp--WutG6mvxiY0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: 1514
+source-wordcount: '1514'
 ht-degree: 0%
-
 ---
-
 # 下一个最佳路径节点
 
 在Marketo Optimizer中，*下一个最佳路径*&#x200B;节点将AI驱动的分割路径决策直接引入旅程画布。 您不是在[拆分路径](./split-merge-paths-nodes.md)节点上配置筛选条件，而是用自然语言描述您的意图，让系统确定与每个人最相关的路径。
