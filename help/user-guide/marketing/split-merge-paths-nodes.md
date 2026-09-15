@@ -25,7 +25,7 @@ ht-degree: 6%
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**拆分路径节点的运行方式**_
+_&#x200B;**拆分路径节点的运行方式**&#x200B;_
 
 * 每个路径的评估是从上到下。 如果人员匹配第一条和第二条路径，则他们仅沿着第一条路径前进。
 * 该节点支持&#x200B;_其他人员_&#x200B;路径的定义，您可以在其中添加与定义的区段/路径之一不匹配的人员的操作或事件。
