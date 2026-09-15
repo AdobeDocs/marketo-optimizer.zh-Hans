@@ -4,25 +4,34 @@ description: 查看Marketo Optimizer中的CX Enterprise Co-worker技能 — 为�
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: '568'
 ht-degree: 5%
-
 ---
-
 # 同事技能
 
 _技能_&#x200B;是同事知道如何运行的打包工作流 — `/`菜单和自然语言请求背后的构建块。 每个技能都捆绑了分步说明和一个工作所需的特定工具（例如，“发布历程”、“比较两个人列表”、“构建评分模型”）。
@@ -35,10 +44,9 @@ _技能_&#x200B;是同事知道如何运行的打包工作流 — `/`菜单和�
 
 | 技能 | 作用 | 访问 | 产品表面 | 影响/数据流 |
 |---|---|---|---|---|
-| `falco-program-creation` | 端到端[!DNL Marketo Optimizer]项目创建 — 项目、子文件夹、令牌、列表、历程。 <p>请参阅&#x200B;_[根据简报创建项目](./program-from-brief.md)_。 | 写入 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer]。 |
 | `adapt-program` | 从[!DNL Marketo Engage]项目生成迁移故事以进行[!DNL Marketo Optimizer]适应。 | 读取 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Engage]，写入[!DNL Marketo Optimizer] |
 | `folder-creation` | 在资产树中创建组织文件夹。 | 写入 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer] |
-| `program-creation` *（生成程序）* | 从营销活动简报创建Marketo项目。 | 写入 | [!DNL Marketo Engage] | 读取+写入[!DNL Marketo Engage] |
+| `program-creation` *（生成程序）* | 从营销活动简报创建Marketo项目。  <p>请参阅&#x200B;_[根据简报创建项目](./program-from-brief.md)_。 | 写入 | [!DNL Marketo Engage] | 读取+写入[!DNL Marketo Engage] |
 | `program-planning` *（计划营销活动）* | 将简报转换为设置/实施文档。 | 读取 | [!DNL Marketo Engage] | 读取[!DNL Marketo Engage] |
 | `program-qa` *（验证程序）* | 验证/审核程序（仅限规则、测试计划或简要）。 | 读取 | [!DNL Marketo Engage] | 读取[!DNL Marketo Engage] |
 
