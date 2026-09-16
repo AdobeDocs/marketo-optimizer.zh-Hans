@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 56f39b3c77bd13984cf72761621ac3b228f13abd
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 2%
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 >
 >您的组织可以每周或每月跨所有报告的最多10次计划导出。 如果您不是管理员，则只能管理自己的计划导出。 管理员可以查看和管理组织内的每个计划导出。
 
-## 在CJA中分析报表 {#analyze-a-report-in-cja}
+## 在[!DNL Customer Journey Analytics]中分析报告 {#analyze-a-report-in-cja}
 
 >[!AVAILABILITY]
 >
