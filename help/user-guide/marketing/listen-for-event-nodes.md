@@ -5,10 +5,10 @@ TQID: 'https://experienceleague.adobe.com/6v3i6M-Hhr2RAWrS68WaEVb8VJEzJZbD7vXOJO
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
-source-git-commit: cc98b02f4273c5df2e27b52acd1239f0f0bf8aa0
+source-git-commit: bc370a501d3f8ff80ad846576b62504aca77f530
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 6%
+source-wordcount: '1158'
+ht-degree: 2%
 ---
 # 侦听事件节点
 
@@ -39,15 +39,15 @@ ht-degree: 6%
 
 您可以针对以下[!DNL Marketo Engage]活动生成事件触发器：
 
-* [!UICONTROL 填写Marketo Engage表单] — 当潜在客户提交指定的[!DNL Marketo Engage]表单时触发。
-* [!UICONTROL 访问Marketo Engage网页] — 当具有Munchkin跟踪Cookie的潜在客户访问指定的网页时触发。
-* [!UICONTROL 单击Marketo Engage网页上的链接] — 当潜在客户单击已安装[!DNL Marketo Engage] Munchkin跟踪代码的网页上的跟踪超链接时触发。
-* [!UICONTROL Marketo Engage电子邮件已投放] — 当商机的邮件服务器(MX)向[!DNL Marketo Engage]发送服务器返回成功响应（250 OK消息）时触发。
-* [!UICONTROL Marketo Engage电子邮件退回] — 当Target邮件服务器将已发送的[!DNL Marketo Engage]电子邮件拒绝为永久错误（如无效用户或未知域）时触发。
-* [!UICONTROL Marketo Engage电子邮件软退回] — 当Target邮件服务器将已发送的[!DNL Marketo Engage]电子邮件作为临时问题（如服务器忙或邮箱已满）拒绝时触发。 [!DNL Marketo Engage]在标记问题之前通过MX服务器自动重试软退回，次数最多三次。
-* [!UICONTROL 取消订阅Marketo Engage电子邮件] — 当潜在客户选择退出非运营营销电子邮件时触发。 触发时，[!DNL Marketo Engage]会自动将商机的`Unsubscribed`字段值更新为`true`，禁止在未来发送标准电子邮件时发送它们。
-* [!UICONTROL 打开Marketo Engage电子邮件] — 当潜在客户打开跟踪的[!DNL Marketo Engage]电子邮件时触发。
-* [!UICONTROL 单击Marketo Engage电子邮件中的链接] — 当潜在客户单击[!DNL Marketo Engage]电子邮件中的任何链接（或特定的受限链接）时触发。
+* **[!UICONTROL 填写Marketo Engage表单]** — 当潜在客户提交指定的[!DNL Marketo Engage]表单时触发。
+* **[!UICONTROL 访问Marketo Engage网页]** — 当具有Munchkin跟踪Cookie的潜在客户访问指定的网页时触发。
+* **[!UICONTROL 单击Marketo Engage网页上的链接]** — 当潜在客户单击已安装[!DNL Marketo Engage] Munchkin跟踪代码的网页上的跟踪超链接时触发。
+* **[!UICONTROL Marketo Engage电子邮件已投放]** — 当商机的邮件服务器(MX)向[!DNL Marketo Engage]发送服务器返回成功响应（250 OK消息）时触发。
+* **[!UICONTROL Marketo Engage电子邮件退回]** — 当Target邮件服务器将已发送的[!DNL Marketo Engage]电子邮件拒绝为永久错误（如无效用户或未知域）时触发。
+* **[!UICONTROL Marketo Engage电子邮件软退回]** — 当Target邮件服务器将已发送的[!DNL Marketo Engage]电子邮件作为临时问题（如服务器忙或邮箱已满）拒绝时触发。 [!DNL Marketo Engage]在标记问题之前通过MX服务器自动重试软退回，次数最多三次。
+* **[!UICONTROL 取消订阅Marketo Engage电子邮件]** — 当潜在客户选择退出非运营营销电子邮件时触发。 触发时，[!DNL Marketo Engage]会自动将商机的`Unsubscribed`字段值更新为`true`，禁止在未来发送标准电子邮件时发送它们。
+* **[!UICONTROL 打开Marketo Engage电子邮件]** — 当潜在客户打开跟踪的[!DNL Marketo Engage]电子邮件时触发。
+* **[!UICONTROL 单击Marketo Engage电子邮件中的链接]** — 当潜在客户单击[!DNL Marketo Engage]电子邮件中的任何链接（或特定的受限链接）时触发。
 
 >[!ENDSHADEBOX]
 
@@ -59,10 +59,10 @@ ht-degree: 6%
 | ------- | ----------- |
 | 活动历史记录 | 基于使用一个或多个选定项目评估的条件的活动 |
 | Brand Concierge | 与[!DNL Brand Concierge]接洽的潜在客户的活动。 |
-| 公司属性 | 公司/帐户个人资料中的属性，包括： <li>年收入 <li>公司名称 <li>帐单寄送国家/地区 <li>行业 <li>员工数 <li>SIC 代码 <li>State |
+| 公司属性 | 公司/帐户个人资料中的属性，包括： <li>[!UICONTROL 年收入] <li>[!UICONTROL 公司名称] <li>[!UICONTROL 帐单国家/地区] <li>[!UICONTROL 行业] <li>[!UICONTROL 员工数] <li>[!UICONTROL SIC代码] <li>[!UICONTROL 状态] |
 | 意图数据 | 基于与人员配置文件关联的目的数据的属性。 |
-| 商机 | 基于与人员配置文件关联的机会的属性。 |
-| 人员属性 | B2B人员配置文件中的属性，包括： <li>城市 <li>国家 <li>出生日期 <li>电子邮件地址 <li>电子邮件无效 <li>电子邮件已暂停 <li>名字 <li>推断的州区域<li>作业名称 <li>姓 <li>手机号码 <li>人员参与度评分 <li>电话号码 <li>邮政编码 <li>State <li>取消订阅 <li>取消订阅的原因 |
+| 商机 | 基于与人员配置文件关联的业务机会的状态和属性，包括： <li>[!UICONTROL 具有机会] <li>[!UICONTROL 机会数] <li>[!UICONTROL 总机会金额] <li>[!UICONTROL 已添加到机会] <li>[!UICONTROL 已从机会中删除] |
+| 人员属性 | B2B人员配置文件中的属性，包括： <li>[!UICONTROL 城市] <li>[!UICONTROL 国家/地区] <li>[!UICONTROL 出生日期] <li>[!UICONTROL 电子邮件地址] <li>[!UICONTROL 电子邮件无效] <li>[!UICONTROL 电子邮件已暂停] <li>[!UICONTROL 名字] <li>[!UICONTROL 推断的状态区域] <li>[!UICONTROL 职务] <li>[!UICONTROL 姓氏] <li>[!UICONTROL 手机号码] <li>[!UICONTROL 人员参与度评分] <li>[!UICONTROL 电话号码] <li>[!UICONTROL 邮政编码] <li>[!UICONTROL 状态] <li>[!UICONTROL 已取消订阅] <li>[!UICONTROL 取消订阅的原因] |
 | 销售应用程序 | 与[!DNL Sales Qualifier]或[!DNL Marketo Sales Insights]相关的潜在客户活动。 |
 | 特殊筛选条件 | 筛选不属于预定义类别的属性，为自定义或其他筛选条件提供了灵活性。 |
 
@@ -78,16 +78,16 @@ ht-degree: 6%
 
 您可以针对以下[!DNL Marketo Engage]个活动构建事件过滤器：
 
-* [!UICONTROL 已填写Marketo Engage表单] — 匹配在其非过期活动日志中任何时候已完成特定[!DNL Marketo Engage]表单的潜在客户。
-* [!UICONTROL 已访问Marketo Engage网页] — 匹配已在您的网站或[!DNL Marketo Engage]登陆页面上查看特定URL的潜在客户。 它直接依赖于您网站上安装的Munchkin跟踪代码。
-* [!UICONTROL 已单击Marketo Engage网页上的链接] — 匹配已单击跟踪页面上的特定链接或资源的潜在客户。
-* [!UICONTROL 已发送Marketo Engage电子邮件] — 匹配[!DNL Marketo Engage]尝试向其发送特定电子邮件的潜在客户，考虑硬退回或服务器接受之前的部署操作。
-* [!UICONTROL 已投放Marketo Engage电子邮件] — 与邮件服务器(MX)向[!DNL Marketo Engage]发送服务器返回成功响应（250 OK消息）的潜在客户匹配。
-* [!UICONTROL Marketo Engage电子邮件退回] — 匹配在特定电子邮件发送或时间范围内遇到硬退回（永久投放失败）的潜在客户。
-* [!UICONTROL Marketo Engage电子邮件软退回] — 匹配其电子邮件遇到临时投放失败（如收件箱已满或服务器已脱机）而不是永久硬退回的潜在客户。
-* [!UICONTROL 取消订阅Marketo Engage电子邮件] — 匹配选择退出非运营营销电子邮件的潜在客户。 发生这种情况时，[!DNL Marketo Engage]会自动将商机的`Unsubscribed`字段值更新为`true`，从而禁止将来发送标准电子邮件时发送它们。
-* [!UICONTROL 已打开Marketo Engage电子邮件] — 匹配已打开跟踪的[!DNL Marketo Engage]电子邮件的潜在客户。
-* [!UICONTROL 在Marketo Engage电子邮件中点击的链接] — 匹配点击了[!DNL Marketo Engage]电子邮件中的任何链接（或特定链接）的潜在客户。
+* **[!UICONTROL 已填写Marketo Engage表单]** — 匹配在其非过期活动日志中任何时候已完成特定[!DNL Marketo Engage]表单的潜在客户。
+* **[!UICONTROL 已访问Marketo Engage网页]** — 匹配已在您的网站或[!DNL Marketo Engage]登陆页面上查看特定URL的潜在客户。 它直接依赖于您网站上安装的Munchkin跟踪代码。
+* **[!UICONTROL 已单击Marketo Engage网页上的链接]** — 匹配已单击跟踪页面上的特定链接或资源的潜在客户。
+* **[!UICONTROL 已发送Marketo Engage电子邮件]** — 匹配[!DNL Marketo Engage]尝试向其发送特定电子邮件的潜在客户，考虑硬退回或服务器接受之前的部署操作。
+* **[!UICONTROL 已投放Marketo Engage电子邮件]** — 与邮件服务器(MX)向[!DNL Marketo Engage]发送服务器返回成功响应（250 OK消息）的潜在客户匹配。
+* **[!UICONTROL Marketo Engage电子邮件退回]** — 匹配在特定电子邮件发送或时间范围内遇到硬退回（永久投放失败）的潜在客户。
+* **[!UICONTROL Marketo Engage电子邮件软退回]** — 匹配其电子邮件遇到临时投放失败（如收件箱已满或服务器已脱机）而不是永久硬退回的潜在客户。
+* **[!UICONTROL 取消订阅Marketo Engage电子邮件]** — 匹配选择退出非运营营销电子邮件的潜在客户。 发生这种情况时，[!DNL Marketo Engage]会自动将商机的`Unsubscribed`字段值更新为`true`，从而禁止将来发送标准电子邮件时发送它们。
+* **[!UICONTROL 已打开Marketo Engage电子邮件]** — 匹配已打开跟踪的[!DNL Marketo Engage]电子邮件的潜在客户。
+* **[!UICONTROL 在Marketo Engage电子邮件中点击的链接]** — 匹配点击了[!DNL Marketo Engage]电子邮件中的任何链接（或特定链接）的潜在客户。
 
 >[!ENDSHADEBOX]
 
