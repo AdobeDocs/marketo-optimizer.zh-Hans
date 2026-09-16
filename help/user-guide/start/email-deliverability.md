@@ -4,24 +4,32 @@ description: 为Marketo Optimizer配置子域委派、DMARC、SPF、DKIM和IP池
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 2502
+source-wordcount: '2590'
 ht-degree: 0%
-
 ---
-
 # 电子邮件送达率
 
 以下信息适用于配置发送基础架构以支持营销人员和电子邮件内容创建者的管理员。 它描述了可投放性功能以及如何配置子域、身份验证和IP池。
@@ -34,6 +42,7 @@ ht-degree: 0%
 1. [在每个子域上配置DMARC、SPF和DKIM记录](#dmarc-spf-dkim)。
 1. [确认用于发送子域电子邮件的IP池](#ip-pools)。
 1. [创建一个或多个绑定子域、IP池和发件人标识的电子邮件通道配置](../admin/email-channel-configuration.md#create-email-channel-configuration)。
+1. [将发送IP地址](#allowlist-ip-addresses)与您的IT部门允许列表，以便测试电子邮件到达您的收件箱。
 
 为Marketo Optimizer设置![电子邮件可投放性](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -361,6 +370,20 @@ IP池是用于发送电子邮件的已命名IP地址组。 IP池对发件人的�
 >[!IMPORTANT]
 >
 >即使共享池可用，也不要在同一IP池上混合使用营销和事务性流量。 渠道配置中的电子邮件类型设置（营销与事务性）可控制禁止行为，但您的渠道配置仍应尽可能使用不同的池。
+
+## 允许列表IP地址 {#allowlist-ip-addresses}
+
+公司反垃圾邮件系统有时会阻止您从[!DNL Marketo Optimizer]发送的测试电子邮件。 这些系统依赖发件人IP地址来验证电子邮件是否有效。 为确保您的测试电子邮件到达，请将[!DNL Marketo Optimizer]添加到您的公司允许列表。
+
+要求您的IT部门将这些IP地址添加到您的公司允许列表中：
+
+* 54.212.167.17
+* 35.165.244.220
+* 44.235.171.179
+
+>[!TIP]
+>
+>您的IT部门通常会管理公司电子邮件允许列表。 在初始设置期间与他们共享此IP地址列表。
 
 <!--
 
