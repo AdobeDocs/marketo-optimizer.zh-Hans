@@ -1,6 +1,6 @@
 ---
 title: 同事技能
-description: 查看Marketo Optimizer中的CX Enterprise Co-worker技能 — 为计划、历程、受众、评分、内容和发送时间优化打包的工作流。
+description: 查看Marketo Optimizer中的CX Enterprise Coworker技能 — 项目、历程、受众、评分、内容和发送时间优化的打包工作流程。
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
+source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 5%
+source-wordcount: '633'
+ht-degree: 6%
 ---
 # 同事技能
 
@@ -95,11 +95,17 @@ _技能_&#x200B;是同事知道如何运行的打包工作流 — `/`菜单和�
 | `send-time-optimization` | 检查STO状态并在电子邮件节点上启用/禁用。 | 读+写 | [!DNL Marketo Optimizer] | 读取+写入[!DNL Marketo Optimizer] |
 | `send-time-report` | 获取/显示STO性能报告。 | 读取 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Optimizer] |
 
+## 分析和报告 {#analytics-reporting}
+
+| 技能 | 作用 | 访问 | 产品 | 后端（数据流） |
+|---|---|---|---|---|
+| `surface-analytics` | 通过自然语言生成以图表和表格形式返回的活动趋势、电子邮件性能、商机和帐户数据、区段和列表成员资格以及历程量度的Analytics报表。 报表数据每两小时刷新一次。 <p>请参阅&#x200B;_[生成Analytics报表](./surface-analytics.md)_。</p> | 读取 | [!DNL Marketo Optimizer] | 读取[!DNL Marketo Optimizer] + [!DNL Marketo Engage] |
+
 ## 知识 {#knowledge}
 
 | 技能 | 作用 | 访问 | 产品 | 后端（数据流） |
 |---|---|---|---|---|
-| `product-knowledge` | 回答有关Experience League的[!DNL Marketo Optimizer]文档中的操作方法/概念问题。 | 读取 | 两者 | 读取外部文档 — 无产品数据 |
+| `product-knowledge` | 回答在Experience League上发布的[!DNL Marketo Optimizer]文档中的操作方法/概念问题。 | 读取 | 两者 | 读取外部文档 — 无产品数据 |
 
 ## 跨后端 {#cross-backend}
 
@@ -109,5 +115,6 @@ _技能_&#x200B;是同事知道如何运行的打包工作流 — `/`菜单和�
 - **`audience-creation`** — 读取[!DNL Marketo Engage]个智能列表(`get_smart_list` / `get_smart_campaign`)，然后写入[!DNL Marketo Optimizer]个人列表。
 - **`journey-observability`** — [!DNL Marketo Optimizer]读取加上`check_lead_in_marketo_static_list` [!DNL Marketo Engage]读取。
 - **`scoring-studio`** — 与[!DNL Marketo Optimizer]评分服务一起读取[!DNL Marketo Engage]潜在客户字段/活动类型。
+- **`surface-analytics`** — 可以在单个查询中回答跨越[!DNL Marketo Engage]和[!DNL Marketo Optimizer]数据的报表问题。
 
 所有`falco-mcp_*`和journey/token/scoring/STO/FCS工具点击[!DNL Marketo Optimizer]服务；CSV/program/lead工具点击[!DNL Marketo Engage]。
