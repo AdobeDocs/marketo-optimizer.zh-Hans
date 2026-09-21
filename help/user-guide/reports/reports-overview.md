@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '491'
 ht-degree: 2%
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 某些报表侧重于单个记录而不是全部分割视图，可从应用程序的不同区域进行访问。
 
 * 要获得电子邮件发送时间优化性能，请从[!UICONTROL 同事]聊天界面打开报告。 有关步骤，请参阅[电子邮件发送时间优化](../marketing/email-send-time-optimization.md#reporting)。
-* 有关人员在一次历程中的进度，请从该历程中打开报告。
+* 对于个人在单次历程中的进度，从该历程中打开[个人历程个人报表](./person-journey-individual-report.md)。
 
 ## 导出报告 {#export-a-report}
 

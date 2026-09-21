@@ -3,10 +3,10 @@ user-guide-title: Marketo Optimizer文档
 user-guide-description: 了解Adobe Marketo Optimizer，以及如何使用它为B2B潜在客户和客户通过人工智能支持的个性化内容执行协调的营销和销售参与。
 hide: true
 nudge: red
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+source-git-commit: 24ee4148c4e755fe0f4f1231f342890c22e6b781
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 43%
+source-wordcount: '252'
+ht-degree: 42%
 ---
 
 # Marketo Optimizer用户指南 {#user}
@@ -60,6 +60,7 @@ ht-degree: 43%
 + 报告 {#reports}
   + [概述](./reports/reports-overview.md)
   + [人员历程概述](./reports/person-journey-overview-report.md)
+  + [个人历程](./reports/person-journey-individual-report.md)
   + [参与度](./reports/engagement-report.md)
   + [电子邮件参与度](./reports/email-engagement-report.md)
   + [Web参与](./reports/web-engagement-report.md)
