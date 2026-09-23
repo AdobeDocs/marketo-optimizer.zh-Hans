@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
+source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '1410'
+ht-degree: 1%
 ---
 
 # Scoring Studio
@@ -105,6 +105,84 @@ Scoring Studio包括模型列表、每个模型的可编辑画布和[同事聊�
 
 ## 发布和计划 {#publish-schedule}
 
-模型准备就绪后，选择&#x200B;**[!UICONTROL 发布]**。 选择模型给受众评分的频率：每日、每周或每月。
+模型就绪后，单击&#x200B;**[!UICONTROL 发布]**。
 
-有关完整发布过程，包括[!DNL Marketo Optimizer]如何自动设置评分字段，请参阅&#x200B;[_发布评分模型_](../agents/lead-scoring-model.md#publish-model)。
+![将显示草稿评分模型的“发布”按钮。](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+
+选择模型给受众评分的频率：每日、每周或每月。 也可以选择手动选项来运行模型。
+
+![计划选项显示运行评分模型的每日、每周、每月和手动循环选择。](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+
+有关使用[同事聊天界面](../agents/chat-interface.md)的完整发布流程，包括[!DNL Marketo Optimizer]如何自动设置评分字段，请参阅&#x200B;[_发布评分模型_](../agents/lead-scoring-model.md#publish-model)。
+
+最新分数存储在已同步到您的[!DNL Marketo Engage]实例的已设置字段中。
+
+![设置的分数字段显示在Marketo Engage字段管理中](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+
+## 在过滤器中使用得分 {#filter-score}
+
+在您[发布模型](#publish-schedule)后，您可以在构建基于事件的受众时将其结果得分用作过滤器，并&#x200B;_侦听事件_&#x200B;节点、作为拆分路径条件或用于人员列表成员资格。
+
+得分会显示在过滤器面板中的&#x200B;**[!UICONTROL 人员属性]**&#x200B;类别下，并标有模型名称或您为其分配的自定义&#x200B;[_得分字段名称_](#lead-segment)。 在过滤器面板的搜索字段中输入该名称以查找分数，然后将其拖动到画布上并定义您的标准。
+
+### 基于事件的受众和节点 {#scoring-model-event-audience}
+
+若要使用评分模型结果来筛选基于[事件的受众](../audiences/event-based-audiences.md)或&#x200B;[_侦听事件_&#x200B;节点](../marketing/listen-for-event-nodes.md)：
+
+1. 单击&#x200B;**[!UICONTROL 添加事件条件]**。
+
+1. 在&#x200B;_[!UICONTROL 编辑事件条件]_&#x200B;对话框中，选择&#x200B;**[!UICONTROL 筛选器]**&#x200B;选项卡。
+
+1. 在搜索字段中输入模型名称，然后将得分拖到画布上。
+
+   ![“筛选器”选项卡显示在搜索字段中输入的模型名称以及拖到画布上的匹配分数。](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+
+1. 设置运算符和值以匹配要定位的分数。
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+### 拆分路径条件 {#split-path-conditions}
+
+要使用评分模型结果定义&#x200B;[_拆分路径_&#x200B;节点](../marketing/split-merge-paths-nodes.md)的路径条件，请执行以下操作：
+
+1. 单击节点路径的&#x200B;**[!UICONTROL 编辑条件]**。
+
+1. 在&#x200B;_[!UICONTROL 条件]_&#x200B;对话框中，在搜索字段中输入模型名称，然后将匹配得分拖到画布上。
+
+   ![“条件”对话框显示在搜索字段中输入的模型名称以及拖放到画布上的匹配分数。](./assets/scoring-model-split-path-condition.png){width="700" zoomable="yes"}
+
+1. 设置运算符和值以匹配要定位的分数。
+
+1. 单击&#x200B;**[!UICONTROL 完成]**&#x200B;以保存路径的条件。
+
+### 人员列表成员资格 {#scoring-model-people-lists}
+
+要使用评分模型结果管理[人员列表](../audiences/people-lists.md)成员资格，请执行以下操作：
+
+**静态列表 — 添加成员**
+
+1. 打开静态列表，然后单击&#x200B;**[!UICONTROL 添加联系人]**。
+
+1. 在&#x200B;_[!UICONTROL 添加人员]_&#x200B;对话框中，在搜索字段中输入模型名称，然后将匹配得分拖到画布上。
+
+   ![“添加人员”对话框显示在搜索字段中输入的模型名称以及拖到画布上的匹配分数。](./assets/scoring-model-static-list-add-people.png){width="700" zoomable="yes"}
+
+1. 设置运算符和值以匹配要定位的分数。
+
+1. 单击&#x200B;**[!UICONTROL 完成]**&#x200B;以应用筛选器并将匹配的人员限定在列表中。
+
+**动态列表 — 设置成员资格规则**
+
+1. 打开动态列表并选择&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
+
+1. 单击&#x200B;**[!UICONTROL 编辑规则]**。
+
+1. 在&#x200B;_[!UICONTROL 编辑规则]_&#x200B;对话框中，在搜索字段中输入模型名称，然后将得分项拖到画布上。
+
+   ![“编辑规则”对话框显示在搜索字段中输入的模型名称以及拖到画布上的匹配分数。](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+
+1. 设置运算符和值以匹配要定位的分数。
+
+1. 单击&#x200B;**[!UICONTROL 完成]**&#x200B;以保存规则。
+
+   在根据规则评估人员记录时，成员资格会自动更新。
