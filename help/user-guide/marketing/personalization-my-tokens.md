@@ -1,40 +1,44 @@
 ---
 title: Personalization的自定义令牌
-description: 创建和管理自定义的“我的令牌”，以便对营销工件进行动态个性化 — 在Marketo Optimizer中为项目定义文本和数字变量。
+description: 创建和管理自定义“我的令牌”以动态个性化营销工件 — 在Marketo Optimizer中为项目定义文本和数字变量。
 TQID: 'https://experienceleague.adobe.com/utVM69g7aQSuF-V3XQIdVBqvBXyiDz1ZWr0WtE67UCg'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 177e7c3d0806febd730104b19787ba3cbea2914a
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 3%
-
+source-wordcount: '704'
+ht-degree: 2%
 ---
-
 # 用于个性化的自定义令牌
 
 内容个性化使用令牌作为生成内容工件时填充的占位符或变量。 标准个性化令牌可用于电子邮件、登陆页面、片段和模板。 您还可以使用特定于程序或文件夹的值定义一组自定义令牌。 这组自定义令牌称为&#x200B;_我的令牌_，其中的任何自定义令牌均可用于个性化。
 
-向电子邮件添加自定义令牌时，会显示为`{{my.TokenName}}`。 例如，您可能创建了`{{my.EventDate}}`或`{{my.WebinarSpeaker}}`个令牌以管理与即将召开的网络研讨会相关的电子邮件内容。
+<!-- 
+When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars in your program.
+-->
 
 除了特定于程序或文件夹的&#x200B;_我的令牌_&#x200B;之外，您还可以使用任何标准（内置）令牌进行个性化。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->当前未在Personalization编辑器中为此Beta版本启用&#x200B;_我的令牌_。
+>对于初始Marketo Optimizer版本，“更改数据值”历程操作节点支持&#x200B;_我的令牌_，并且限制在字符串和文本属性中使用。 _我的令牌_&#x200B;当前在Personalization编辑器中&#x200B;**未**&#x200B;启用。
 
-## 访问令牌
+## 访问令牌 {#access-tokens}
 
 1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 营销管理]**。
 
 1. 在&#x200B;**[!UICONTROL 营销]**&#x200B;资源列表的右侧，选择&#x200B;**[!UICONTROL 项目]**。
 
-1. 在树结构中，选择程序或文件夹以在中心工作区中打开详细信息。
+1. 在树结构中，选择程序或文件夹，以在中心工作区中打开详细信息。
 
 1. 单击&#x200B;**[!UICONTROL 令牌]**&#x200B;选项卡。
 
@@ -57,17 +61,17 @@ _我的令牌_&#x200B;是您为程序或文件夹创建或修改的自定义变�
 | 布尔值 | 此类型包含标准布尔值，即true或false。 |
 | 富文本 | 此类型保存带格式的文本。 |
 
-### 令牌嵌套
+### 令牌嵌套 {#nesting}
 
-在程序或文件夹中创建令牌时，该令牌可供其他子对象引用。
+在程序或文件夹中创建令牌时，可供层次结构中的对象引用。
 
-* 本地令牌 — 令牌在同一程序或文件夹中定义。
-* 继承的令牌 — 令牌在父项目或文件夹中定义，在当前项目或文件夹的上一级或多级。
-* 覆盖的令牌 — 令牌在父程序或文件夹中定义，但在当前程序或文件夹中定义了不同的值。 令牌状态更改为&#x200B;_已覆盖_，并且所有子文件夹、项目和营销项目都将继承新值。
+* **本地令牌** — 令牌在同一程序或文件夹中定义。
+* **继承的令牌** — 该令牌定义在父程序或文件夹中，比当前程序或文件夹高一个或多个级别。
+* **覆盖的令牌** — 令牌定义在父程序或文件夹中，但在当前程序或文件夹中定义了不同的值。 令牌状态更改为&#x200B;_已覆盖_，并且所有子文件夹、项目和营销项目都将继承新值。
 
 ![令牌类型和继承](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
 
-### 创建令牌
+### 创建令牌 {#create}
 
 1. 在&#x200B;_[!UICONTROL 令牌]_&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 创建]**。
 
@@ -83,9 +87,9 @@ _我的令牌_&#x200B;是您为程序或文件夹创建或修改的自定义变�
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-### 编辑令牌
+### 编辑令牌 {#edit}
 
-您可以编辑任何定义的“我的令牌”的值。 这样做可覆盖继承令牌的值。
+您可以编辑任何已定义的“我的令牌”的值，这会覆盖继承令牌的值。
 
 <!-- (How does this affect live person journeys? ) -->
 
@@ -97,13 +101,21 @@ _我的令牌_&#x200B;是您为程序或文件夹创建或修改的自定义变�
 
 1. 单击&#x200B;_保存_&#x200B;图标。
 
-### 删除令牌
+### 删除令牌 {#delete}
 
 如果历程电子邮件内容当前未使用自定义令牌，您可以从列表中删除该令牌。
 
 1. 在&#x200B;_[!UICONTROL 令牌]_&#x200B;上，单击令牌名称旁边的&#x200B;_删除_&#x200B;图标。
 
 1. 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
+
+## 自动建议和预览 {#autosuggest}
+
+当您在历程中包含&#x200B;_更改数据值_ [操作节点](./action-nodes.md)时，您可以在&#x200B;**[!UICONTROL 新值]**&#x200B;字段中输入`{{`以显示令牌&#x200B;_自动建议_&#x200B;菜单。 显示的列表显示了受支持的命名空间和各个令牌。 仅列出兼容数据类型的令牌。
+
+对于&#x200B;_我的令牌_，将显示带有令牌名称的令牌值预览，以便更轻松地选择正确的值。
+
+![新值字段中的语法以显示令牌的自动优化菜单](./assets/program-tokens-change-data-value-autosuggest.png){width="500" zoomable="yes"}
 
 <!--
 
