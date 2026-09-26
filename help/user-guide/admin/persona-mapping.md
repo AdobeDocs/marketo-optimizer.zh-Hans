@@ -4,28 +4,31 @@ description: 了解如何在Marketo Optimizer中设置角色映射。 映射人�
 TQID: 'https://experienceleague.adobe.com/JCBtJN4DgQZROVDamM4eKuCiGTwJQPQY3wMxmBPFj74'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: fd79d458ef033e4485ba5e8a8c8fbe56b7cd559b
 workflow-type: tm+mt
-source-wordcount: 1216
+source-wordcount: '1287'
 ht-degree: 1%
-
 ---
-
 # 人物角色映射
 
-<!-- not available until GA -->
+角色是基于帐户的营销(ABM)方法中的关键方面，因为它们帮助营销人员根据目标帐户中个人的特定需求、偏好和棘手问题调整其策略。 营销人员可以为每个角色创建详细的配置文件，包括其背景、职责、棘手问题和首选通信渠道。 使用这些定义，管理员可以根据[!DNL Adobe Marketo Optimizer]中的人员属性配置角色，以便人员列表和人员历程可以使用简化且一致的筛选来捕获这些角色。
 
-角色是基于帐户的营销(ABM)方法中的关键方面，因为它们帮助营销人员根据目标帐户中个人的特定需求、偏好和棘手问题调整其策略。 营销人员可以为每个角色创建详细的配置文件，包括其背景、职责、棘手问题和首选通信渠道。 借助这些定义，管理员可以根据Marketo Optimizer中的人员属性配置角色，以便人员列表和人员历程可以使用简化且一致的筛选来捕获这些角色。
-
-在Marketo Optimizer中，角色映射提供了超出角色模板条件的附加功能：您可以使用&#x200B;**[!UICONTROL 派生角色]**&#x200B;作为筛选条件来筛选[人员列表](../audiences/people-lists.md)和[人员历程](../marketing/person-journeys.md)。 _派生角色_&#x200B;是系统通过根据所有配置的角色定义评估其属性而推断的人员记录的角色。
+在[!DNL Marketo Optimizer]中，角色映射提供了超出角色模板条件的附加功能：您可以使用&#x200B;**[!UICONTROL 派生角色]**&#x200B;作为筛选条件来筛选[人员列表](../audiences/people-lists.md)和[人员历程](../marketing/person-journeys.md)。 _派生角色_&#x200B;是系统通过根据所有配置的角色定义评估其属性而推断的人员记录的角色。
 
 角色定义和使用限制：
 
@@ -37,64 +40,64 @@ ht-degree: 1%
 
 **用例：职务变体**
 
-许多营销和销售团队使用职称作为识别帐户中不同角色的一种方式。 但联系人的标题可能会不一致，并且会为类似角色使用大量变体。 在构建人员列表过滤器或人员历程受众条件时，可能要求您为给定角色定义每个可能的相关职务。 您可以简化这些定义，并将具有类似职称的人员归入一个推断的角色下，然后通过筛选&#x200B;_派生角色是产品管理_&#x200B;而不是匹配单个职称值来定位该推断角色。
+许多营销和销售团队使用职称作为识别帐户中不同角色的一种方式。 但联系人的标题可能会不一致，并且会为类似角色使用大量变体。 在构建人员列表过滤器或人员历程受众条件时，您可能需要为给定角色定义每个可能的相关职务。 您可以简化这些定义，并将具有相似职称的人员分组到一个推断的角色下，然后可以通过筛选&#x200B;_派生角色是领导层_&#x200B;来定位该角色，而不是匹配各个职称值。
 
 >[!ENDSHADEBOX]
 
 ## 访问配置的角色 {#access}
 
-1. 在左侧导航中，选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
+从同事[聊天界面](../agents/chat-interface.md)打开&#x200B;_角色映射_&#x200B;面板。
 
-1. 单击中间面板上的&#x200B;**[!UICONTROL 角色映射]**&#x200B;以显示角色列表。
+1. 在聊天面板中，键入`/persona-mapping`并按&#x200B;**Enter**。
 
-   ![访问配置的角色](assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
+   此命令是一个导航快捷方式，列在斜杠菜单中的&#x200B;**[!UICONTROL 打开页面]**&#x200B;下。
 
-   在此页面中，您可以[创建](#create-a-persona)、[编辑](#edit-a-persona)或[删除](#delete-a-persona)角色。
+   ![在“打开页面”下显示/persona-mapping命令的聊天界面斜杠菜单屏幕截图。](assets/persona-mapping-open-chat.png){width="800" zoomable="yes"}
 
-   角色映射列表以表格形式组织，并在顶部显示最近更新的角色（按&#x200B;_[!UICONTROL 上次更新]_&#x200B;排序）。 您可以通过单击右上角的&#x200B;_列设置_ （ ![列设置](../assets/do-not-localize/icon-column-settings.svg) ）图标并选中或清除列复选框来自定义显示的表。
+1. 同事打开&#x200B;**[!UICONTROL 角色映射]**&#x200B;面板作为工作区选项卡，显示角色列表。
 
-   要在角色映射列表中显示的![列](assets/configuration-persona-mapping-list-columns.png){width="300"}
+   从该面板中，您可以[创建](#create-a-persona)、[编辑](#edit-a-persona)或[删除](#delete-a-persona)角色。
+
+   角色列表以表格形式组织，其中显示了每个角色的名称、创建日期和上次修改日期。<!-- You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes. --> 可以最小化聊天面板以增加&#x200B;_角色映射_&#x200B;面板的大小。
+
+   ![显示默认角色表和“创建角色”按钮的“角色”映射面板。](assets/persona-mapping-list.png){width="700" zoomable="yes"}
 
 1. 要访问角色的详细信息，请单击名称。
 
 ### 默认角色
 
-_角色映射_&#x200B;列表包含根据职务属性定义的五个默认角色。 您可以根据组织的需求编辑以下任何默认角色：
+_角色映射_&#x200B;列表包括根据职务属性定义的十个默认角色。 您可以根据组织的需求编辑以下任何默认角色：
 
 | 用户画像 | 职称 |
 | ------- | ---------- |
-| CXO / EVP - CXO /执行副总裁 | 首席执行官、首席信息官、首席技术官、首席运营官、首席财务官、战略执行副总裁 |
-| SVP/VP — 高级副总裁/副总裁 | 营销部副总裁、销售部副总裁、运营部副总裁、产品部副总裁、 IT部副总裁 |
-| 高级董事/董事 — 高级董事/董事 | 工程总监、高级产品总监、财务总监、客户成功总监 |
-| 高级经理/经理 — 高级经理/经理 | 高级营销经理、IT经理、运营经理、销售经理、人力资源经理 |
-| 个人贡献者 — 个人贡献者 | 客户主管、软件工程师、营销专家、客户成功代表 |
-| 分析师 — 分析师 | 业务分析师、数据分析师、市场研究分析师、财务分析师、运营分析师 |
-| 开发人员 — 开发人员 | 前端开发人员、后端开发人员、全栈开发人员、移动应用程序开发人员、开发运营工程师 |
-| 专业人员 — 专业人员 | 人力资源专家、法律顾问、合规干事、项目经理、采购专家 |
-| 顾问 — 顾问 | 管理顾问、IT顾问、业务流程顾问、营销顾问 |
-| 其他 — 其他 | 行业专家、独立顾问、自由顾问、主题专家 |
+| CXO / EVP | 首席执行官、首席信息官、首席技术官、首席运营官、首席财务官、战略执行副总裁 |
+| 副总裁/副总裁 | 营销部副总裁、销售部副总裁、运营部副总裁、产品部副总裁、 IT部副总裁 |
+| 高级董事/董事 | 工程总监、高级产品总监、财务总监、客户成功总监 |
+| 高级经理/经理 | 高级营销经理、IT经理、运营经理、销售经理、人力资源经理 |
+| 个人贡献者 | 客户主管、软件工程师、营销专家、客户成功代表 |
+| 分析师 | 业务分析师、数据分析师、市场研究分析师、财务分析师、运营分析师 |
+| Developer | 前端开发人员、后端开发人员、全栈开发人员、移动应用程序开发人员、开发运营工程师 |
+| 专业工作人员 | 人力资源专家、法律顾问、合规干事、项目经理、采购专家 |
+| 顾问 | 管理顾问、IT顾问、业务流程顾问、营销顾问 |
+| 其他 | 行业专家、独立顾问、自由顾问、主题专家 |
 
 ### 列表筛选
 
 要查找所需的角色，请在搜索栏中输入文本字符串，以按名称匹配角色。
 
-![筛选显示的角色映射](assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
+![搜索字段按名称筛选角色列表，显示两个匹配结果。](assets/configuration-persona-mapping-search.png){width="680" zoomable="yes"}
 
 ## 创建角色 {#create-a-persona}
-
-1. 在左侧导航中，选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 配置]**。
-
-1. 单击中间面板中的&#x200B;**[!UICONTROL 角色映射]**。
 
 1. 单击&#x200B;**[!UICONTROL 创建角色]**。
 
 1. 输入角色的唯一的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**（可选）。
 
-   ![创建角色映射](assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+   ![创建具有“名称”和“描述”字段的角色面板以及用于选择属性的“规则”部分。](assets/configuration-persona-mapping-new.png){width="680" zoomable="yes"}
 
-1. 选择用于匹配角色的属性。
+1. 对于&#x200B;**[!UICONTROL 规则]**，选择用于匹配角色的属性。
 
-   * 单击&#x200B;**[!UICONTROL 选择人员属性]**。
+   * 单击&#x200B;**[!UICONTROL 编辑规则]**。
 
    * 在对话框中，选中要映射的每个属性的复选框（最多五个）。
 
@@ -102,15 +105,15 @@ _角色映射_&#x200B;列表包含根据职务属性定义的五个默认角色�
 
      要按名称筛选属性列表，请在搜索栏中输入文本字符串。 您还可以单击左上角的&#x200B;_筛选器_（![筛选器图标](../assets/do-not-localize/icon-filter.svg)）图标，以按类型&#x200B;_标准_&#x200B;或&#x200B;_自定义_&#x200B;筛选显示的列表。
 
-     ![选择角色属性对话框](assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+     ![列出人员属性的对话框，带有复选框、使用状态和属性类型列。](assets/configuration-persona-mapping-select-attributes.png){width="450" zoomable="yes"}
 
-   * 单击&#x200B;**[!UICONTROL 保存]**。
+   * 单击&#x200B;**[!UICONTROL 完成]**。
 
      选定的属性填充在&#x200B;_[!UICONTROL 角色属性]_&#x200B;部分。
 
-1. 对于每个属性，输入要与属性匹配的逗号分隔值。
+   * 对于每个属性，输入要与属性匹配的逗号分隔值。
 
-1. 单击&#x200B;**[!UICONTROL 提交]**。
+1. 单击&#x200B;**[!UICONTROL 创建角色]**。
 
 ## 编辑角色 {#edit-a-persona}
 
@@ -130,19 +133,23 @@ _角色映射_&#x200B;列表包含根据职务属性定义的五个默认角色�
 
 ## 按派生角色过滤 {#derived-persona-filter}
 
-配置角色后，Marketo Optimizer通过根据定义的角色映射评估记录的属性，为每个人员记录派生角色。 在为人员列表或人员历程定义受众时，您可以使用推断的结果（_派生角色_）作为过滤器。
+配置角色后，[!DNL Marketo Optimizer]通过根据定义的角色映射评估记录的属性，为每个人员记录派生角色。 在为人员列表或人员历程定义受众时，您可以使用推断的结果（_派生角色_）作为过滤器。
 
-派生角色筛选器与其他推断的属性（如历程成员资格）一起显示在筛选器面板的&#x200B;**[!UICONTROL 特殊筛选器]**&#x200B;类别下。
+派生角色筛选器与其他推断的属性（如历程成员资格）一起显示在筛选器面板的&#x200B;**[!UICONTROL 人员属性]**&#x200B;类别下。
 
 ### 人员列表
 
-在静态人员列表中添加或删除成员时，或者为动态人员列表定义成员资格规则时，您可以按派生角色进行筛选，以定向其属性与特定配置角色匹配的所有人员。
+要在管理人员列表时定位与特定配置角色匹配的人员，您可以按派生角色进行筛选。
 
 **静态列表 — 添加成员**
 
 1. 打开静态列表，然后单击右上方的&#x200B;**[!UICONTROL 添加人员]**。
 
-1. 在筛选器对话框中，展开&#x200B;**[!UICONTROL 特殊筛选器]**，然后将&#x200B;**[!UICONTROL 派生角色]**&#x200B;拖到画布上。
+1. 在筛选器对话框中，展开&#x200B;**[!UICONTROL 人员属性]**，并将&#x200B;**[!UICONTROL 派生角色]**&#x200B;拖到画布上。
+
+   您还可以在搜索字段中输入过滤器名称以快速找到它。
+
+   ![派生的角色筛选器已添加到人员列表筛选器画布中，并带有可供选择的角色选项。](assets/persona-mapping-derived-persona-filter.png){width="680" zoomable="yes"}
 
 1. 在筛选条件中，选择&#x200B;**[!UICONTROL 是]**，然后从列表中选择一个或多个角色。
 
@@ -154,7 +161,9 @@ _角色映射_&#x200B;列表包含根据职务属性定义的五个默认角色�
 
 1. 单击&#x200B;**[!UICONTROL 编辑规则]**。
 
-1. 在筛选器对话框中，展开&#x200B;**[!UICONTROL 特殊筛选器]**，然后将&#x200B;**[!UICONTROL 派生角色]**&#x200B;拖到画布上。
+1. 在筛选器对话框中，展开&#x200B;**[!UICONTROL 人员属性]**，并将&#x200B;**[!UICONTROL 派生角色]**&#x200B;拖到画布上。
+
+   您还可以在搜索字段中输入过滤器名称以快速找到它。
 
 1. 在筛选条件中，选择&#x200B;**[!UICONTROL 是]**，然后从列表中选择一个或多个角色。
 
@@ -172,8 +181,14 @@ _角色映射_&#x200B;列表包含根据职务属性定义的五个默认角色�
 
 1. 在&#x200B;**[!UICONTROL 个人资料筛选器]**&#x200B;下，单击&#x200B;**[!UICONTROL 添加筛选器]**。
 
-1. 展开&#x200B;**[!UICONTROL 特殊筛选器]**&#x200B;并将&#x200B;**[!UICONTROL 派生角色]**&#x200B;拖到筛选器画布上。
+1. 展开&#x200B;**[!UICONTROL 人员属性]**&#x200B;并将&#x200B;**[!UICONTROL 派生角色]**&#x200B;拖到筛选器画布上。
+
+   您还可以在搜索字段中输入过滤器名称以快速找到它。
+
+   ![派生的角色筛选器已添加到人员历程事件受众筛选器画布。](assets/persona-mapping-derived-persona-event-filter.png){width="680" zoomable="yes"}
 
 1. 在筛选条件中，选择&#x200B;**[!UICONTROL 是]**，然后从列表中选择一个或多个角色。
 
    只有其派生角色与选定值匹配的用户才有资格进入历程。
+
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存事件条件。
