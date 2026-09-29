@@ -13,7 +13,7 @@ feature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 055fd02e1007ba6d06e563dc931adffe6145bed6
+source-git-commit: c733fd2c334324d8666bac908e55a0780ede557e
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -133,20 +133,22 @@ AI推荐不具约束性。 在激活历程之前，您可以：
 
 1. 在对话框中，选择要用于模拟受众的动态列表。
 
-<!-- 
-   * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
-   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
-   * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
--->
+   ![选择了动态列表的“模拟路径”对话框以及“取消”和“模拟”按钮。](./assets/next-best-path-simulate-paths.png){width="250"}
 
-![选择了动态列表的“模拟路径”对话框以及“取消”和“模拟”按钮。](./assets/next-best-path-simulate-paths.png){width="250"}
-
->[!NOTE]
->
->* 如果所选受众超出模拟阈值，则系统对100个用户档案的示例运行模拟。 UI中的指示器显示结果基于示例。
->* 如果所选受众尚未实现，则会阻止模拟。 内联警告会指导您首先实体化受众。
+   >[!NOTE]
+   >
+   >* 如果所选受众超出模拟阈值，则系统对100个用户档案的示例运行模拟。 UI中的指示器显示结果基于示例。
+   >* 如果所选受众尚未实现，则会阻止模拟。 内联警告会指导您首先实体化受众。
 
 1. 单击&#x200B;**[!UICONTROL 模拟]**。
+
+
+<!--
+after second step above...
+* **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
+* **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+* **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
 
 ### 查看模拟结果 {#review-results}
 
