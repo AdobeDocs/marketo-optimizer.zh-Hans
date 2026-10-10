@@ -1,32 +1,42 @@
 ---
 title: Adobe Marketo Optimizer文档
-description: Marketo Optimizer的完整文档 — 探索可用于入门培训、AI支持的营销自动化、人员历程和受众管理的资源。
+description: Marketo Optimizer的完整文档 — 探索用于入门培训、AI支持的营销自动化、人员历程和受众管理的可用资源。
 TQID: 'https://experienceleague.adobe.com/UefS41mK-pwG-bqv2d-6Qj6qH9ZPBf4AYK2uoKzzk6E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: 7a4e898b64751d5b912e6468d318083c571eff1b
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '429'
 ht-degree: 3%
-
 ---
-
 # Adobe Marketo Optimizer文档
 
-[!DNL Adobe Marketo Optimizer]是一个人工智能优先的营销自动化解决方案，它使营销人员和业务开发代表能够规划项目、编排个性化人员历程并鉴别潜在客户。 使用对话式AI为B2B商机和客户构建并执行协调的市场和销售参与，其中提供个性化的、由AI支持的内容。
+[!DNL Adobe Marketo Optimizer]是AI优先的营销自动化解决方案，它使营销人员和业务开发代表(BDR)能够将他们的商机、客户和购买团体历程与强大的AI推理结合使用，通过不断更新的语义故事来丰富客户情境，并跨营销、付费媒体和BDR渠道扩展与次优操作的互动。
 
 ## 从基础知识开始 {#basics}
 
