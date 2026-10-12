@@ -136,4 +136,4 @@ ht-degree: 0%
 
 在聊天界面中，您可以询问报告问题，如&#x200B;*“显示我所有即将召开的网络研讨会”*&#x200B;或&#x200B;*“提供网络研讨会的详细信息[名称]”*。 它会显示参与仪表板链接以及次优操作，如&#x200B;**设计**、**添加联合主机**&#x200B;或&#x200B;**在网络研讨会日期**&#x200B;发布。
 
-为了提供更深入的分析（出席情况、投票和调查表现以及每位成员的数据），聊天界面链接到网络研讨会的&#x200B;**Analytics**&#x200B;和&#x200B;**成员**&#x200B;选项卡，以及&#x200B;**网络研讨会管理**&#x200B;中的跨项目汇总。<!-- See [Webinar reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
+为了提供更深入的分析（出席情况、投票和调查表现以及每位成员的数据），聊天界面链接到网络研讨会的&#x200B;**Analytics**&#x200B;和&#x200B;**成员**&#x200B;选项卡，以及&#x200B;**网络研讨会管理**&#x200B;中的跨项目汇总。<!-- See [Webinar reporting](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
