@@ -1,29 +1,36 @@
 ---
 title: 隐私管理
-description: 了解如何在Marketo Optimizer中遵守GDPR、CCPA和其他隐私法规，并使用Adobe Privacy Service提交请求。
+description: 了解如何遵守Marketo Optimizer中的GDPR、CCPA和其他隐私法规，并使用Adobe Privacy Service提交请求。
 feature: Setup
 role: Admin
 TQID: 'https://experienceleague.adobe.com/VgnMCjm6l4pWG2-gqMuOmZUqU7E2Wrc-eVxn4kL5rKc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 18a33a66-85a1-58e4-8e50-418b832ade8b
+    internal-label: Privacy
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Privacy
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 5%
-
 ---
-
 
 # 隐私管理 {#privacy-management}
 
-[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/home){target="_blank"}提供RESTful API和用户界面，帮助您管理客户数据请求。 借助[!DNL Adobe Privacy Service]，您可以提交访问和删除Adobe CX Enterprise应用程序中的个人客户数据的请求，从而促进自动遵守法律和组织隐私法规。
+[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/home){target="_blank"}提供RESTful API和用户界面，帮助您管理客户数据请求。 借助[!DNL Adobe Privacy Service]，您可以提交从Adobe CX Enterprise应用程序访问和删除个人客户数据的请求，从而促进自动遵守法律和组织隐私法规。
 
 [!DNL Adobe Marketo Optimizer]提供了这些隐私工具，以便您满足全局数据保护要求。 使用[!DNL Privacy Service]提交和管理[!DNL Marketo Optimizer]收集和存储的数据的访问和删除请求。
 
@@ -54,7 +61,7 @@ ht-degree: 5%
 * **[!UICONTROL Privacy Service权限]** - `Privacy Read Permission`和`Privacy Write Permission`
 * **[!UICONTROL 数据管理]** - `View Privacy Console`
 
-有关更多详细信息，请参阅“[!DNL Privacy Service]”指南中的&#x200B;[_管理Privacy Service的权限_](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/permissions){target="_blank"}。
+有关更多详细信息，请参阅“[!DNL Privacy Service]”指南中的&#x200B;[_管理Privacy Service的权限_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -6,19 +6,24 @@ role: User
 TQID: 'https://experienceleague.adobe.com/DI9vJhE4EsGI4g4X5wz5-kqTjHOZqs6cvqo6Fke-4HU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Customer experience
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: '586'
 ht-degree: 0%
-
 ---
-
-# C2PA元数据
+# C2PA 元数据
 
 营销机构比以往任何时候都更关注内容透明度、人工智能披露，以及防止资产被篡改。 Adobe的Content Authenticity Initiative (CAI)构建符合[内容来源和授权联盟](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA)技术标准的工具。 _C2PA元数据_&#x200B;是加密的、显示篡改的信息，可帮助查看者了解内容的历程并确保品牌资产的完整性。 此信息包括：
 
@@ -34,7 +39,7 @@ ht-degree: 0%
 
 C2PA元数据会随图像文件一起保留。 使用创作AI生成或编辑的图像上传到[!DNL Adobe Marketo Optimizer]或从导出时，其C2PA元数据将保留。
 
-有关跨Adobe CX Enterprise应用程序自动附加C2PA元数据的更多详细信息，请参阅CX Enterprise中的AI指南中的&#x200B;[_创作AI内容透明度_](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
+有关跨Adobe CX Enterprise应用程序自动附加C2PA元数据的其他详细信息，请参阅CX Enterprise指南中的AI中的&#x200B;[_创作AI内容透明度_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
 
 >[!NOTE]
 >

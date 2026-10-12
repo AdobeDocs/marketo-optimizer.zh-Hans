@@ -6,18 +6,23 @@ role: User
 TQID: 'https://experienceleague.adobe.com/4Nggkg68RA3TQTYwhOG-2dOvmyXVvBqunBGC3fWRV-k'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Metadata
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 19%
-
 ---
-
 # 资产
 
 在[!DNL Adobe Marketo Optimizer]中，资产通常是设计内容以支持历程时使用的图像。 您可以从资产选择器的[电子邮件](email-authoring.md)、[电子邮件模板](templates.md)和[可视片段](email-authoring.md#visual-fragments)中使用这些图像，也可以在可视设计空间中使用简单的拖放界面。
