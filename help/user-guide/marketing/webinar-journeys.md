@@ -1,23 +1,27 @@
 ---
 title: 网络研讨会推广和跟进历程
-description: 在Marketo Optimizer中围绕网络研讨会构建促销活动、交付日和网络研讨会后培养历程，并使用网络研讨会令牌使内容个性化。
-keywords: 
+description: 围绕Marketo Optimizer中的网络研讨会构建促销活动、交付日和网络研讨会后培养历程，并使用网络研讨会令牌使内容个性化。
+keywords:
 role: User
 feature: Person Journeys
 TQID: 'https://experienceleague.adobe.com/9NJrT-Y66XXF1-mWDO80WpymCB6ujrkjkR87MhKuiB8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 
 # 网络研讨会宣传和后续历程
 

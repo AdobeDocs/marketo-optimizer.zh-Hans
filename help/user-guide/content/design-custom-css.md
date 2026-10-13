@@ -1,22 +1,27 @@
 ---
 title: 为内容添加自定义CSS
-description: 向电子邮件和登陆页添加自定义CSS，以便在Marketo Optimizer中实现超出标准组件的高级样式和精确设计控制。
+description: 向电子邮件和登陆页添加自定义CSS，以便实现Marketo Optimizer中标准组件以外的高级样式和精确设计控制。
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 TQID: 'https://experienceleague.adobe.com/RLYXBvEepwNcQ9B9W3Sao-RP49HtbxFomlgu7R8APAg'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '561'
 ht-degree: 0%
-
 ---
-
 # 为内容添加自定义CSS
 
 您可以直接在电子邮件或登陆页面设计空间中添加自己的自定义CSS。 使用自定义CSS可应用高级和特定的样式，以便更加灵活地控制内容的外观。

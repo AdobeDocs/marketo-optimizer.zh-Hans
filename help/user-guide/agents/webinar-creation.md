@@ -1,27 +1,36 @@
 ---
 title: 创建和推广网络研讨会
-description: 使用Marketo Optimizer中的聊天界面安排网络研讨会、添加联合主持人和演示者、构建促销和培养历程以及查看报告 — 所有这些都是使用自然语言的。
-keywords: 
+description: 使用Marketo Optimizer中的聊天界面安排网络研讨会、添加联合主持人和演示者、构建促销和培养历程以及查看报告 — 所有这些都使用自然语言。
+keywords:
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 0%
-
 ---
-
 
 # 创建和推广网络研讨会
 
@@ -127,4 +136,4 @@ ht-degree: 0%
 
 在聊天界面中，您可以询问报告问题，如&#x200B;*“显示我所有即将召开的网络研讨会”*&#x200B;或&#x200B;*“提供网络研讨会的详细信息[名称]”*。 它会显示参与仪表板链接以及次优操作，如&#x200B;**设计**、**添加联合主机**&#x200B;或&#x200B;**在网络研讨会日期**&#x200B;发布。
 
-为了提供更深入的分析（出席情况、投票和调查表现以及每位成员的数据），聊天界面链接到网络研讨会的&#x200B;**Analytics**&#x200B;和&#x200B;**成员**&#x200B;选项卡，以及&#x200B;**网络研讨会管理**&#x200B;中的跨项目汇总。<!-- See [Webinar reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
+为了提供更深入的分析（出席情况、投票和调查表现以及每位成员的数据），聊天界面链接到网络研讨会的&#x200B;**Analytics**&#x200B;和&#x200B;**成员**&#x200B;选项卡，以及&#x200B;**网络研讨会管理**&#x200B;中的跨项目汇总。<!-- See [Webinar reporting](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
