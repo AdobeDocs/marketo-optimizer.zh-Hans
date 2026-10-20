@@ -4,15 +4,15 @@ description: 使用Marketo Optimizer中的治理设置，可在结构或组件�
 TQID: 'https://experienceleague.adobe.com/0QZuUrqbF97W7c9yZzBYY39EC7DmbadKxXOJxjxDDy8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '608'
 ht-degree: 0%
-
 ---
-
 
 # 模板的内容管理
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >内容锁定是编辑器级别的管理功能。 它控制作者可在电子邮件设计空间中进行编辑的内容，但不会阻止通过API进行的更改。
 
-只有具有&#x200B;**[!UICONTROL 管理内容模板]**&#x200B;权限的用户才能配置治理设置。
+只有具有&#x200B;**[!UICONTROL 管理B2B模板]**&#x200B;权限的用户才能配置治理设置。
 
 ## 启用管理 {#enable}
 

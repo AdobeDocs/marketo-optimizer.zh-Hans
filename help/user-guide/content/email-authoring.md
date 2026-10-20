@@ -1,24 +1,29 @@
 ---
 title: 电子邮件内容
-description: 了解如何使用可视画布、拖放工具、Adobe导入和可重用模板，在HTML Marketo Optimizer中撰写和设计电子邮件内容。
+description: 了解如何使用可视画布、拖放工具、HTML导入和可重用模板，在Adobe Marketo Optimizer中撰写和设计电子邮件内容。
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: '2325'
 ht-degree: 2%
-
 ---
-
 # 电子邮件内容创作
 
 在[!DNL Adobe Marketo Optimizer]中，电子邮件设计空间提供了一个可视化画布，营销人员可在其中撰写电子邮件。 左侧和顶部面板中的电子邮件设计工具（结构、内容组件、模板、片段等）支持通过拖放从头开始构建。 您还可以选择从模板开始，粘贴原始HTML，或从可重用可视片段组合消息。
@@ -26,6 +31,14 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >有关子域的管理员设置、身份验证、IP池和电子邮件通道配置，请参阅[电子邮件可投放性](../start/email-deliverability.md)和[电子邮件通道配置](../admin/email-channel-configuration.md)。
+
+>[!PREREQUISITES]
+>
+>电子邮件创作需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 查看B2B电子邮件]** — 查看电子邮件时需要此项。
+>* **[!UICONTROL 管理B2B电子邮件]** — 创建、编辑和删除电子邮件时需要此项。
+>* **[!UICONTROL 管理B2B人员历程]** — 将电子邮件添加到人员历程时需要此项。
 
 在[!DNL Marketo Optimizer]中，每封电子邮件都与人员历程中的&#x200B;_[!UICONTROL 发送电子邮件]_&#x200B;操作相关联。 从历程设计到电子邮件定义的完整工作流发生在一个连续的体验中。 当您[将&#x200B;_发送电子邮件_&#x200B;节点](../marketing/action-nodes.md#add-an-action-node)添加到人员历程时，单击&#x200B;**[!UICONTROL 创建电子邮件]**&#x200B;以开始此过程。 首先，定义电子邮件的操作和内容设置。 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以启动电子邮件内容设计空间，您可以在其中从以下选项中选择希望如何设计电子邮件：
 
@@ -159,7 +172,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的电子邮件是使用包含锁定内容[&#128279;](./template-content-governance.md)的模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+>如果您的电子邮件是使用包含锁定内容](./template-content-governance.md)的[模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 ### 添加片段 {#visual-fragments}
 

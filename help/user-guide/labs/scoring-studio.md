@@ -7,15 +7,22 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1445'
 ht-degree: 1%
 ---
 
 # Scoring Studio
 
 Scoring Studio包括模型列表、每个模型的可编辑画布和[同事聊天界面](../agents/chat-interface.md)。 使用画布直接查看或调整维度和信号，而同事仍与您一起建议更改自然语言。 有关从提示构建模型的信息，请参阅&#x200B;[_创建自定义评分模型_](../agents/lead-scoring-model.md)。
+
+>[!PREREQUISITES]
+>
+>Scoring Studio是Labs的一项功能，需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 查看B2B Labs]** — 需要查看已启用的可用的Labs功能。
+>* **[!UICONTROL 管理B2B Labs]** — 需要启用和配置Labs功能。
 
 ## 模型列表 {#model-list}
 

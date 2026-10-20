@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 19%
+source-wordcount: '765'
+ht-degree: 18%
 ---
 # 资产
 
@@ -61,6 +61,13 @@ ht-degree: 19%
 
 * **[!UICONTROL 列表]** — 单击&#x200B;_列表视图_ （![列表视图图标](../assets/do-not-localize/icon-falco-list-view.svg)）图标以在包含元数据列的可排序表中显示资源。
 * **[!UICONTROL 图库]** — 单击&#x200B;_图库视图_ （ ![图库视图图标](../assets/do-not-localize/icon-falco-gallery-view.svg) ）图标，将资产显示为可视缩略图网格。
+
+>[!PREREQUISITES]
+>
+>使用资产需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 查看B2B Assets]** — 需要查看&#x200B;_[!UICONTROL Assets]_&#x200B;库和资源文件详细信息。
+>* **[!UICONTROL 管理B2B Assets]** — 创建、编辑和删除资源文件时需要。
 
 ## 搜索资源 {#find-assets}
 

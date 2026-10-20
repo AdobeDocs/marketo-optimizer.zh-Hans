@@ -19,14 +19,20 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '955'
 ht-degree: 0%
 ---
 # 聊天界面
 
 聊天面板在整个[!DNL Adobe Marketo Optimizer]中嵌入。 在这里，您可使用简单语言与人工智能代理交互，构建项目和历程、创建和比较人员列表、调查潜在客户、配置得分等。
+
+>[!PREREQUISITES]
+>
+>若要在[!DNL Marketo Optimizer]中使用同事聊天面板，您必须具有&#x200B;**[!UICONTROL 管理B2B对话体验]** [权限](../start/permissions-reference.md)。
+>
+>此权限允许访问聊天面板，但不授予对任何功能的访问权限。 系统会根据功能在聊天外部所需的相同权限来检查聊天中的每个技能或操作：_管理_&#x200B;创建、编辑或发布的权限，以及&#x200B;_查看_&#x200B;只读技能的权限。 如果您缺少功能权限，则助理无法为您执行该操作。 例如，创建历程需要&#x200B;**[!UICONTROL 管理B2B人员历程]**，而列出表单需要&#x200B;**[!UICONTROL 查看B2B Forms]**。
 
 在左侧导航中选择&#x200B;_Co-worker_&#x200B;图标以打开面板。 面板标题包含四个控件：
 

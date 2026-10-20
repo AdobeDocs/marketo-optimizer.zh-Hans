@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 531dce4ffe6000efa0296f0e2393423f54124ea7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- SPHR-39120: UX plans to move the Journey activity flow tile to the top of the report. Update the tile order in this page when that ships. -->
 
 单击&#x200B;**[!UICONTROL 查看实时或完成人员历程的报告]**&#x200B;以查看其性能，包括状态、参与度、电子邮件量度和活动流程。
+
+>[!PREREQUISITES]
+>
+>要查看此报告，您必须具有&#x200B;**[!UICONTROL 查看B2B人员历程报告]** [权限](../start/permissions-reference.md)。
 
 查看报告(_T):_
 

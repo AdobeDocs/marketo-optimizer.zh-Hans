@@ -4,23 +4,34 @@ description: 了解如何使用项目从单一位置组织营销工作并管理�
 TQID: 'https://experienceleague.adobe.com/RljL2N9P22AbWB6jSSaQ-iKlpTSz8d3cGNrIKatMH4o'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Audience segmentation
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '830'
 ht-degree: 1%
-
 ---
-
 # 项目
 
 计划旨在为营销宣传资料和历程提供共享上下文，因此您可以从单个位置管理营销工作的各个方面。 使用项目属性描述您的项目，并使用&#x200B;_项目成员_&#x200B;筛选器根据项目成员资格、成员状态和成功细分受众。 在“令牌”选项卡中，您可以管理本地&#x200B;_我的令牌_&#x200B;以及在文件夹结构中继承的令牌。
+
+>[!PREREQUISITES]
+>
+>使用程序需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 查看B2B计划]** — 需要查看营销计划。
+>* **[!UICONTROL 管理B2B项目]** — 需要创建、编辑和删除营销项目。
 
 ## 访问程序 {#access-programs}
 
@@ -82,7 +93,7 @@ ht-degree: 1%
 
 ### 更改项目状态 {#change-program-status}
 
-若要将人员添加到计划或更改其状态，他们必须在历程[&#128279;](./action-nodes.md)中传递&#x200B;**_[!UICONTROL 更改计划状态]_** 操作。 这使其成为程序的成员，并在该程序中为其分配状态。
+若要将人员添加到计划或更改其状态，他们必须在历程](./action-nodes.md)中传递&#x200B;**_[!UICONTROL 更改计划状态]_** [操作。 这使其成为程序的成员，并在该程序中为其分配状态。
 
 ### 更正项目状态 {#correct-program-status}
 

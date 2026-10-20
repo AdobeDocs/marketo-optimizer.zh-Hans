@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 2%
+source-wordcount: '1131'
+ht-degree: 1%
 ---
 
 # 交互式网络研讨会
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 ## 将网络研讨会作为资产
 
-网络研讨会是[项目](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)所拥有的资产，与电子邮件或登陆页面相同。 将网络研讨会添加到项目中可在其中注册该研讨会，并使其令牌、属性和活动可用于该计划中的每个历程和资产。
+网络研讨会是[项目](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)所拥有的资产，与电子邮件或登陆页面相同。 将网络研讨会添加到项目中可在其中注册该研讨会，并使其令牌、属性和活动可用于该计划中的每个历程和资产。
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 | State | 所有者 | 值 |
 |---|---|---|
-| 项目群成员状态 | 项目 | 可按[程序类型](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/admin/program-types)配置 |
+| 项目群成员状态 | 项目 | 可按[程序类型](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types)配置 |
 | 网络研讨会状态 | 网络研讨会资产 | 邀请、注册、已参加、不显示、按要求参加 |
 | 历程状态 | 历程 | 当前节点、已暂停、已完成和其他历程运行时状态 |
 
@@ -143,14 +143,15 @@ ht-degree: 2%
 
 ### 权限
 
-网络研讨会功能的访问权限取决于您分配的网络研讨会权限。
+网络研讨会功能的访问权限取决于您分配的网络研讨会权限。 有关权限和推荐角色的完整列表，请参阅[用户访问和权限](../start/permissions-reference.md)。
 
-| 角色 | 授予的内容 |
+| 权限 | 授予的内容 |
 |---|---|
 | 查看B2B网络研讨会 | 查看网络研讨会列表和网络研讨会配置、详细信息和报告。 创建、设计、编辑和输入控件无法通过此权限使用，并且不能将您指定为网络研讨会的联合主持人或演示者。 |
+| 管理B2B网络研讨会 | 完整的生命周期访问：创建、设计、配置、计划、编辑、交付、主持和删除网络研讨会。 “创建”、“设计”、“编辑”和“管理”控件仅适用于具有此权限的用户。 |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

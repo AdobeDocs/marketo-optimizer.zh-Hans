@@ -4,16 +4,17 @@ description: 了解如何在Marketo Optimizer中访问和管理电子邮件模�
 TQID: 'https://experienceleague.adobe.com/PS1sj99Udmajg2M4JadFQCGYF7DL9JkkdU9-7FG-OzY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '511'
 ht-degree: 1%
-
 ---
-
 
 # 电子邮件模板
 
@@ -24,6 +25,13 @@ ht-degree: 1%
 >在此Beta版本中，仅支持电子邮件模板。
 
 将模板应用于新电子邮件时，内容将在此时复制。 对模板进行编辑不会影响之前从中创建的电子邮件。
+
+>[!PREREQUISITES]
+>
+>使用模板需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 查看B2B模板]** — 需要查看模板列表和详细信息。
+>* **[!UICONTROL 管理B2B模板]** — 创建、编辑和删除模板时需要。
 
 ## 访问电子邮件模板 {#access}
 

@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1554'
 ht-degree: 11%
 ---
 # 创建和发布登陆页面
@@ -86,7 +86,7 @@ ht-degree: 11%
 
    每个登陆页面最多可添加两个子页面。
 
-配置并设计主页面和任何子页面后，请在发布登陆页面[&#128279;](#test-landing-page)之前对其进行测试。
+配置并设计主页面和任何子页面后，请在发布登陆页面](#test-landing-page)之前[对其进行测试。
 
 >[!CAUTION]
 >
@@ -219,7 +219,7 @@ ht-degree: 11%
 
 >[!PREREQUISITES]
 >
->要预览和测试登陆页面，您必须具有&#x200B;**[!UICONTROL 发布消息]**&#x200B;权限以及包含测试用户档案的已定义数据集。
+>要预览和测试登陆页面，您必须具有&#x200B;**[!UICONTROL 发布B2B登陆页面]**&#x200B;权限以及包含测试用户档案的已定义数据集。
 
 1. 单击&#x200B;**[!UICONTROL 预览和测试]**&#x200B;以打开测试配置文件选择。
 
@@ -259,7 +259,7 @@ ht-degree: 11%
 
 >[!PREREQUISITES]
 >
->要发布登陆页面，您必须具有&#x200B;**[!UICONTROL 发布消息]**&#x200B;权限。 发布之前，[检查并解决所有警报](#check-alerts)。
+>要发布登陆页面，您必须具有&#x200B;**[!UICONTROL 发布B2B登陆页面]**&#x200B;权限。 发布之前，[检查并解决所有警报](#check-alerts)。
 
 当草稿页面符合您的条件并且您想要将其用于链接历程消息时，单击右上角的&#x200B;**[!UICONTROL 发布]**。 在确认对话框中，再次单击&#x200B;**[!UICONTROL 发布]**&#x200B;以进行确认。
 

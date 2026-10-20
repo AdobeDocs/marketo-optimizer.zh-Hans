@@ -4,17 +4,18 @@ description: 了解如何配置活动权重以驱动人员意图得分模型，�
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1322
-ht-degree: 2%
-
+source-wordcount: '1365'
+ht-degree: 1%
 ---
-
 
 # 目的配置
 
@@ -28,6 +29,14 @@ ht-degree: 2%
 * 单击&#x200B;**[!UICONTROL +]**，选择&#x200B;**[!UICONTROL 使用代理技能]**，选择&#x200B;**[!UICONTROL 意图]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 意图配置]**。
 
 ![意图配置面板从聊天界面打开](./assets/intent-configuration-panel.png){width="700" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>意图配置需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 查看B2B意图配置]** — 需要查看意图配置（意图加权模型）。
+>* **[!UICONTROL 管理B2B意图配置]** — 创建、编辑和删除意图配置时需要此项。
+>* **[!UICONTROL 管理B2B对话体验]** — 需要从聊天界面打开面板。
 
 ## 模型列表视图
 

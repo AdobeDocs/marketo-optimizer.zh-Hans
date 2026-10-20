@@ -1,21 +1,23 @@
 ---
 title: 程序类型
-description: 在Marketo Optimizer中创建和管理程序类型，这些类型为程序定义属性和成员状态流。
+description: 创建并管理程序类型，这些程序类型为Marketo Optimizer中的程序定义属性和成员状态流。
 TQID: 'https://experienceleague.adobe.com/Eepcnc51p-P-yoyylXBr47SF0xR-3pvZab2aHf9jdew'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 # 程序类型
 
 计划类型定义[计划](../marketing/programs.md)及其成员的重要方面，并区分不同类型的营销计划。 每个程序类型定义以下属性，这些属性为使用程序类型的程序继承：
@@ -29,6 +31,13 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果某个程序类型被至少一个程序使用，则无法对其进行编辑。
+
+>[!PREREQUISITES]
+>
+>使用程序类型需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 查看B2B计划类型]** — 需要查看营销计划类型。
+>* **[!UICONTROL 管理B2B项目类型]** — 创建、编辑和删除营销项目类型时需要。
 
 定义自定义程序类型(_T):_
 

@@ -4,19 +4,22 @@ description: 占位符
 TQID: 'https://experienceleague.adobe.com/wowFSf32UsmDemN6Iy5-IgGOPmuocHHLRb4vvTUDt0U'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 21%
-
+source-wordcount: '959'
+ht-degree: 18%
 ---
-
 
 # 登陆页面配置
 
@@ -59,7 +62,7 @@ ht-degree: 21%
 
 登陆页面子域配置对所有环境&#x200B;**都是**&#x200B;通用的。 因此：
 
-* 要访问和编辑登陆页面子域，您必须对生产沙盒具有&#x200B;**[!UICONTROL 管理登陆页面子域]**&#x200B;权限。
+* 要访问和编辑登陆页面子域，您必须对生产沙盒具有&#x200B;**[!UICONTROL 管理B2B登陆页面设置]**&#x200B;权限。 要访问左侧导航中的&#x200B;_[!UICONTROL 渠道]_，您还必须具有&#x200B;**[!UICONTROL 管理B2B渠道配置]**&#x200B;权限。 有关详细信息，请参阅[权限资源](../start/permissions-reference.md)。
 
 * 对登陆页面子域的任何修改也会影响生产沙箱。
 

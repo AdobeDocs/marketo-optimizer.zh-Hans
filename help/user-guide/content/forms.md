@@ -1,23 +1,27 @@
 ---
 title: 表单
-description: 在Marketo Optimizer中创建和管理可重用的业务数据收集表单 — 设计字段、设置感谢页面、发布和跟踪使用情况。
+description: 在Marketo Optimizer中创建和管理可重用的表单，用于业务数据收集 — 设计字段、设置感谢页面、发布和跟踪使用情况。
 TQID: 'https://experienceleague.adobe.com/StexA1TJKaBYnAoIMcxnHIoUwzfMAnJrBO7FDLdLnMo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Data management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2434
+source-wordcount: '2473'
 ht-degree: 2%
-
 ---
-
 # 表单
 
 要从网页访客中捕获信息，请创建表单并将其添加到您的登陆页面。 表单是一组字段，页面访客填写并提交它们以获取某种内容或选件，例如白皮书、按需网络研讨会或免费试用。
@@ -27,14 +31,12 @@ ht-degree: 2%
 >[!PREREQUISITES]
 >
 >在营销团队创建并使用表单捕获信息之前，管理员必须定义一个或多个表单预设。 有关详细信息，请参阅&#x200B;[_Forms配置_](../admin/configuration-presets-forms.md)。
-
-<!-- 
->Form creation in [!DNL Marketo Optimizer] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Publish B2C Forms]_ - Required to publish forms.
--->
+>在[!DNL Marketo Optimizer]中创建表单需要以下[权限](../start/permissions-reference.md)：
+>
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL 查看B2B Forms]_ — 访问和查看表单时需要。
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL 管理B2B Forms]_ — 创建、编辑和删除表单时需要。
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL 发布B2B Forms]_ — 需要发布表单。
 
 ## 访问和管理表单 {#view-forms}
 

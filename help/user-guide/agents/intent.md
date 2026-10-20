@@ -4,18 +4,20 @@ description: 了解如何为意图得分模型配置活动权重，并使用排�
 TQID: 'https://experienceleague.adobe.com/BNzbM6v6ADSKyPR6jQMj1QdWMnLQQX-j3PNk8gF6PxY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 
 # 配置和分析意图
 
@@ -57,6 +59,10 @@ ht-degree: 0%
 有关这些量度的详细信息，包括AI建议的权重、内容相关性和限制，请参阅[意图配置](../audiences/intent-configuration.md)。
 
 ## 意图报表
+
+>[!PREREQUISITES]
+>
+>意图报告需要&#x200B;**[!UICONTROL 查看B2B意图报告]** [权限](../start/permissions-reference.md)。
 
 要引入它可以生成的四种报表类型，请调用`/analyze-intent`以提示同事。 然后，同事会等待命名潜在客户、产品或比较的跟进请求。 每个报表在工作区面板中均作为自己的选项卡打开，同事还在使用&#x200B;_[!UICONTROL 打开报表]_&#x200B;按钮的聊天中添加了一张摘要卡片。
 
