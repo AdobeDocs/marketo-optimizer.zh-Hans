@@ -1,27 +1,38 @@
 ---
 title: 聊天界面
-description: 使用Marketo Optimizer中的“同事聊天”面板，使用自然语言或斜杠(/)菜单构建程序、历程和列表。
+description: 使用Marketo Optimizer中的同事聊天面板可使用自然语言或斜杠(/)菜单构建程序、历程和列表。
 TQID: 'https://experienceleague.adobe.com/5oj0glKEbJuzQFem-jxL4qjnzxVG4tlOaiHKM5SuiWQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '955'
 ht-degree: 0%
-
 ---
-
 # 聊天界面
 
 聊天面板在整个[!DNL Adobe Marketo Optimizer]中嵌入。 在这里，您可使用简单语言与人工智能代理交互，构建项目和历程、创建和比较人员列表、调查潜在客户、配置得分等。
+
+>[!PREREQUISITES]
+>
+>若要在[!DNL Marketo Optimizer]中使用同事聊天面板，您必须具有&#x200B;**[!UICONTROL 管理B2B对话体验]** [权限](../start/permissions-reference.md)。
+>
+>此权限允许访问聊天面板，但不授予对任何功能的访问权限。 系统会根据功能在聊天外部所需的相同权限来检查聊天中的每个技能或操作：_管理_&#x200B;创建、编辑或发布的权限，以及&#x200B;_查看_&#x200B;只读技能的权限。 如果您缺少功能权限，则助理无法为您执行该操作。 例如，创建历程需要&#x200B;**[!UICONTROL 管理B2B人员历程]**，而列出表单需要&#x200B;**[!UICONTROL 查看B2B Forms]**。
 
 在左侧导航中选择&#x200B;_Co-worker_&#x200B;图标以打开面板。 面板标题包含四个控件：
 
@@ -36,16 +47,6 @@ ht-degree: 0%
 
 * 添加消息并按&#x200B;**Enter**&#x200B;发送（**Shift+Enter**&#x200B;插入新行）。
 * 使用&#x200B;_附加_&#x200B;图标附加文件（支持的格式：`.txt`、`.md`、`.csv`、`.json`、`.xlsx`、`.docx`、`.pdf`）。 使用CSV和电子表格上传功能启动商机导入。
-
->[!BEGINSHADEBOX]
-
-## 销售限定词
-
-[!DNL Adobe Sales Qualifier]是一个可以与[!DNL Marketo Optimizer]一起使用的AI驱动应用程序。 它实施了Account Qualification Agent，旨在简化业务开发代表(BDR)的工作流。 [!DNL Sales Qualifier]跨渠道自动执行潜在客户鉴别、外联和买方参与工作流程。 它减少了手动BDR负载，加快了企业B2B公司的管道速度。
-
-有关详细信息，请参阅[Sales Qualifier文档](https://experienceleague.adobe.com/zh-hans/docs/sales-qualifier/using/home){target="_blank"}。
-
->[!ENDSHADEBOX]
 
 ## 询问同事
 

@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2474'
-ht-degree: 36%
+source-wordcount: '2584'
+ht-degree: 34%
 ---
 # 用户访问和权限
 
@@ -32,6 +32,8 @@ ht-degree: 36%
 1. [在Admin Console中将用户添加到新组](#add-users)。
 1. [编辑内置角色](#edit-role-permissions)或[在Experience Platform中创建具有产品权限和所需[!DNL Marketo Optimizer]沙盒的自定义角色](#create-a-custom-role)。
 1. [将用户](#add-users-to-a-role)或[组](#add-user-groups-to-a-role)添加到Adobe Experience Platform中的角色。
+
+要为管理员、所有访问权限的用户和只读用户设置推荐的用户组和角色，请参阅[推荐的用户类型](./permissions-reference.md#suggested-user-types)和[为推荐的用户类型创建用户组和角色](#create-suggested-roles)。
 
 ## 配置产品配置文件 {#config-profile}
 
@@ -172,65 +174,15 @@ ht-degree: 36%
 
 ### 权限资源 {#permissions}
 
-以下权限资源控制对[!DNL Marketo Optimizer]中渠道配置、内容管理和人员历程功能的访问：
+有关控制对[!DNL Marketo Optimizer]功能访问权限的完整权限列表，包括说明和对每种类型用户推荐的权限，请参阅[产品权限](./permissions-reference.md)页面。
 
 >[!IMPORTANT]
 >
->[!DNL Marketo Optimizer]访问要求您启用使用以下命名约定配置的特定沙盒： `Mktoaep` + [!DNL Marketo Engage]订阅前缀。 例如，如果链接的[!DNL Marketo Engage]订阅前缀为&#x200B;_AcmeAssoc_，则访问[!DNL Marketo Optimizer]所需的沙盒为&#x200B;_MktoaepAcmeAssoc_。
+>[!DNL Marketo Optimizer]访问要求您启用使用以下命名约定配置的特定沙盒： `Mktoaep` + [!DNL Marketo Engage]订阅前缀。 例如，如果链接的[!DNL Marketo Engage]订阅前缀为&#x200B;_AcmeAssoc_，则访问[!DNL Marketo Optimizer]所需的沙盒为&#x200B;_MktoaepAcmeAssoc_。 将此沙盒添加到每个角色。
 
-| 类别 | 权限 | 描述 |
-| -------- | ----------- | ---------- |
-| B2B渠道配置 | 查看B2B电子邮件设置 | 查看电子邮件设置（子域、PTR记录、IP池、禁止列表、种子列表、IP预热计划）。 |
-| | 管理B2B电子邮件设置 | 配置电子邮件设置（子域、PTR记录、IP池、禁止列表、种子列表、IP预热计划）。 用户发送电子邮件之前需要这些设置。 |
-| | 管理 B2B 渠道配置 | 访问左侧导航中的&#x200B;_渠道_&#x200B;菜单项以及所有渠道配置操作。 |
-| | 管理B2B WhatsApp预设 | 创建、查看和删除WhatsApp消息预设及关联的短信设置。 |
-| B2B历程 | 管理B2B人员历程 | 访问&#x200B;_人员历程_&#x200B;列表和所有人员历程操作。 |
-| B2B Assets | 查看内容模板 | 查看内容模板列表和详细信息。 |
-| | 管理B2B模板 | 创建、编辑和删除内容模板。 |
-| | 查看B2B片段 | 查看内容片段列表和详细信息。 |
-| | 管理B2B片段 | 创建、编辑和删除内容片段。 |
-| | 发布B2B片段 | 发布内容片段，以在模板、电子邮件和登陆页面中使用。 |
-| | 查看B2B Assets | 查看Assets库和资源文件详细信息。 |
-| | 管理B2B Assets | 创建、编辑和删除资源文件。 |
-| | 查看B2B电子邮件 | 查看电子邮件。 |
-| | 管理B2B电子邮件 | 创建、编辑和删除电子邮件。 |
-| | 管理B2B消息导出 | 导出电子邮件部分下的消息报表。 |
-| Journey Optimizer Library | 管理B2B库项目 | 添加和删除库中保存的表达式。 |
-| 数据监管 | 管理B2B删除使用标签 | 查看、创建和删除应用于数据集和架构的数据使用标签(DULE)。 |
-| 沙盒管理 | 管理B2B包 | 创建、导出、导入、复制和删除沙盒包。 |
-
-要支持[!DNL Marketo Optimizer]中的外部目标，需要以下权限：
-
-| 类别 | 权限 | 描述 |
-| -------- | ----------- | ---------- |
-| 仪表板 | 查看标准仪表板 | 对&#x200B;_配置文件_、_目标_&#x200B;和&#x200B;_区段_&#x200B;仪表板的仅查看访问权限。 还允许在左侧导航和&#x200B;_仪表板_&#x200B;清单和集成选项卡中访问&#x200B;_仪表板_。 |
-| | 管理标准仪表板 | 添加数据仓库中尚未存在的自定义属性。 |
-| 目标 | 查看目标 | 仅查看对&#x200B;_目录_&#x200B;选项卡中的可用目标和&#x200B;_浏览_&#x200B;选项卡中的已验证目标的访问权限。 |
-| | 管理目标 | 查看、创建和删除目标连接和目标帐户。 |
-| | 激活目标 | 将数据激活到活动目标。 还需要&#x200B;_查看目标_&#x200B;或&#x200B;_管理目标_&#x200B;才能访问此功能。 |
-| | 激活没有映射的区段 | 将受众激活到现有目标，而不显示映射步骤。 用户可以在激活工作流中添加和删除受众，但无法添加或删除映射的属性或身份。 访问此函数还需要&#x200B;_查看目标_&#x200B;权限。 |
-| | 管理和激活数据集目标 | 查看、创建、编辑和禁用数据集导出流，以及激活活动数据集的数据。 访问此函数还需要&#x200B;_查看目标_&#x200B;权限。 |
-| | 目标创作 | 能够使用Adobe Experience Platform Destination SDK创作目标。 |
-| 数据监管 | 查看数据使用策略 | 对属于您组织的数据使用策略的仅查看访问权限。 |
-| | 管理数据使用策略 | 查看、创建、编辑和删除数据使用策略。 |
-| 数据引入 | 查看源 | 对&#x200B;_目录_&#x200B;选项卡中的可用源以及&#x200B;_浏览_&#x200B;选项卡中的已验证源的仅查看访问权限。 |
-| | 管理源 | 查看、创建、编辑和禁用源。 |
-| 轮廓管理 | 查看配置文件设置 | 对所有配置文件设置的仅查看访问权限。 |
-| | 管理配置文件设置 | 查看和编辑所有配置文件设置。 |
-
-<!--
-
-### B2B built-in roles {#b2b-built-in-roles}
-
-When your organization has [!DNL Marketo Optimizer] provisioned, Experience Platform includes a set of built-in (default, read-only) roles that you can use to manage access to the product capabilities:
-
-| Role | Permissions |
-| ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
-| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
-| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-
--->
+>[!NOTE]
+>
+>您必须是系统管理员才能在Experience Platform中看到&#x200B;_[!UICONTROL 权限]_&#x200B;磁贴。
 
 ### 编辑角色权限 {#edit-role-permissions}
 
@@ -334,7 +286,7 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 
 1. 添加产品权限：
 
-   要确定您希望角色具有哪些产品功能，请参阅[产品权限](#permissions)列表。
+   要确定您希望角色具有哪些产品功能，请参阅[产品权限](./permissions-reference.md)列表。
 
    在左侧的&#x200B;_[!UICONTROL 资源]_&#x200B;列表中，找到B2B项目并单击&#x200B;_添加_ (**+**)图标以添加要为该角色启用的每个属性。
 
@@ -353,3 +305,95 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 您的自定义角色已配置，并且已分配组中的用户现在可以访问您选择的[!DNL Marketo Optimizer]权能。
+
+### 为建议的用户类型创建用户组和角色 {#create-suggested-roles}
+
+使用以下过程设置&#x200B;_管理员_、_所有访问用户_&#x200B;和&#x200B;_只读访问用户_ [建议的用户类型](./permissions-reference.md#suggested-user-types)。 对于每个用户类型，您需要在Admin Console中创建用户组，在Experience Platform中创建角色，然后将该组添加到该角色。 [_产品权限_](./permissions-reference.md)&#x200B;中列出了每种用户类型的建议权限。
+
+#### 创建管理员用户组和角色 {#create-admin-group}
+
+![图标指示需要管理员访问权限才能完成此过程。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系统管理员可以执行以下步骤。
+
+1. 在Admin Console中，[添加名为&#x200B;_Marketo Optimizer管理员组_&#x200B;的用户组](#add-user-group)，并将[产品配置文件](#assign-profile)分配给该用户组。
+
+1. 将设置和管理[!DNL Marketo Optimizer]的用户添加到该组。
+
+1. 让用户成为产品管理员，以便他们可以管理用户和组。
+
+1. 在[!UICONTROL Experience Platform] _[!UICONTROL 权限]_&#x200B;中，选择&#x200B;**[!UICONTROL 角色]** > **[!UICONTROL 创建角色]**
+
+1. 输入名称，如&#x200B;_Marketo Optimizer管理员_，然后单击&#x200B;**[!UICONTROL 确认]**。
+
+1. 选择为[!DNL Marketo Optimizer]访问权限(`Mktoaep<Marketo subscription prefix>`)配置的沙盒。
+
+   >[!IMPORTANT]
+   >
+   >此步骤对于正确访问至关重要。
+
+1. 对于以下每个类别，单击&#x200B;_添加_ (**+**)图标并选择&#x200B;**[!UICONTROL 全部添加]**：
+
+   * _[!UICONTROL B2B管理配置]_
+   * _[!UICONTROL B2B Assets]_
+   * _[!UICONTROL B2B渠道配置]_
+   * _[!UICONTROL B2B对话体验]_
+   * _[!UICONTROL B2B目标]_
+   * _[!UICONTROL B2B文件夹令牌]_
+   * _[!UICONTROL B2B文件夹]_
+   * _[!UICONTROL B2B意图配置]_
+   * _[!UICONTROL B2B历程]_
+   * _[!UICONTROL B2B Labs]_
+   * _[!UICONTROL B2B组织规则]_
+   * _[!UICONTROL B2B人员列表]_
+   * _[!UICONTROL B2B项目令牌]_
+   * _[!UICONTROL B2B程序类型]_
+   * _[!UICONTROL B2B程序]_
+   * _[!UICONTROL B2B报告]_
+   * _[!UICONTROL 仪表板]_
+   * _[!UICONTROL 目标]_
+   * _[!UICONTROL 数据治理]_
+   * _[!UICONTROL 数据获取]_
+   * _[!UICONTROL 配置文件管理]_
+
+   >[!TIP]
+   >
+   >仅对管理员角色使用&#x200B;**[!UICONTROL 全部添加]**。 发布新功能后，为其准备的权限将自动应用于管理员角色，因此您无需编辑角色。 对于其他用户类型，请在&#x200B;[_产品权限_](./permissions-reference.md)&#x200B;中仅选择该类型推荐的权限。
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+1. 在角色详细信息中，选择&#x200B;**[!UICONTROL 用户组]**&#x200B;选项卡，单击&#x200B;**[!UICONTROL 添加组]**，选择&#x200B;_Marketo Optimizer管理员组_，然后单击&#x200B;**[!UICONTROL 保存]**。
+
+#### 创建完全访问用户群组和角色 {#create-all-access-group}
+
+![图标指示需要管理员访问权限才能完成此过程。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系统管理员可以执行以下步骤。
+
+1. 在Admin Console中，[添加名为&#x200B;_Marketo Optimizer用户组_&#x200B;的用户组](#add-user-group)，[为其分配产品配置文件](#assign-profile)，并[将用户添加到该组](#add-users)。
+
+1. 在Experience Platform权限中，[创建一个名为&#x200B;_Marketo Optimizer All Access User_&#x200B;的自定义角色](#create-a-custom-role)。
+
+1. 选择为[!DNL Marketo Optimizer]访问权限(`Mktoaep<Marketo subscription prefix>`)配置的沙盒。
+
+1. 对于[产品权限](./permissions-reference.md)中的每个类别，请单击&#x200B;_添加_ (**+**)图标，然后仅选择建议用于所有访问用户的权限。
+
+   所有Access用户都可以每天在每种功能中工作，但他们不会获得管理员、渠道或设置权限。
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+1. 在角色详细信息中，选择&#x200B;**[!UICONTROL 用户组]**&#x200B;选项卡，单击&#x200B;**[!UICONTROL 添加组]**，选择&#x200B;_Marketo Optimizer用户组_，然后单击&#x200B;**[!UICONTROL 保存]**。
+
+#### 创建只读访问用户组和角色 {#create-read-only-group}
+
+![图标指示需要管理员访问权限才能完成此过程。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系统管理员可以执行以下步骤。
+
+1. 在Admin Console中，[添加名为&#x200B;_Marketo Optimizer只读用户组_&#x200B;的用户组](#add-user-group)，[为其分配产品配置文件](#assign-profile)，并[将用户](#add-users)添加到该组。
+
+1. 在Experience Platform权限中，[创建一个名为&#x200B;_Marketo Optimizer只读访问用户_&#x200B;的自定义角色](#create-a-custom-role)。
+
+1. 选择为[!DNL Marketo Optimizer]访问权限(`Mktoaep<Marketo subscription prefix>`)配置的沙盒。
+
+1. 对于[产品权限](./permissions-reference.md)中的每个类别，请单击&#x200B;_添加_ (**+**)图标，然后仅选择为只读访问用户推荐的权限。
+
+   只读访问用户只能查看功能。
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+1. 在角色详细信息中，选择&#x200B;**[!UICONTROL 用户组]**&#x200B;选项卡，单击&#x200B;**[!UICONTROL 添加组]**，选择&#x200B;_Marketo Optimizer只读用户组_，然后单击&#x200B;**[!UICONTROL 保存]**。

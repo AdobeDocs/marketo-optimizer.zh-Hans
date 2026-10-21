@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '638'
 ht-degree: 0%
 ---
 # 电子邮件渠道配置
@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >* 必须至少委派一个[子域](../start/email-deliverability.md#subdomain-delegation)并且处于活动状态。
 >* 必须为您的组织至少分配一个[IP池](../start/email-deliverability.md#ip-pools)。
->* 您需要管理员角色。
+>* 您需要&#x200B;**[!UICONTROL 管理B2B渠道配置]**&#x200B;和&#x200B;**[!UICONTROL 查看B2B电子邮件设置]**&#x200B;权限。 有关详细信息，请参阅[所需权限](../start/email-deliverability.md#required-permissions)。
 >* 查看[当前限制](../start/email-deliverability.md#limitations) — Beta中没有专用IP池。
 
 1. 在[!DNL Adobe Marketo Optimizer]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。

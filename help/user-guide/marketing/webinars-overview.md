@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 2%
+source-wordcount: '1131'
+ht-degree: 1%
 ---
 
 # 交互式网络研讨会
@@ -143,14 +143,15 @@ ht-degree: 2%
 
 ### 权限
 
-网络研讨会功能的访问权限取决于您分配的网络研讨会权限。
+网络研讨会功能的访问权限取决于您分配的网络研讨会权限。 有关权限和推荐角色的完整列表，请参阅[用户访问和权限](../start/permissions-reference.md)。
 
-| 角色 | 授予的内容 |
+| 权限 | 授予的内容 |
 |---|---|
 | 查看B2B网络研讨会 | 查看网络研讨会列表和网络研讨会配置、详细信息和报告。 创建、设计、编辑和输入控件无法通过此权限使用，并且不能将您指定为网络研讨会的联合主持人或演示者。 |
+| 管理B2B网络研讨会 | 完整的生命周期访问：创建、设计、配置、计划、编辑、交付、主持和删除网络研讨会。 “创建”、“设计”、“编辑”和“管理”控件仅适用于具有此权限的用户。 |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

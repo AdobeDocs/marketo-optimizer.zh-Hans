@@ -1,23 +1,27 @@
 ---
 title: 历程流量控制
-description: 了解Marketo Optimizer中的历程流量控制如何在受众重叠时，跨七个加权维度使用AI得分将每个人注册到其单一的最佳拟合历程中。
+description: 了解Marketo Optimizer中的历程流量控制如何在受众重叠时，跨七个加权维度使用AI得分将每个人仅注册到他们的最佳拟合历程中。
 TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Reporting
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1582'
 ht-degree: 0%
-
 ---
-
 # 历程流量控制
 
 当受众重叠时，历程流量控制(JTC)会优先考虑人员的最佳旅程。 当一个人符合多个支持JTC的历程的资格时，AI模型会针对每个候选人评估他们，并将他们添加到最适合的历程中，将它们挡在其他候选人之外。
@@ -56,6 +60,7 @@ ht-degree: 0%
 
 在旅程流量控制产生结果之前，请牢记以下几点：
 
+* **权限。** 您需要&#x200B;**[!UICONTROL 查看B2B历程流量控制]**&#x200B;权限才能查看历程流量控制设置，需要&#x200B;**[!UICONTROL 管理B2B历程流量控制]**&#x200B;权限才能配置历程流量控制，包括模拟其效果。 有关详细信息，请参阅[权限资源](../start/permissions-reference.md)。
 * **报告需要一个已发布、支持JTC的历程。** 在至少发布一个启用了历程流量控制的历程之前，_[!UICONTROL 报告]_&#x200B;选项卡不显示任何数据。
 * **模拟在实例中至少需要一个已发布的历程。** 模拟会评估实时历程中已存在的[用户档案](../audiences/people-lists.md)，因此它需要在实例中至少有一个已发布历程才能从中提取用户档案。 模拟本身不需要启用JTC（请参阅&#x200B;[_模拟评分_](#simulate-scoring)）。
 

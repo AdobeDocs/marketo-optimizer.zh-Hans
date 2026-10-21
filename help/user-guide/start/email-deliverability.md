@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2694'
 ht-degree: 0%
 ---
 # 电子邮件送达率
@@ -70,6 +70,18 @@ ht-degree: 0%
 | **_子域_** | 发送域的委派部分（例如，`mail.contoso.com`），用于通过[!DNL Marketo Optimizer]发送电子邮件。 子域可将您的B2B营销声誉与公司邮件或事务性邮件隔离。 |
 | **_IP池_** | 与一个或多个子域关联的一组IP地址。 [!DNL Marketo Optimizer]支持此版本中由Adobe管理的共享IP池；专用IP池在GA路线图中。 |
 | **_渠道配置_** | 可重用的一组电子邮件发送设置（发件人身份、回复地址、子域、IP池、电子邮件类型和跟踪），可附加到历程中的电子邮件操作中。 您可以为不同的品牌、业务部门或发送类型使用多个命名渠道配置。 |
+
+## 所需的权限 {#required-permissions}
+
+可投放性和渠道设置是管理员级别的任务。 _B2B渠道配置_&#x200B;类别控制访问中的以下权限：
+
+| 权限 | 它允许 |
+| ---------- | -------------- |
+| 查看B2B电子邮件设置 | 查看电子邮件设置（子域、PTR记录、IP池、禁止列表、种子列表、IP预热计划）。 |
+| 管理B2B电子邮件设置 | 配置电子邮件设置。 用户发送电子邮件之前需要这些设置。 |
+| 管理 B2B 渠道配置 | 访问左侧导航中的&#x200B;_渠道_&#x200B;菜单项以及所有渠道配置操作。 |
+
+有关每种类型用户的所有权限和建议权限的说明，请参阅[产品权限](./permissions-reference.md)。
 
 <!--
 
@@ -155,7 +167,7 @@ Channel configurations sit under **[!UICONTROL Channels]** → **[!UICONTROL Gen
 >* 决定子域命名约定（例如，`mail.contoso.com`表示营销，`alerts.contoso.com`表示事务型）。
 >* 与您的IT/DNS团队确认，他们可以将子域（NS记录）委派给Adobe。
 >* 在DNS提供商中创建新的子域，然后等待24-48小时以进行DNS传播，然后再委派给Adobe。
->* 确认您在[!DNL Marketo Optimizer]中拥有管理员角色。
+>* 确认您具有&#x200B;**[!UICONTROL 管理B2B电子邮件设置]**&#x200B;权限。 有关详细信息，请参阅[所需权限](#required-permissions)。
 
 1. 在[!DNL Marketo Optimizer]左侧导航中，展开&#x200B;**[!UICONTROL 管理]**&#x200B;并选择&#x200B;**[!UICONTROL 渠道]**。
 1. 在面板中，展开&#x200B;**[!UICONTROL 电子邮件设置]**&#x200B;并选择&#x200B;**[!UICONTROL 子域]**。

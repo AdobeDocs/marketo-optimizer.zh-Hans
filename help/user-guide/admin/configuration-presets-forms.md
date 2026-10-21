@@ -4,18 +4,20 @@ description: 占位符
 TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 16%
-
+source-wordcount: '591'
+ht-degree: 15%
 ---
-
 # Forms配置
 
 产品管理员必须先创建一个或多个专用预设，然后营销人员才能创建和发布要在其登陆页面中使用的表单。 每个预设定义用于发送表单提交数据的连接端点，以及用于存储捕获的数据的数据集。
@@ -33,15 +35,11 @@ ht-degree: 16%
 
 有关创建流源连接的详细信息，请参阅&#x200B;[_Experience Platform文档_](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http)。
 
-<!-- 
-permissions coming in GA
+[!DNL Marketo Optimizer]中的Forms渠道配置需要以下[权限](../start/permissions-reference.md)：
 
-Forms channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
-
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View Forms Presets]_ - Required to view forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage Forms Presets]_ - Required to create, update, and delete forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Publish Forms Presets]_ - Required to publish forms preset configurations.
--->
+* _[!UICONTROL B2B渠道配置]_ > _[!UICONTROL 查看B2B Forms预设]_ — 查看表单预设配置所需。
+* _[!UICONTROL B2B渠道配置]_ > _[!UICONTROL 管理B2B Forms预设]_ — 创建、编辑和删除表单预设配置时需要。
+* _[!UICONTROL B2B渠道配置]_ > _[!UICONTROL 发布B2B Forms预设]_ — 发布表单预设配置所需。
 
 >[!ENDSHADEBOX]
 

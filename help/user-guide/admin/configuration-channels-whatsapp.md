@@ -4,27 +4,29 @@ description: 通过Meta的Cloud API连接您的WhatsApp商业帐户，以便在M
 TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1510'
 ht-degree: 13%
-
 ---
-
 # WhatsApp渠道配置
 
 Marketo Optimizer通过Meta的Cloud API发送WhatsApp消息。 在营销人员创建人员历程的WhatsApp消息之前，产品管理员必须配置WhatsApp渠道。
 
 适用于Marketo Optimizer的![WhatsApp任务流](assets/whatsapp-flow-diagram.png)
-
-## 先决条件 {#prerequisites}
 
 在配置WhatsApp渠道之前，请确保您具备以下条件：
 
@@ -35,7 +37,7 @@ Marketo Optimizer通过Meta的Cloud API发送WhatsApp消息。 在营销人员�
 
 >[!IMPORTANT]
 >
->您对WhatsApp消息传递服务的使用受Meta条款和条件的约束。 通过Marketo Optimizer访问WhatsApp消息传送，即表示您确认已查看并同意遵守[Meta WhatsApp业务政策](https://www.whatsapp.com/legal/business-policy/)。
+>您对WhatsApp消息传递服务的使用受Meta条款和条件的约束。 通过Marketo Optimizer访问WhatsApp消息传送，即表示您确认已审阅并同意遵守[Meta WhatsApp业务政策](https://www.whatsapp.com/legal/business-policy/)。
 
 ## 限制 {#limitations}
 
@@ -51,13 +53,21 @@ Marketo Optimizer通过Meta的Cloud API发送WhatsApp消息。 在营销人员�
 
 ## 完成渠道配置 {#complete-channel-configuration}
 
-在发送WhatsApp消息之前，必须配置Marketo Optimizer环境并将其与您的WhatsApp帐户连接。
+在发送WhatsApp消息之前，必须配置Marketo Optimizer环境并将其连接到您的WhatsApp帐户。
 
 完成以下任务：
 
 1. [创建WhatsApp API凭据](#create-whatsapp-api-credentials)
 1. [添加 WhatsApp Webhook](#configure-webhooks)
 1. [创建WhatsApp渠道配置](#create-channel-configuration)
+
+>[!PREREQUISITES]
+>
+>要在[!DNL Marketo Optimizer]中完成这些任务，您需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 管理B2B渠道配置]** — 访问&#x200B;_[!UICONTROL 渠道]_&#x200B;菜单所需。
+>* **[!UICONTROL 管理B2B WhatsApp设置]** — 配置WhatsApp渠道所需。
+>* **[!UICONTROL 管理B2B WhatsApp预设]** — 创建API凭据和Webhook时需要。
 
 ### 创建 WhatsApp API 凭据 {#create-whatsapp-api-credentials}
 
@@ -117,7 +127,7 @@ Marketo Optimizer通过Meta的Cloud API发送WhatsApp消息。 在营销人员�
    * API令牌 — 必须是具有适当权限的有效[Meta访问令牌](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)。
    * Business帐户ID — 必须与您的[Meta Business帐户ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)完全匹配。
 
-1. 外部测试凭据 — 直接使用Meta API验证您的凭据，以确认问题与凭据有关，还是与Marketo Optimizer凭据处理有关。
+1. 在外部测试凭据 — 直接使用Meta API验证您的凭据，以确认问题与凭据有关，还是与Marketo Optimizer凭据处理有关。
 
 1. 联系Adobe — 如果环境和权利已确认有效，但HTTP 500错误仍然存在，请联系您的Adobe代表。
 
@@ -224,7 +234,7 @@ Marketo Optimizer通过Meta的Cloud API发送WhatsApp消息。 在营销人员�
 
    ![WhatsApp渠道配置详细信息](assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. （当前不适用于Marketo Optimizer）对于&#x200B;**[!UICONTROL WhatsApp执行字段]**，请选择在收件人有多个电话号码可用时用作优先电话号码的配置文件属性。
+1. （当前不适用于Marketo Optimizer）对于&#x200B;**[!UICONTROL WhatsApp执行字段]**，请选择当有多个电话号码可供收件人使用时要用作优先电话号码的配置文件属性。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以进行保存，或单击&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;以完成配置并稍后提交。
 

@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '508'
 ht-degree: 2%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 2%
 每个报告都基于[!DNL Adobe Customer Journey Analytics]构建并直接嵌入到[!DNL Marketo Optimizer]中。 单击&#x200B;_列表_&#x200B;图标（![列表图标](../assets/do-not-localize/icon-table-of-contents.svg)）可使用左侧的&#x200B;**[!UICONTROL 目录]**&#x200B;面板在分区之间跳转。
 
 ![报告页面列出了人员历程概述、参与度、电子邮件参与度和Web参与度部分](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>若要在&#x200B;_[!UICONTROL 报告]_&#x200B;选项卡中查看报告，您必须具有&#x200B;**[!UICONTROL 查看B2B嵌入式报告]** [权限](../start/permissions-reference.md)。
 
 ## 报表节 {#report-sections}
 

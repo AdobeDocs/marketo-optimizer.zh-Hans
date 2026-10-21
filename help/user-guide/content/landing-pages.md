@@ -1,19 +1,20 @@
 ---
 title: 登陆页面
-description: 在Marketo Optimizer中创建、设计和发布人员历程的登陆页面 — 从头开始构建、导入HTML、添加表单、个性化内容以及从电子邮件中链接。
+description: 创建、设计和发布人员历程的登陆页面 — 从头开始构建、导入HTML、添加表单、个性化内容，以及从Marketo Optimizer中的电子邮件创建链接。
 TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: '1627'
 ht-degree: 2%
-
 ---
-
 # 登陆页面
 
 登陆页面是一个独立的网页，您可以在联系人和客户单击电子邮件、短信消息或任何数字位置中的链接项目后指引他们。 您可以将这些页面合并到您的历程中，以使潜在客户和客户在Web上查看您的消息并在您的历程中前进。
@@ -25,6 +26,14 @@ ht-degree: 2%
 * 使用登陆页面上的表单捕获或更新用户档案数据（渐进式用户档案、偏好设置、注册和类似方案）。
 * 将人员引导至为您的历程编排设计的特定于促销活动的信息。
 * 将用户重定向到专用Web窗体，而无需在[!DNL Marketo Optimizer]外部构建外部页面。
+
+>[!PREREQUISITES]
+>
+>使用登陆页面需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 查看B2B登陆页面]** — 需要查看登陆页面。
+>* **[!UICONTROL 管理B2B登陆页面]** — 需要创建、编辑和删除登陆页面。
+>* **[!UICONTROL 发布B2B登陆页面]** — 发布登陆页面时需要此项。
 
 ## 登陆页面工作流程 {#workflow}
 
@@ -200,7 +209,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 对于&#x200B;**[!UICONTROL 登陆页面]**&#x200B;选项，请单击&#x200B;_选择页面_&#x200B;图标（![显示链接图标](../assets/do-not-localize/icon-landing-page-select.svg)）。
 
-1. 在“选择登陆页面”对话框中，将&#x200B;**[!UICONTROL 登陆页面源]**&#x200B;设置为&#x200B;**[!UICONTROL Journey Optimizer B2B edition]**，从已发布的页面列表中选中该登陆页面的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
+1. 在“选择登陆页面”对话框中，将&#x200B;**[!UICONTROL 登陆页面源]**&#x200B;设置为&#x200B;**[!UICONTROL Journey Optimizer B2B Edition]**，从已发布的页面列表中选中该登陆页面的复选框，然后单击&#x200B;**[!UICONTROL 选择]**。
 
    登陆页面的![链接选项](assets/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 

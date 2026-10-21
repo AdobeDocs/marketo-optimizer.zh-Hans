@@ -4,26 +4,40 @@ description: 在Marketo Optimizer中创建和管理人员列表，以实现历�
 TQID: 'https://experienceleague.adobe.com/wxkyF1364PPDTHuEzXoshtCbVse-Fc-XdQvrEwPHJZc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Insights
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1181'
 ht-degree: 1%
-
 ---
-
 # 人员列表
 
 在[!DNL Adobe Marketo Optimizer]中，人员列表是用于定位和人员历程条目的人员级别受众容器，具有基于规则的实时资格的动态列表以及固定或历程管理成员资格的静态列表。
+
+>[!PREREQUISITES]
+>
+>使用人员列表需要以下[权限](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 查看B2B人员列表]** — 需要查看静态和动态人员列表。
+>* **[!UICONTROL 管理B2B人员列表]** — 创建、编辑和删除人员列表以及管理列表成员资格是必需的。
 
 ## 访问和浏览人员列表 {#access-browse}
 

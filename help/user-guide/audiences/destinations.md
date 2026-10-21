@@ -4,17 +4,18 @@ description: 了解所需的权限、支持的目标，以及如何在Marketo Op
 TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '680'
 ht-degree: 7%
-
 ---
-
 # 目标
 
 目标是预建的集成，可让您将[静态人员列表](./people-lists.md#static-lists)从[!DNL Marketo Optimizer]发送到外部广告或社交平台，如LinkedIn促销活动受众、Google客户匹配受众或Facebook自定义受众。 将静态列表激活到目标可以保持成员资格同步：当在列表中添加人员或从列表中删除人员时，相应地，目标受众会添加人员，或者从受众馈送的任何营销活动中删除人员。
@@ -28,11 +29,14 @@ ht-degree: 7%
 
 ## 所需的权限 {#required-permissions}
 
-完整目标功能需要启用以下[!DNL Adobe Experience Platform]权限。
+完整目标功能需要启用以下[!DNL Adobe Experience Platform]权限。 有关每种类型用户的说明和建议权限，请参阅[产品权限](../start/permissions-reference.md)页面和[外部目标权限](../start/permissions-reference.md#external-destinations-permissions)。
 
 | 类别 | 权限 | 必填 |
 |--- |--- |--- |
 | 沙盒 | 沙盒访问&#x200B;_（默认启用）_ | 是 |
+| B2B目标 | 查看B2B目标 | 是 |
+| B2B目标 | 管理B2B目标 | 是 |
+| B2B目标 | 激活B2B目标 | 是 |
 | 仪表板 | 查看标准仪表板 | 是 |
 | 仪表板 | 管理标准仪表板 | 是 |
 | 目标 | 查看目标 | 是 |
