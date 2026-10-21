@@ -22,9 +22,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 autotag-review: '2026-10-20T17:03:48.312Z'
-source-git-commit: e80513284d179a9b27d0505463d07d5e15facabb
+source-git-commit: a33f749c32631dcd77ecf2892bdc3b1a5e06cd66
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1556'
 ht-degree: 3%
 ---
 # 产品权限
@@ -143,7 +143,14 @@ ht-degree: 3%
 
 ## 聊天权限 {#chat-permissions}
 
-聊天权限遵循功能级别的权限。 _管理B2B对话体验_&#x200B;允许访问[!DNL CX Coworker]聊天面板，但不授予对任何功能功能的访问权限。 同事根据功能在聊天外部所需的相同权限检查聊天中的每个技能或操作： _管理_&#x200B;创建、编辑或发布的权限，以及&#x200B;_查看_&#x200B;只读技能的权限。 如果用户缺少功能权限，[!DNL Coworker]无法为其执行该操作。 例如，创建历程需要&#x200B;_管理B2B人员历程_，而列出表单需要&#x200B;_查看B2B Forms_。
+聊天权限遵循功能级别的权限。 [!DNL Coworker for Marketo Optimizer]根据功能在聊天外部所需的相同权限检查聊天中的每个技能或操作：_管理_&#x200B;创建、编辑或发布的权限，以及&#x200B;_查看_&#x200B;只读技能的权限。 如果用户缺少功能权限，[!DNL Coworker]无法为其执行该操作。 例如，创建历程需要&#x200B;_管理B2B人员历程_，而列出表单需要&#x200B;_查看B2B Forms_。
+
+<!--
+_Manage B2B Conversational Experience_ gives access to the [!DNL CX Coworker] chat panel, but it does not grant access to any feature functions.
+
+Per wiki: 
+Update 10/02: We are no longer mapping b2b-conversational-experience read or write to any tools. It was decided that chat will be available for all users without permissions, but what they can do within the chat (i.e. tools they can use) will be defined by other permissions.
+-->
 
 ## 外部目标权限 {#external-destinations-permissions}
 
