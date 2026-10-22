@@ -4,25 +4,32 @@ description: 了解Marketo Optimizer中的AI决策、历程流量控制的智能
 TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: '829'
 ht-degree: 2%
-
 ---
-
 
 # AI决策
 
 AI决策是Adobe Marketo Optimizer背后的智能层。 AI决策不会将每个分支预先构建为静态规则，而是会持续评估用户档案的上下文（包括历程成员资格、参与历史记录、意图得分和实时行为），以确定适合该人员的下一个最佳操作或路径。
 
 这一持续评估将编排从静态规则转向结果驱动的自动化：您无需预先定义每个条件，而是描述您需要的结果，系统确定如何为每个人实现该目标。
+
+观看此简短概述，了解[!DNL Adobe Marketo Optimizer]中的AI推理如何使用Marketo Engage数据优化您的工作流和结果。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
 
 ## 功能 {#capabilities}
 
