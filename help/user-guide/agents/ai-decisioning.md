@@ -29,7 +29,7 @@ AI决策是Adobe Marketo Optimizer背后的智能层。 AI决策不会将每个�
 
 观看此简短概述，了解[!DNL Adobe Marketo Optimizer]中的AI推理如何使用Marketo Engage数据优化您的工作流和结果。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504806?captions=chi_hans&quality=12)
 
 ## 功能 {#capabilities}
 
