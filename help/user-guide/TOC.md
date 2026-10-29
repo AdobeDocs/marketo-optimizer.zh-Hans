@@ -1,10 +1,10 @@
 ---
 user-guide-title: Marketo Optimizer文档
 user-guide-description: 了解Adobe Marketo Optimizer以及如何使用它为B2B商机和帐户提供个性化的AI支持内容，以执行协调的市场营销和销售参与。
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 42%
+source-wordcount: '263'
+ht-degree: 41%
 ---
 
 # Marketo Optimizer用户指南 {#user}
@@ -49,7 +49,7 @@ ht-degree: 42%
   + 电子邮件渠道 {#email-channel}
     + [概述](./marketing/email-channel.md)
     + [电子邮件发送时间优化](./marketing/email-send-time-optimization.md)
-    + [内容创作](./content/email-authoring.md)
+    + [电子邮件内容创作](./content/email-authoring.md)
     + [深色模式设计](./content/email-dark-mode.md)
   + [WhatsApp 渠道](./content/whatsapp-authoring.md)
   + 网络研讨会渠道 {#webinar-channel}

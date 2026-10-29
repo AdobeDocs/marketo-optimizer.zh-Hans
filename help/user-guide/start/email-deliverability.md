@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2697'
 ht-degree: 0%
 ---
 # 电子邮件送达率
@@ -53,7 +53,7 @@ ht-degree: 0%
 > 有关电子邮件渠道的其他信息，请参阅以下主题：
 >
 >* 配置电子邮件渠道 — [电子邮件渠道配置](../admin/email-channel-configuration.md)
->* 创建电子邮件 — [向历程添加电子邮件](../marketing/email-channel.md)
+>* 创建电子邮件 — [创建电子邮件并将其添加到历程](../marketing/email-channel.md)
 >* 设计电子邮件内容 — [电子邮件内容创作](../content/email-authoring.md)
 
 ## 当前限制 {#limitations}

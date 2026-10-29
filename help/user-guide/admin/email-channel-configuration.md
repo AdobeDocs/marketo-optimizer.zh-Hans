@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '641'
 ht-degree: 0%
 ---
 # 电子邮件渠道配置
@@ -89,7 +89,7 @@ ht-degree: 0%
 >
 >删除渠道配置是永久性的。 您无法删除活动历程引用的配置。 先删除或重新分配所有电子邮件操作。
 
-要删除配置，请先删除或更新在[向历程](../marketing/email-channel.md#define-email-properties)添加电子邮件中引用该配置的每个电子邮件操作。 [!DNL Marketo Optimizer]不删除活动历程当前使用的配置。
+要删除配置，请先删除或更新在[创建电子邮件并将它们添加到历程](../marketing/email-channel.md#define-email-properties)中引用它的每个电子邮件操作。 [!DNL Marketo Optimizer]不删除活动历程当前使用的配置。
 
 ## 多渠道配置 {#multiple-channel-configurations}
 

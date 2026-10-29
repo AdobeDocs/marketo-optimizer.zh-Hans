@@ -19,18 +19,14 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2402'
 ht-degree: 2%
 ---
 # 电子邮件内容创作
 
 在[!DNL Adobe Marketo Optimizer]中，电子邮件设计空间提供了一个可视化画布，营销人员可在其中撰写电子邮件。 左侧和顶部面板中的电子邮件设计工具（结构、内容组件、模板、片段等）支持通过拖放从头开始构建。 您还可以选择从模板开始，粘贴原始HTML，或从可重用可视片段组合消息。
-
->[!IMPORTANT]
->
->有关子域的管理员设置、身份验证、IP池和电子邮件通道配置，请参阅[电子邮件可投放性](../start/email-deliverability.md)和[电子邮件通道配置](../admin/email-channel-configuration.md)。
 
 >[!PREREQUISITES]
 >
@@ -38,9 +34,10 @@ ht-degree: 2%
 >
 >* **[!UICONTROL 查看B2B电子邮件]** — 查看电子邮件时需要此项。
 >* **[!UICONTROL 管理B2B电子邮件]** — 创建、编辑和删除电子邮件时需要此项。
->* **[!UICONTROL 管理B2B人员历程]** — 将电子邮件添加到人员历程时需要此项。
 
-在[!DNL Marketo Optimizer]中，每封电子邮件都与人员历程中的&#x200B;_[!UICONTROL 发送电子邮件]_&#x200B;操作相关联。 从历程设计到电子邮件定义的完整工作流发生在一个连续的体验中。 当您[将&#x200B;_发送电子邮件_&#x200B;节点](../marketing/action-nodes.md#add-an-action-node)添加到人员历程时，单击&#x200B;**[!UICONTROL 创建电子邮件]**&#x200B;以开始此过程。 首先，定义电子邮件的操作和内容设置。 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以启动电子邮件内容设计空间，您可以在其中从以下选项中选择希望如何设计电子邮件：
+在[!DNL Marketo Optimizer]中，电子邮件是您[在项目或文件夹](../marketing/email-channel.md#create-email-from-programs)中创建，然后[在历程中发布和选择](../marketing/email-channel.md#lifecycle)的独立资产。 首先定义&#x200B;_属性_&#x200B;和&#x200B;_操作_。 然后定义内容。
+
+单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以启动电子邮件正文设计空间，您可以在其中从以下选项中选择希望如何设计电子邮件：
 
 * [使用可视化设计界面从头开始设计电子邮件](#design-from-scratch)。 在空白画布上使用拖放操作，通过组件构建电子邮件布局组件。 此方法最适合创建新模板或一次性电子邮件。
 
@@ -83,15 +80,14 @@ ht-degree: 2%
 
 1. 从&#x200B;_[!UICONTROL 设计电子邮件]_&#x200B;页面中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
-<!-- 
 
-1. In the _[!UICONTROL Create email]_ dialog, choose the type of email content that you want to author.
+1. 在&#x200B;_[!UICONTROL 创建电子邮件]_&#x200B;对话框中，选择要创作的电子邮件内容类型。
 
-   * **[!UICONTROL Use Themes]** - Choose this option to create the email in _Theme mode_. In this mode, you can use a defined brand theme to streamline the content authoring process and make sure that the design aligns with defined standards.
+   * **[!UICONTROL 使用主题]** — 选择此选项可在&#x200B;_主题模式_&#x200B;中创建电子邮件。 在此模式下，您可以使用定义的品牌主题来简化内容创作过程，并确保设计符合定义的标准。
 
-   * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
+   * **[!UICONTROL 手动样式]** — 选择此选项可在&#x200B;_手动模式_&#x200B;中创建电子邮件。 在此模式下，您可以手动为添加到空白画布的所有结构和内容组件设置样式。
 
--->
+   ![创建电子邮件对话框](./assets/email-design-create-your-email-dialog.png){width="450"}
 
 1. [在画布中添加结构和内容组件](#structure-content)。
 
@@ -102,8 +98,6 @@ ht-degree: 2%
 如果对内容满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 导入现有HTML内容 {#import-html-content}
-
-<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
 
 导入的内容可以是：
 
@@ -140,17 +134,27 @@ ht-degree: 2%
 
 使用可视电子邮件编辑器构建电子邮件。 添加预编译标题，使用列和分隔符构建布局，然后使用内容组件（如图像、按钮和文本）填充这些结构。 您还可以为高级样式应用自定义CSS，并预览设计在深色模式中的呈现方式。
 
-### 设置预编译标头 {#preheader}
+### 定义正文设置 {#body-settings}
 
-预览标题是收件箱预览中主题行后面显示的文本片段。 在[!DNL Marketo Optimizer]中，预标头是在电子邮件设计空间的可视画布上配置的 — 而不是在主题行旁边的电子邮件属性屏幕上配置。
+正文设置定义电子邮件的标题、文档标题和文档语言。 在电子邮件设计空间中，独立于电子邮件主题行配置此元数据。
 
-在左侧导航树中选择&#x200B;**[!UICONTROL Body]**，打开右侧的&#x200B;**[!UICONTROL 设置]**&#x200B;面板。
+1. 在左侧导航树中选择&#x200B;**[!UICONTROL 正文]**，然后在右侧面板中选择&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡。
 
-单击&#x200B;**[!UICONTROL 预览标题]**&#x200B;文本区域，然后输入预览标题副本。 单击&#x200B;_添加个性化_ （![添加个性化图标](../assets/do-not-localize/icon-personalization-field.svg) ）图标以根据需要使用富文本控件应用格式设置和[个性化令牌](#personalize-content)。
+   ![右侧面板中的正文设置](./assets/email-body-settings.png){width="800" zoomable="yes"}
 
->[!TIP]
->
->将预告长度保持在40到100个字符之间。 它应该补充主题行（而不是重复），并为收件人提供打开电子邮件的额外原因。
+1. 请完成以下字段：
+
+   * **[!UICONTROL 预览标题]** — 输入收件箱预览中主题行后面显示的文本片段。
+
+     >[!TIP]
+     >
+     >将预告长度保持在40到100个字符之间。 它应该补充主题行（而不是重复），并为收件人提供打开电子邮件的额外原因。
+
+   * **[!UICONTROL 文档标题]** — 输入电子邮件HTML文档的标题。 这与电子邮件主题行不同。
+
+   * **[!UICONTROL 文档语言]** — 指定电子邮件文档的语言。
+
+   您可以单击字段旁边的&#x200B;_添加个性化_ （![添加个性化图标](../assets/do-not-localize/icon-personalization-field.svg) ）图标以插入[个性化令牌](#personalize-content)。
 
 ### 深色模式 {#dark-mode}
 
@@ -164,6 +168,8 @@ ht-degree: 2%
 
 从左侧面板的&#x200B;**[!UICONTROL 结构]**&#x200B;和&#x200B;**[!UICONTROL 内容]**&#x200B;部分中拖动项目，然后在右侧的&#x200B;_[!UICONTROL 设置]_&#x200B;和&#x200B;_[!UICONTROL 样式]_&#x200B;选项卡中配置每个组件。
 
+![将结构组件和内容元素拖放到页面中](./assets/content-components-add.png){width="700" zoomable="yes"}
+
 ### 添加自定义 CSS {#custom-css}
 
 您可以直接在电子邮件设计空间中添加自定义CSS，以进行标准组件设置以外的高级样式设置。 最佳实践是在包含内容组件（如图像、按钮和文本）之前添加此最高级别的样式。
@@ -172,7 +178,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的电子邮件是使用包含锁定内容[&#128279;](./template-content-governance.md)的模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+>如果您的电子邮件是使用包含锁定内容](./template-content-governance.md)的[模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 ### 添加片段 {#visual-fragments}
 
@@ -252,7 +258,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 [!DNL Marketo Optimizer]使用Handlebars语法进行个性化。 在发送时，令牌会被替换为来自每个收件人的配置文件数据的值。 您可以在电子邮件中的多个位置使用个性化：
 
 * **主题行** — 最常见的个性化点。
-* **Preheader** — 在可视画布中设置；支持配置文件属性令牌。
+* **正文元数据** — 在可视画布中设置；支持配置文件属性令牌。
 * **电子邮件正文文本** — 名字和其他配置文件属性已内嵌插入。
 * **按钮URL** — 附加每个收件人的参数。
 
@@ -293,7 +299,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 
 +++AI辅助表达式{#ai-personalization}
 
-个性化编辑器中的Co-worker可以从纯语言描述生成Handlebars表达式，说明现有表达式的用途，并确定潜在问题。 使用它可以加快表达式创作，尤其是对于条件逻辑或日期格式帮助程序。
+个性化编辑器中的[!DNL Coworker]可以从纯语言描述生成Handlebars表达式，说明现有表达式的用途，并识别潜在问题。 使用它可以加快表达式创作，尤其是对于条件逻辑或日期格式帮助程序。
 
 +++
 
