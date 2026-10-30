@@ -1,22 +1,25 @@
 ---
 title: 执行操作节点
-description: 在Marketo Optimizer中配置一个“执行操作”节点，以便在到达人员历程中的节点时添加、删除或更新人员、列表、程序和目标，或者发送消息。
+description: 在Marketo Optimizer中配置一个“执行操作”节点，以添加、删除或更新人员、列表、程序和目标，或者在他们到达人员旅程中的节点时发送消息。
 TQID: 'https://experienceleague.adobe.com/KmYvfJm9d5YZdC7ZWQiybjNsFmnt0GLReJIL8nDQF-k'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # 执行操作节点
 
 在人员历程中，当您想要将更改应用于节点路径上的所有人员时，对人员使用操作。
@@ -100,7 +103,7 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 +++[!UICONTROL 添加到列表]
 
-使用此操作可在Marketo Optimizer中将人员添加到静态列表。
+使用此操作可将人员添加到Marketo Optimizer中的静态列表。
 
 ![执行操作 — 添加到列表](./assets/person-action-node-add-to-list.png){width="450"}
 
@@ -183,9 +186,9 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 使用此操作向已选择加入的人员发送电子邮件。 取消订阅、列入阻止列表、电子邮件已暂停或营销已暂停的用户将跳过此操作。
 
-![执行操作 — 发送电子邮件](./assets/person-action-node-send-email.png){width="450"}
+![执行操作 — 发送电子邮件](./assets/person-action-node-email-source.png){width="450"}
 
-您可以创建电子邮件、编辑现有电子邮件或使用AI个性化电子邮件。 有关创建和编辑电子邮件的信息，请参阅[电子邮件渠道](./email-channel.md)。 要为现有电子邮件生成基于角色的变体，请参阅[按角色个性化电子邮件内容](../agents/personalize-content.md)。
+您可以从项目树中选择已发布的电子邮件（这将向历程添加电子邮件的副本），或者使用人工智能个性化电子邮件。 此副本为只读。 有关创建、发布和复制电子邮件的信息，请参阅&#x200B;[_创建电子邮件并将其添加到历程_](./email-channel.md)。 要为草稿电子邮件生成基于角色的变体，请参阅&#x200B;[_按角色个性化电子邮件内容_](../agents/personalize-content.md)。
 
 您可以使用[发送时间优化](./email-send-time-optimization.md)，通过预测每个用户档案最有可能参与的时间，使电子邮件投放时间个性化。
 

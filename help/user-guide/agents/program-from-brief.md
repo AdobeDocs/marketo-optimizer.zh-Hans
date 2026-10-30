@@ -1,23 +1,27 @@
 ---
 title: 从简介创建项目
-description: 使用Marketo Optimizer中的项目创建技能从营销活动简报中构建项目、令牌、人员列表和历程。
+description: 使用Marketo Optimizer中的项目创建技能，从营销活动简报中构建项目、令牌、人员列表和历程。
 TQID: 'https://experienceleague.adobe.com/Bi7ZemHiGpKwxsYZkrfCyT5IzFAJ8ZTyFr8KxwO4z6w'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1110
+source-wordcount: '1110'
 ht-degree: 4%
-
 ---
-
 # 从简介创建项目
 
 在[!DNL Adobe Marketo Optimizer]中，[_项目_](../marketing/programs.md)&#x200B;是营销活动中历程、人员列表、令牌和配置的顶级容器。 从[聊天界面](./chat-interface.md)，计划创建技能在一个引导式对话中从您的简报（计划本身、子文件夹、令牌、人员列表和人员历程）端到端地构建整个结构。
@@ -33,7 +37,7 @@ ht-degree: 4%
 ### 支持的文件类型
 
 | 格式化 | 行为 |
-|---|---|
+| --- | --- |
 | `.txt`, `.md` | 直接在浏览器中读取 |
 | `.pdf`, `.docx`, `.xlsx`, `.json`, `.csv` | 已发送到后端文本提取服务 |
 
@@ -84,7 +88,7 @@ ht-degree: 4%
 构建步骤按固定顺序运行；每个步骤都取决于上一步生成的ID。
 
 | 步骤 | 描述 | 工具 | 输出 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **1. 文件夹** | 按名称解析父文件夹或使用工作区根；可以创建新的子文件夹 | `getRootTree`, `browseFolders`, `createFolder` | 文件夹名称+ ID |
 | **1.5. 项目类型** | 查找租户项目类型并挑选匹配项 | `browseProgramTypes` | 键入名称+ `programTypeId` |
 | **2. 项目** | 在已解析的文件夹下创建程序，绑定到所选类型 | `createProgram` | 项目名称、ID、类型 |
@@ -107,7 +111,7 @@ ht-degree: 4%
 顶级容器。 其详细信息视图会显示以下选项卡：
 
 | 选项卡 | 内容 |
-|---|---|
+| --- | --- |
 | **概述** | 名称、描述、程序类型、状态、文件夹位置、时间戳 |
 | **属性** | 类型定义的自定义字段（仅当程序类型启用时） |
 | **令牌** | 此项目范围的`my.*`令牌 |
@@ -130,7 +134,7 @@ ht-degree: 4%
 程序在创建时将&#x200B;**永久绑定**&#x200B;到租户定义的程序类型 — 此后无法更改。 在每种情况下，流都通过`browseProgramTypes`显式解析类型。
 
 | Case | 行为 |
-|---|---|
+| --- | --- |
 | **多个可用类型** | 将简短措辞与类型匹配（例如，贸易展/展位/展览= *贸易展*/*活动*；网络研讨会= *网络研讨会*/*活动*；nurture/drip = *Nurture*；无清除信号= *默认*）。 如果未找到匹配项，Co-worker将列出可用类型并询问。 |
 | **仅默认租户** | 使用&#x200B;*Default*，并注意管理员可以添加自定义[程序类型](../admin/program-types.md)。 |
 | **未配置任何类型** | 停止 — 创建将失败。 在重试之前提示管理员配置程序类型。 |
@@ -138,7 +142,7 @@ ht-degree: 4%
 ## 默认值
 
 | 设置 | 默认 |
-|---|---|
+| --- | --- |
 | **文件夹** | Workspace根目录（如果未指定文件夹） |
 | **项目类型** | *默认值*（如果没有简短的信号和手动选择） |
 | **Personalization属性** | 默认情况下包含派生角色、派生意图、参与层（提供选择退出功能） |
@@ -148,7 +152,7 @@ ht-degree: 4%
 ## 限制
 
 | 限制 | 详细信息 |
-|---|---|
+| --- | --- |
 | **简短长度上限** | ~30,000个字符；截断的摘要将丢失尾随内容 — 将基本内容放在最前 |
 | **不可变程序类型** | 创建后无法更改；请在批准前验证正确的类型 |
 | **必需的内部字段** | `parent`和`programTypeId`始终已设置；省略`parent`会导致访问被拒绝；省略类型静默回退到&#x200B;*默认值* |
@@ -156,7 +160,7 @@ ht-degree: 4%
 | **异步列表成员资格** | 静态（来自标准）列表会在几分钟内填充 — 不是立即填充 |
 | **错误处理** | 报告工具失败并显示确切的错误；同事提示确认输入并重试 |
 | **名称冲突** | 未自动解析 — 将请求其他名称 |
-| **作用域** | 仅限Marketo Optimizer；[!DNL Marketo Engage]用户应使用单独的项目创建/项目规划技能 |
+| **作用域** | 仅限Marketo Optimizer；[!DNL Marketo Engage]用户应使用单独的程序创建/程序规划技能 |
 
 
 ## QA检查

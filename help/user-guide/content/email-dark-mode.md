@@ -4,15 +4,15 @@ description: 了解Marketo Optimizer中的深色模式电子邮件设计。 跨�
 TQID: 'https://experienceleague.adobe.com/IFAOy7HJQ93uT4Mz70dC-RPHPaWhUhE9T0d5dEgJYgk'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Accessibility
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: '1476'
 ht-degree: 7%
-
 ---
-
 # 电子邮件内容的深色模式 {#dark-mode}
 
 >[!CONTEXTUALHELP]
@@ -158,7 +158,7 @@ _深色模式_&#x200B;允许支持此功能的电子邮件客户端或应用程�
 
 深色模式可以改变颜色、背景和图像 — 有时会覆盖设计选择。 要确保可视一致性、可访问性和品牌完整性，请遵循以下最佳实践：
 
-| 实践 |            |
+| 实践 | |
 | -------- | ---------- |
 | 优化您的图像和徽标 | 清单：<ul><li>将徽标和图标保存为具有透明背景的PNG文件，以避免在深色模式下显示白色框。 <li>避免使用带有硬编码白色或浅色背景的图像。 <li>如果无法使用透明度，请将图像置于设计中的纯色背景上，以防止尴尬的颜色反转。 |
 | 关注您的背景 | 清单：<ul><li>确保文本颜色和背景颜色之间的对比度足以在浅色和深色模式下阅读。 <li>避免仅依赖背景颜色处理关键内容。 某些客户端在深色模式下会覆盖背景颜色，因此请确保关键信息仍然可见。 |
