@@ -63,7 +63,7 @@ ht-degree: 15%
 >id="ajo-b2b-prime_lp_form_connection"
 >title="选择要使用的端点"
 >abstract="定义表单提交时用于发送数据的流式端点。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建 HTTP API 流式连接"
+>additional-url="https://experienceleague.adobe.com/zh-Hans/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="创建 HTTP API 流式连接"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
