@@ -1,6 +1,6 @@
 ---
 title: 表单设计
-description: 设计表单，其中包含Marketo Optimizer中用于业务数据收集的字段类型、验证、样式和XDM架构属性。
+description: 设计包含Marketo Optimizer中业务数据收集的字段类型、验证、样式和XDM架构属性的表单。
 TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -8,20 +8,18 @@ product_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: '2175'
 ht-degree: 1%
-
 ---
-
 # 表单设计
 
 在您[创建表单](./forms.md#create-forms)后，可视化设计空间将打开一个草稿，其中包含默认的基本表单定义。 在右侧的&#x200B;_[!UICONTROL 摘要]_&#x200B;面板中，单击&#x200B;**[!UICONTROL 编辑表单]**&#x200B;并使用可视设计空间定义表单样式和字段组件。
 
 ![窗体设计空间](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-默认情况下，_&#x200B;**提交**&#x200B;_&#x200B;按钮（页脚字段）是表单的一部分，无法删除。 您可以选择表单中的按钮/页脚组件以[更改按钮](#submit-button)的文本和样式。
+默认情况下，_**提交**_&#x200B;按钮（页脚字段）是表单的一部分，无法删除。 您可以选择表单中的按钮/页脚组件以[更改按钮](#submit-button)的文本和样式。
 
 ## 字段 {#fields}
 
@@ -94,7 +92,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 默认值]** — 使用此选项为字段指定默认值。
 
-   * **[!UICONTROL 验证消息]** — 使用此选项为字段指定验证消息。 如果访客为该字段输入无效值，则会显示此消息。 默认情况下，_[!UICONTROL Standard]_&#x200B;消息已设置。 选择&#x200B;**[!UICONTROL 自定义]**&#x200B;并输入您自己的消息。
+   * **[!UICONTROL 验证消息]** — 使用此选项为字段指定验证消息。 如果访客为该字段输入无效值，则会显示此消息。 默认情况下，系统会设置&#x200B;_[!UICONTROL Standard]_&#x200B;消息。 选择&#x200B;**[!UICONTROL 自定义]**&#x200B;并输入您自己的消息。
 
    * **[!UICONTROL 最大长度]** — 输入可在字段中输入的最大字符数。
 
@@ -124,7 +122,7 @@ ht-degree: 1%
 
   ![设置表单字段的标签样式](assets/form-field-styles-label.png){width="600" zoomable="yes"}
 
-* **[!UICONTROL 边框]** — 单击&#x200B;**[!UICONTROL 边框颜色]**&#x200B;方块以打开弹出式拾色器并选择边框颜色。 您可以定义字段的边框，包括颜色和线宽。 清除复选框可删除显示的字段边框。 您还可以更改边角的边框大小（像素宽度）、样式和半径设置。
+* **[!UICONTROL 边框]** — 单击&#x200B;**[!UICONTROL 边框颜色]**&#x200B;方块以打开弹出式拾色器并选择边框颜色。 您可以定义字段的边框，包括颜色和线宽。 要删除显示的字段边框，请清除复选框。 您还可以更改边角的边框大小（像素宽度）、样式和半径设置。
 
   ![设置表单字段的边框样式](assets/form-field-styles-border.png){width="600" zoomable="yes"}
 
@@ -148,7 +146,7 @@ ht-degree: 1%
 
 单击工具栏或右侧面板中的&#x200B;_删除_&#x200B;图标（![删除图标](../assets/do-not-localize/icon-delete.svg)）以删除选定的字段。 在确认对话框中单击&#x200B;**[!UICONTROL 删除]**。
 
-单击工具栏或右侧面板中的&#x200B;_复制_&#x200B;图标（![复制图标](../assets/do-not-localize/icon-duplicate.svg)）以复制所选字段。 新字段显示在原始字段的正下方。 单击&#x200B;**[!UICONTROL 选择字段属性]**&#x200B;以设置该字段的属性。 根据需要设置字段类型、详细信息和样式。
+单击工具栏或右侧面板中的&#x200B;_复制_&#x200B;图标（![复制图标](../assets/do-not-localize/icon-duplicate.svg)）以复制所选字段。 新字段显示在原始字段的下方。 单击&#x200B;**[!UICONTROL 选择字段属性]**&#x200B;以设置该字段的属性。 根据需要设置字段类型、详细信息和样式。
 
 ![删除和复制表单字段的图标](assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
 
@@ -172,7 +170,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 标签]** — 标签样式控制按钮内文本的可视特征。 可以设置字体大小、行高、文本样式和文本对齐方式。 单击&#x200B;**[!UICONTROL 字体颜色]**&#x200B;方块以打开弹出式拾色器并选择标签文本的颜色。
 
-* **[!UICONTROL 边框]** — 单击&#x200B;**[!UICONTROL 边框颜色]**&#x200B;方块以打开弹出式拾色器并选择边框颜色。 您可以定义按钮的边框，包括颜色和线条宽度。 清除复选框可删除显示的按钮边框。 您还可以更改圆角的边框大小（像素宽度）、样式和半径设置。
+* **[!UICONTROL 边框]** — 单击&#x200B;**[!UICONTROL 边框颜色]**&#x200B;方块以打开弹出式拾色器并选择边框颜色。 您可以定义按钮的边框，包括颜色和线条宽度。 要删除显示的按钮边框，请清除复选框。 您还可以更改圆角的边框大小（像素宽度）、样式和半径设置。
 
 * **[!UICONTROL 大小]** — 选择大小设置以确定按钮的显示宽度。 选择&#x200B;_[!UICONTROL 全宽]_、_[!UICONTROL 半宽]_&#x200B;或&#x200B;_[!UICONTROL 自动]_。 内边距会根据大小和对齐设置进行调整。
 
@@ -206,7 +204,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 关闭]**。
 
-1. （可选）将复制的代码粘贴到您收藏的CSS工具中，并编辑CSS以反映所需的样式。
+1. （可选）将复制的代码粘贴到CSS工具中，并编辑CSS以反映所需的样式。
 
 1. 单击右侧面板中的&#x200B;**[!UICONTROL 添加自定义CSS]**。
 
@@ -220,7 +218,7 @@ ht-degree: 1%
 
 ### 手动设置样式 {#manual-styling}
 
-更改右侧面板中的设置以定义整个表单的显示。
+要定义整个表单的显示，请更改右侧面板中的设置。
 
 * **[!UICONTROL 背景颜色]** — 选中此复选框可在表单区域周围应用背景颜色。 白色是默认颜色。 单击颜色方块以打开弹出式拾色器，并为表单背景选择颜色。
 

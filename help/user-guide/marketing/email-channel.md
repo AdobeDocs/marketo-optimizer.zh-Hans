@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 3%
@@ -50,7 +50,7 @@ ht-degree: 3%
 | 编辑属性、操作和内容 | 是 | 否 | 否 |
 | 使电子邮件个性化 | 是 | 否 | 否 |
 | 分析电子邮件 | 是 | 否 | 否 |
-| 发布 | 是，一旦阻塞警报得到解决 | 已发布 | 已自动发布 |
+| 发布 | 是，当阻止警报得到解决时 | 已发布 | 已自动发布 |
 | 重复 | 是 | 是 | 否 |
 | 重命名 | 是 | 否 | 不会。 选择副本时，请为其命名。 |
 | 删除 | 是 | 否 | 不会。 请改为删除&#x200B;_发送电子邮件_&#x200B;节点。 |

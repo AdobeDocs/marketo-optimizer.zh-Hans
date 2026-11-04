@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '2473'
-ht-degree: 2%
+source-wordcount: '2528'
+ht-degree: 1%
 ---
 # 表单
 
@@ -41,6 +41,8 @@ ht-degree: 2%
 ## 访问和管理表单 {#view-forms}
 
 若要在[!DNL Marketo Optimizer]中访问表单，请转到左侧导航并单击&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL Forms]**。 此操作将打开一个列表页面，该页面显示实例中创建的所有表单。
+
+使用此列表访问和管理现有表单。 要[创建表单](#new-form)，请使用&#x200B;_[!UICONTROL 程序]_&#x200B;树结构。
 
 ![访问表单库](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -78,7 +80,7 @@ ht-degree: 2%
 
 * 确定您需要什么表单。
 
-  可能只能使用四种标准表单。 一个用于访问可下载的内容，一个用于访问高级网页，一个用于查看视频，一个用于注册网络研讨会等活动。 如果您需要更改表单中的字段，更轻松地更新在全球范围内使用的四个标准表单，而不是更改分布在所有营销项目中的多个表单。
+  可能只需要使用四个标准表单。 一个用于访问可下载的内容，一个用于访问高级网页，一个用于查看视频，一个用于注册网络研讨会等活动。 如果您需要更改表单中的字段，更轻松地更新在全球范围内使用的四个标准表单，而不是更改分布在所有营销项目中的多个表单。
 
   <!-- Global forms also make progressive profiling much easier to implement. -->
 
@@ -86,15 +88,15 @@ ht-degree: 2%
 
   请考虑使用较短的表单，因为已证明它们更适合转化。 当您仔细考虑每个表单时，请确定哪些字段对于表单而言是合理且必要的。
 
-  考虑是否预填表单字段，以便预填名称和电子邮件等基本信息。 但其他信息，如职称和组织规模，则并非如此。 这样，访客只需填写两个字段并提交表单。 您也可以使用社交表单填写来自Facebook或Twitter的数据。
+  考虑是否预填表单字段，以便预填名称和电子邮件等基本信息。 但其他信息，如职称和组织规模，则并非如此。 这样，访客只需填写两个字段并提交表单。 您还可以使用社交媒体表单填充来自社交媒体平台的数据。
 
 * 规划访客提交表单后显示哪些跟进页面（_感谢_&#x200B;页面）。
 
-  每个人都获得相同的页面吗？该页面是否为动态页面？是否基于他们的数据？ 例如，医疗保健行业的人可能会看到与技术行业的人不同的页面内容。
+  每个人都获得相同的页面吗？该页面是否为动态页面？是否基于他们的数据？ 例如，医疗保健行业中的某个人与技术行业中的某个人看到不同的页面内容。
 
 * 如果您已经拥有所需的信息，请考虑是否完全绕过表单。
 
-  如果您允许访问登陆页面的已知人员绕过表单，则他们只需直接访问内容即可。 绕过表单可提供更精简的访客体验。
+  如果您允许访问登陆页面的已知人员绕过表单，则他们可以直接访问内容。 绕过表单可提供更精简的访客体验。
 
 ### 添加新表单 {#new-form}
 
@@ -102,9 +104,19 @@ ht-degree: 2%
 >id="ajo-b2b-prime_lp_form_preset"
 >title="选择预设"
 >abstract="选择一个预定义预设，其中包含要使用的连接以及为表单预定义的数据集。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="创建表单预设"
+>additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="创建表单预设"
 
-您可以在[!DNL Marketo Optimizer]中创建表单，方法是单击&#x200B;_[!UICONTROL Forms]_&#x200B;列表页右上角的&#x200B;**[!UICONTROL 创建表单]**。
+从&#x200B;_[!UICONTROL 程序]_&#x200B;树结构在程序或程序文件夹中创建表单。
+
+1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 营销管理]**，然后选择&#x200B;**[!UICONTROL 程序]**。
+
+1. 在要创建表单的程序中找到程序或文件夹。
+
+   如果需要，[先创建程序](../marketing/programs.md#create-program)。
+
+1. 单击&#x200B;_更多_&#x200B;图标(**...**) 在程序或文件夹名称旁边，选择&#x200B;**[!UICONTROL 创建表单]**。
+
+   ![从程序树创建新表单](../marketing/assets/email-create-from-programs-tree.png){width="425"}
 
 1. 在&#x200B;_[!UICONTROL 创建表单]_&#x200B;对话框中，输入有用的&#x200B;**[!UICONTROL 名称]**（必需）和&#x200B;**[!UICONTROL 描述]**（可选）。
 
@@ -123,21 +135,19 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-   此时将打开表单详细信息页面，其中包含默认的基本表单定义。
+   此时将打开表单详细信息页面。
 
    ![默认表单内容](assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### 更改默认表单设计 {#design}
+1. 单击&#x200B;**[!UICONTROL 编辑表单]**，然后根据需要使用可视化设计工具定义表单内容：
 
-使用可视化设计工具根据需要更改表单内容：
+   * [添加字段](./form-design.md#add-field)
+   * [更改字段样式](./form-design.md#field-styling)
+   * [字段重新排序](./form-design.md#field-reorder)
+   * [更改提交按钮文本和样式](./form-design.md#submit-button)
+   * [更改表单样式](./form-design.md#form-styling)
 
-* [添加字段](./form-design.md#add-field)
-* [更改字段样式](./form-design.md#field-styling)
-* [字段重新排序](./form-design.md#field-reorder)
-* [更改提交按钮文本和样式](./form-design.md#submit-button)
-* [更改表单样式](./form-design.md#form-styling)
-
-单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以保存表单内容设计更改并转到表单详细信息。
+   单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以保存表单内容设计更改并返回表单详细信息。
 
 ### 设置感谢页面 {#thank-you-page}
 
@@ -204,7 +214,7 @@ ht-degree: 2%
 
 ## 复制表单 {#duplicate-forms}
 
-复制表单，以快速轻松地使用现有表单创建新表单作为表单设计的起点。
+复制表单以使用现有表单作为表单设计的起点来创建新表单。
 
 您可以使用以下任一方法复制表单：
 
@@ -217,7 +227,7 @@ ht-degree: 2%
 
 ![重复表单的名称和描述](assets/form-duplicate-dialog.png){width="400"}
 
-编辑重复表单以根据需要更改名称并更改表单以供其使用。
+要根据需要更改名称并更改表单以满足其预期用途，请编辑重复表单。
 
 ## 编辑表单 {#edit-forms}
 
