@@ -94,7 +94,7 @@ ht-degree: 11%
    You can add up to two subpages per landing page.
 -->
 
-配置和设计页面后，请在发布登陆页面](#test-landing-page)之前[对其进行测试。
+配置和设计页面后，请在发布登陆页面[&#128279;](#test-landing-page)之前对其进行测试。
 
 >[!CAUTION]
 >
