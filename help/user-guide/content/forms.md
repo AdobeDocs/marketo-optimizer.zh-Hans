@@ -104,7 +104,7 @@ ht-degree: 1%
 >id="ajo-b2b-prime_lp_form_preset"
 >title="选择预设"
 >abstract="选择一个预定义预设，其中包含要使用的连接以及为表单预定义的数据集。"
->additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="创建表单预设"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="创建表单预设"
 
 从&#x200B;_[!UICONTROL 程序]_&#x200B;树结构在程序或程序文件夹中创建表单。
 
