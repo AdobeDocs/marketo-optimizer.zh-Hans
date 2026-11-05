@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1571'
 ht-degree: 11%
 ---
 # 创建和发布登陆页面
@@ -57,11 +57,17 @@ ht-degree: 11%
 
 创建登陆页面(_T):_
 
-1. 转到左侧导航并选择&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 登陆页面]**。
+1. 在左侧导航栏中，展开&#x200B;**[!UICONTROL 营销管理]**，然后选择&#x200B;**[!UICONTROL 程序]**。
 
-1. 从登陆页面列表中，单击&#x200B;**[!UICONTROL 创建登陆页面]**。
+1. 在&#x200B;_[!UICONTROL 程序]_&#x200B;树结构中，找到程序或要在其中创建登录页的文件夹。
 
-1. 输入&#x200B;**[!UICONTROL Title]**（必需）和&#x200B;**[!UICONTROL Description]**（可选）。
+   如果需要，[先创建程序](../marketing/programs.md#create-program)。
+
+1. 单击&#x200B;_更多_&#x200B;图标(**...**) 在程序或文件夹名称旁边，选择&#x200B;**[!UICONTROL 创建登陆页面]**。
+
+   ![从程序树创建新登陆页面](../marketing/assets/email-create-from-programs-tree.png){width="400"}
+
+1. 在&#x200B;_[!UICONTROL 创建登陆页面]_&#x200B;对话框中，输入&#x200B;**[!UICONTROL 标题]**（必需）和&#x200B;**[!UICONTROL 描述]**（可选）。
 
    标题和描述条件：
 
@@ -70,7 +76,7 @@ ht-degree: 11%
    * 允许使用Alpha、数字和特殊字符。
    * 保留字符为&#x200B;**_不允许_**： `\ / : * ? " < > |`
 
-   ![创建登陆页面](assets/landing-page-create.png){width="600"}
+   ![创建登陆页面](assets/landing-page-create.png){width="425"}
 
 1. 选择&#x200B;**[!UICONTROL 预设]**。
 
@@ -82,11 +88,13 @@ ht-degree: 11%
 
    ![新登陆页面 — 主页面属性](assets/landing-page-primary-new-properties.png){width="700" zoomable="yes"}
 
-1. 要添加子页面（例如，感谢页面或错误页面），请单击&#x200B;**+**&#x200B;图标。
+<!--
+1. To add a subpage (for example, a thank-you or error page), click the **+** icon.
 
-   每个登陆页面最多可添加两个子页面。
+   You can add up to two subpages per landing page.
+-->
 
-配置并设计主页面和任何子页面后，请在发布登陆页面[&#128279;](#test-landing-page)之前对其进行测试。
+配置和设计页面后，请在发布登陆页面[&#128279;](#test-landing-page)之前对其进行测试。
 
 >[!CAUTION]
 >
@@ -147,7 +155,7 @@ ht-degree: 11%
 
 ### 从头开始设计 {#design-from-scratch}
 
-使用可视内容设计空间定义登陆页面的结构和内容。 通过执行简单的拖放操作来添加和移动结构组件，您可以在几秒钟内设计页面内容的布局和组织。
+使用可视内容设计空间定义登陆页面的结构和内容。 通过简单的拖放操作来添加和移动结构组件，您可以快速设计页面内容的布局和组织。
 
 1. 从设计主页中选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
@@ -235,11 +243,11 @@ ht-degree: 11%
 
    +++添加测试轮廓
 
-   对于&#x200B;**[!UICONTROL 身份命名空间]**，请单击&#x200B;_选择_&#x200B;图标（![选择图标](../assets/do-not-localize/icon-select-data.svg)），然后选择要用于测试配置文件的`Email`命名空间。
+   对于&#x200B;**[!UICONTROL 身份命名空间]**，请单击&#x200B;_选择_ （![选择图标](../assets/do-not-localize/icon-select-data.svg) ）图标，然后选择`Email`命名空间以测试配置文件。
 
    ![管理测试配置文件集电子邮件标识命名空间](assets/manage-test-profiles.png){width="700" zoomable="yes"}
 
-   在&#x200B;**[!UICONTROL 标识值]**&#x200B;字段中，输入用于标识测试配置文件的电子邮件地址，然后单击&#x200B;**[!UICONTROL 添加配置文件]**。 您可以重复此操作，以添加多个配置文件。
+   在&#x200B;**[!UICONTROL 标识值]**&#x200B;字段中，输入用于标识测试配置文件的电子邮件地址，然后单击&#x200B;**[!UICONTROL 添加配置文件]**。 要添加多个配置文件，您可以重复此操作。
 
    ![管理测试配置文件添加配置文件](assets/manage-test-profiles-add.png){width="700" zoomable="yes"}
 

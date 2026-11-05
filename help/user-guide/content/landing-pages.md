@@ -10,14 +10,14 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1649'
 ht-degree: 2%
 ---
 # 登陆页面
 
-登陆页面是一个独立的网页，您可以在联系人和客户单击电子邮件、短信消息或任何数字位置中的链接项目后指引他们。 您可以将这些页面合并到您的历程中，以使潜在客户和客户在Web上查看您的消息并在您的历程中前进。
+登陆页面是一个独立的网页，您可以在联系人和客户单击电子邮件、短信消息或任何数字位置中的链接项目后指引他们。 为了让您的潜在客户和客户在Web上查看您的消息并在您的历程中取得进展，您可以将这些页面合并到您的历程中。
 
 登陆页面的常见用例：
 
@@ -39,17 +39,19 @@ ht-degree: 2%
 
 要在历程受众的成员单击特定链接时将他们定向到定义的网页，请在[!DNL Marketo Optimizer]中创建登陆页面：
 
-1. [创建页面](./landing-pages-create-publish.md#create-landing-page) — 选择预设，设置主页面，然后添加任何所需的子页面。
+1. [创建页面](./landing-pages-create-publish.md#create-landing-page) — 从程序树结构开始，选择预设，设置主页面。
 1. [设计登陆页面内容](./landing-page-design.md) — 使用拖放可视化设计组件构建页面内容。
 1. [测试登陆页面](./landing-pages-create-publish.md#test-landing-page) — 预览该页面并测试表单行为。
 1. [发布登陆页面](./landing-pages-create-publish.md#publish-landing-page) — 发布以使该页面处于活动状态并可用于链接。
 1. [从您的历程链接到页面](#link-to-landing-page) — 将登陆页面URL添加到电子邮件、短信或历程操作，以便收件人可以访问该页面。
 
-例如，您可以创建和设计登陆页面，以将用户定向到在线信息。 该页面可能包括一个表单，用户可以在其中选择加入或选择退出接收您的通信。 或者，它可能是订阅定期通信（如新闻稿）的机会。
+例如，要将用户定向到在线信息，您可以创建和设计登陆页面。 该页面可能包括一个表单，用户可以在其中选择加入或选择退出接收您的通信。 或者，它可能是订阅定期通信（如新闻稿）的机会。
 
 ## 访问和管理登陆页面 {#access-manage-landing-pages}
 
 要在[!DNL Marketo Optimizer]中访问登陆页面，请转到左侧导航并展开&#x200B;**[!UICONTROL 内容管理]**。 然后选择&#x200B;**[!UICONTROL 登陆页面]**。 此操作显示实例中创建的所有登陆页面的列表。
+
+使用此列表访问和管理现有登陆页面。 要[创建登陆页面](./landing-pages-create-publish.md#create-landing-page)，请使用&#x200B;_[!UICONTROL 程序]_&#x200B;树结构。
 
 ![访问登陆页面库](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
@@ -197,7 +199,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 ## 链接到登陆页面 {#link-to-landing-page}
 
-作为生成电子邮件、片段和页面内容的营销人员或创意人员，您可以嵌入指向在您的[!DNL Marketo Optimizer]实例中创建的已发布（实时）登陆页面的链接。
+作为生成电子邮件、片段和页面内容的营销或创意专业人员，您可以嵌入指向在[!DNL Marketo Optimizer]实例中创建的已发布（实时）登陆页面的链接。
 
 1. 当您在片段、电子邮件、登陆页面或模板的可视设计空间中工作时，为链接选择文本摘录、按钮组件或图像组件。
 

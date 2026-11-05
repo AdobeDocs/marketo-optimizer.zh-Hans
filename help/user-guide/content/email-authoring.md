@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2583'
 ht-degree: 2%
 ---
 # 电子邮件内容创作
@@ -78,8 +78,7 @@ ht-degree: 2%
 
 使用可视内容设计空间来定义电子邮件的结构和内容。 通过执行简单的拖放操作来添加和移动结构组件，您可以在几秒钟内设计电子邮件内容的布局和组织。
 
-1. 从&#x200B;_[!UICONTROL 设计电子邮件]_&#x200B;页面中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
-
+1. 从&#x200B;_[!UICONTROL 创建电子邮件]_&#x200B;页面中，选择&#x200B;**[!UICONTROL 从头开始设计]**&#x200B;选项。
 
 1. 在&#x200B;_[!UICONTROL 创建电子邮件]_&#x200B;对话框中，选择要创作的电子邮件内容类型。
 
@@ -126,9 +125,40 @@ ht-degree: 2%
 
 打开电子邮件设计空间时，使用&#x200B;**[!UICONTROL 选择设计模板]**&#x200B;部分从内置示例模板或保存的自定义模板开始。 请参阅[在电子邮件中使用模板](./templates.md#use-in-journey)以了解完整的工作流。
 
+您可以从以下内容中进行选择：
+
+* **示例模板** - Adobe提供的内置电子邮件模板。
+* **保存的模板** — 您从头开始创建或从现有电子邮件内容保存的自定义模板。
+
+>[!BEGINTABS]
+
+>[!TAB 已保存模板]
+
+在&#x200B;_[!UICONTROL 创建电子邮件]_&#x200B;页面上，默认选中&#x200B;_[!UICONTROL 示例模板]_&#x200B;选项卡。 要使用自定义模板，请选择&#x200B;**[!UICONTROL 保存的模板]**&#x200B;选项卡。
+
 >[!NOTE]
 >
 >保存的模板可以将管理（内容锁定）设置应用于一个或多个组件。 当您[从受控制的模板](./template-content-governance.md)创作电子邮件时，可视设计空间提供了有关锁定的组件的准则。
+
+该列表显示在当前沙盒中创建的所有电子邮件模板。 您可以按&#x200B;**[!UICONTROL 名称]**、**[!UICONTROL 上次修改时间]**&#x200B;和&#x200B;**[!UICONTROL 上次创建时间]**&#x200B;对它们进行排序。
+
+![选择已保存的模板](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
+
+从列表中选择要显示预览的模板。 在预览模式下，使用向右和向左箭头在选定类别（示例或已保存）的模板之间导航。
+
+![预览保存的模板](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
+
+当预览与您想要使用的模板匹配时，单击预览窗口右上角的&#x200B;**[!UICONTROL 使用此模板]**。
+
+此操作会将内容复制到可视化电子邮件设计空间，您可以在其中根据需要进行编辑。
+
+>[!TAB 示例模板]
+
+[!DNL Adobe Marketo Optimizer]提供一系列内置模板，您可以使用这些模板创建电子邮件和电子邮件模板。
+
+![选择Adobe提供的模板](./assets/templates-design-samples.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 添加结构和内容 {#structure-content}
 
