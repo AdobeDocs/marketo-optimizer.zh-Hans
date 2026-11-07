@@ -31,7 +31,7 @@ ht-degree: 2%
 
 观看视频，了解主页和营销工作区的导览。 以下各节提供了书面说明。
 
->[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505369/?captions=chi_hans&quality=12&learn=on)
 
 ## 启动AI对话
 
