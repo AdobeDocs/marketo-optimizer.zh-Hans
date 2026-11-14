@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 64d70f192f1ef972590aef2811e2e91908691196
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '281'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!-- SPHR-39571: Audience, Company Name, Company Industry, and Region filters, plus the report title/subtitle rename, are planned under SPHR-32471 (not yet shipped) and should be documented separately once delivered  -->
 
-使用[!UICONTROL Web参与度]报告查看整个实例中热门交互式网络研讨会的参与度。
+使用[!UICONTROL Web参与度]报告查看实例中最受欢迎的交互式网络研讨会的参与度。
 
 查看报告(_T):_
 
@@ -44,9 +44,13 @@ ht-degree: 1%
 
 ## 过滤器 {#filters}
 
-使用以下筛选条件将报表缩小到特定角色。
+使用报告顶部的&#x200B;**[!UICONTROL 角色（事件）]**&#x200B;筛选器以缩小页面查看数据范围。 打开筛选器列表并选择要包含的值。
 
-* **[!UICONTROL 角色]** — 按与页面查看关联的角色进行筛选。
+* **[!UICONTROL 角色（事件）]** — 按与页面查看关联的[派生角色](../audiences/personas.md#filter-by-derived-persona)进行筛选。 默认值为[!UICONTROL 无筛选器]。
+
+![Web Engagement报告，其中角色筛选器列表已打开，显示可用角色和“重置全部”控件。](./assets/reports-web-engagement-filters.png){width="500" zoomable="yes"}
+
+选择&#x200B;**[!UICONTROL 全部重置]**&#x200B;以清除筛选器并返回默认视图。
 
 >[!NOTE]
 >
