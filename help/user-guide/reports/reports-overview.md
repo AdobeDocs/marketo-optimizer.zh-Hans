@@ -7,17 +7,17 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e4b0bd62a974e32297b11177d13a783c631597fb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '519'
 ht-degree: 2%
 ---
 
 # 报告
 
-[!UICONTROL 报表]选项卡为您提供[!DNL Adobe Marketo Optimizer]中的性能分析，包括历程参与度、电子邮件性能和Web活动。 在左侧导航中，选择&#x200B;**[!UICONTROL 报表]**&#x200B;以将其打开。
+_[!UICONTROL 报表]_&#x200B;页面为您提供了[!DNL Adobe Marketo Optimizer]中的性能分析，包括历程参与度、电子邮件性能和Web活动。 在左侧导航中，选择&#x200B;**[!UICONTROL 报表]**&#x200B;以将其打开。
 
-每个报告都基于[!DNL Adobe Customer Journey Analytics]构建并直接嵌入到[!DNL Marketo Optimizer]中。 单击&#x200B;_列表_&#x200B;图标（![列表图标](../assets/do-not-localize/icon-table-of-contents.svg)）可使用左侧的&#x200B;**[!UICONTROL 目录]**&#x200B;面板在分区之间跳转。
+每个报告都使用[!DNL Adobe Customer Journey Analytics]功能生成，并直接嵌入到[!DNL Marketo Optimizer]中。 单击&#x200B;_列表_&#x200B;图标（![列表图标](../assets/do-not-localize/icon-table-of-contents.svg)）可使用左侧的&#x200B;**[!UICONTROL 目录]**&#x200B;面板在分区之间跳转。
 
 ![报告页面列出了人员历程概述、参与度、电子邮件参与度和Web参与度部分](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 某些报表侧重于单个记录而不是全部分割视图，可从应用程序的不同区域进行访问。
 
 * 要获得电子邮件发送时间优化性能，请从[!UICONTROL 同事]聊天界面打开报告。 有关步骤，请参阅[电子邮件发送时间优化](../marketing/email-send-time-optimization.md#reporting)。
-* 对于个人在单次历程中的进度，从该历程中打开[个人历程个人报表](./person-journey-individual-report.md)。
+* 要了解人员历程表现，请从实时历程或已完成历程中打开[人员历程个人报告](./person-journey-individual-report.md)。 打开报告后，您可以选择要包含的多个历程。
 
 ## 导出报告 {#export-a-report}
 
