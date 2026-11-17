@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
-ht-degree: 3%
+ht-degree: 4%
 ---
 # 创建电子邮件并将它们添加到历程
 
@@ -198,7 +198,7 @@ ht-degree: 3%
 
 1. （可选）选中&#x200B;**[!UICONTROL 优化HTML大小]**&#x200B;复选框以在发布过程中减小电子邮件HTML的大小。
 
-   这有助于防止在Gmail等客户端中剪切电子邮件。 Gmail对超过100 KB的邮件进行截断。 有关详细信息，请参阅&#x200B;[_优化电子邮件HTML大小_](#optimize-html-size)。
+   这有助于防止在 Gmail 等客户端中出现电子邮件被截断的情况。 Gmail 会截断超过 100 KB 的邮件。 有关详细信息，请参阅&#x200B;[_优化电子邮件HTML大小_](#optimize-html-size)。
 
 1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以访问可视化设计工具并开始[生成您的内容](../content/email-authoring.md)。
 
@@ -356,7 +356,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
 >title="减小 HTML 大小"
->abstract="启用此选项后，系统将在发布时通过移除不必要的空白字符、缩进和非必要注释来压缩电子邮件 HTML。 这有助于防止在Gmail等客户端中剪切电子邮件。 Gmail对超过100 KB的邮件进行截断。"
+>abstract="启用此选项后，系统将在发布时通过移除不必要的空白字符、缩进和非必要注释来压缩电子邮件 HTML。 这有助于防止在 Gmail 等客户端中出现电子邮件被截断的情况。 Gmail 会截断超过 100 KB 的邮件。"
 
 [!DNL Marketo Optimizer]允许您在发布过程中通过删除不必要的空格、缩进和非必要的注释来压缩电子邮件HTML版本。 缩小HTML的规模可帮助您：
 
