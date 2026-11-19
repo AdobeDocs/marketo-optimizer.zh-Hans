@@ -18,14 +18,18 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '557'
 ht-degree: 2%
 ---
 # 登陆页面设计
 
-在您[创建登陆页面](./landing-pages-create-publish.md#create-landing-page)之后，请使用可视化设计空间在页面中创作结构和内容组件。
+在您[创建登陆页面](./landing-pages-create-publish.md#create-landing-page)之后，请使用可视化设计空间定义页面的布局和内容。
+
+## 添加模块
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 添加结构和内容 {#structure-content-landing-page}
 

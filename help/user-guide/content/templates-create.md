@@ -1,6 +1,6 @@
 ---
 title: 创建电子邮件模板
-description: 了解如何在Marketo Optimizer中创建电子邮件模板 — 创建新模板、将历程中的电子邮件另存为模板，或将设计图像转换为电子邮件模板。
+description: 了解如何在Marketo Optimizer中创建电子邮件模板、自定义内容模块、将电子邮件另存为模板或将设计图像转换为电子邮件模板。
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -15,30 +15,32 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '937'
 ht-degree: 1%
 ---
 
 # 创建电子邮件模板
 
-您可以通过三种方式在[!DNL Adobe Marketo Optimizer]中创建电子邮件模板：
+使用可视化设计空间在[!DNL Adobe Marketo Optimizer]中创建电子邮件模板。 电子邮件模板支持准备的内容模块以及单个结构和内容组件。
+
+>[!NOTE]
+>
+>当前仅支持电子邮件模板。 登陆页面模板当前不可用。
+
+对于电子邮件模板，可以采用三种方式启动：
 
 * **生成新模板** — 使用可视化电子邮件设计空间在模板库中创建模板。
 * **从历程电子邮件保存** — 将您在历程中创作的电子邮件保存为可重用的模板。
 * **转换图像** — 上传设计图像并使用创作AI将其转换为可编辑的电子邮件模板。
 
-## 构建新模板 {#build-new}
+## 构建新的电子邮件模板 {#build-new}
 
 1. 在左侧导航中，展开&#x200B;**[!UICONTROL 内容管理]**&#x200B;并选择&#x200B;**[!UICONTROL 模板]**。
 1. 单击&#x200B;**[!UICONTROL 创建模板]**。
 1. 输入&#x200B;**[!UICONTROL 模板名称]**&#x200B;和可选的&#x200B;**[!UICONTROL 描述]**。
-1. 为模板设置&#x200B;**[!UICONTROL 渠道]** （类型）。
-
-   >[!NOTE]
-   >
-   >在此Beta版本中，仅支持电子邮件模板。
+1. 将&#x200B;**[!UICONTROL 渠道]**&#x200B;设置为电子邮件。
 
    <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 
@@ -46,11 +48,23 @@ ht-degree: 1%
 
 1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以访问内容设计空间。
 
-   有关内容设计的详细信息，请参阅[电子邮件创作](email-authoring.md)。
+   [添加模块](#add-modules)或使用[电子邮件创作](email-authoring.md)了解有关内容设计的详细信息。
 
 1. 可选地启用&#x200B;**[!UICONTROL 管理]**&#x200B;并配置[内容锁定](template-content-governance.md)以限制在应用模板时模板作者可以编辑的哪些部分。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+## 添加模块 {#add-modules}
+
+在电子邮件模板中，使用模块从准备好的部分开始并自定义其内容和样式。
+
+{{$include /help/_includes/content-design-modules.md}}
+
+### 添加结构和内容
+
+要从头开始构建部分或扩展模块，请添加结构和内容组件。
+
+{{$include /help/_includes/content-design-components-prime.md}}
 
 ## 将电子邮件另存为模板 {#save-as-template}
 
@@ -108,7 +122,7 @@ ht-degree: 1%
 1. 在&#x200B;**[!UICONTROL 将图像转换为模板]**&#x200B;部分中：
 
    * （可选）选择&#x200B;**[!UICONTROL 品牌主题]**&#x200B;以将品牌的颜色、字体和间距应用于生成的输出。
-   * 选中确认复选框，以确认您的图像不包含个人身份信息(PII)或其他敏感数据。
+   * Select确认复选框，以确认您的图像不包含个人身份信息(PII)或其他敏感数据。
    * 单击&#x200B;**[!UICONTROL 上传图像]**&#x200B;并选择您的图像文件。
 
    >[!CAUTION]
