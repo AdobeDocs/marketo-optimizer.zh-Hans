@@ -10,19 +10,21 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 2%
 ---
 
 # 电子邮件模板
 
-[!DNL Adobe Marketo Optimizer]中的电子邮件模板允许内容专家独立构建可重复使用的电子邮件布局，因此营销团队可以跨帐户历程应用这些模板而无需每次重新构建设计。
+[!DNL Adobe Marketo Optimizer]中的电子邮件模板允许内容专家独立构建可重用的电子邮件布局，因此营销团队可以重复使用设计，而无需每次都重新构建它们。
 
 >[!NOTE]
 >
->在此Beta版本中，仅支持电子邮件模板。
+>当前仅支持电子邮件模板。 登陆页面模板当前不可用。
+
+在[创建电子邮件模板](./templates-create.md)时使用[内容模块](./content-modules.md)从准备好的分区中组合布局。
 
 将模板应用于新电子邮件时，内容将在此时复制。 对模板进行编辑不会影响之前从中创建的电子邮件。
 
@@ -57,7 +59,7 @@ ht-degree: 1%
 **要将模板移动到文件夹中：**
 
 1. 单击模板旁边的&#x200B;**[!UICONTROL 更多]**&#x200B;图标( ... )。
-1. 选择&#x200B;**[!UICONTROL 移动到文件夹]**。
+1. 选择&#x200B;**[!UICONTROL 移至文件夹]**。
 1. 选择目标文件夹并单击&#x200B;**[!UICONTROL 移动]**。
 
 ## 查看模板详细信息 {#view-details}

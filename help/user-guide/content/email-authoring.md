@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2590'
 ht-degree: 2%
 ---
 # 电子邮件内容创作
@@ -52,7 +52,7 @@ ht-degree: 2%
 ## 电子邮件设计工具 {#email-design-tools}
 
 * **顶部工具栏：**&#x200B;保存，返回，切换到代码编辑器，预览控件。
-* **左侧面板：**&#x200B;结构（列布局）、内容（文本、按钮、图像、分隔符、社交、HTML）、片段、模板、导航树（电子邮件的DOM样式层次结构）。
+* **左侧面板：**&#x200B;模块（已准备的部分）、结构（列布局）、内容（文本、按钮、图像、分隔符、社交、HTML）、片段、模板、导航树（电子邮件的DOM样式层次结构）。
 * **中心画布：**&#x200B;带有桌面和移动设备预览的WYSIWYG编辑器。
 * **右侧面板：**&#x200B;当前选定组件的设置和样式，包括内容属性、背景、边框、填充和个性化。
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
    ![创建电子邮件对话框](./assets/email-design-create-your-email-dialog.png){width="450"}
 
-1. [在画布中添加结构和内容组件](#structure-content)。
+1. [在画布中添加模块](#add-modules)或[结构和内容组件](#structure-content)。
 
 1. [审阅并更新链接](#preview-and-edit-linked-urls)。
 
@@ -160,6 +160,10 @@ ht-degree: 2%
 
 >[!ENDTABS]
 
+## 添加模块 {#add-modules}
+
+{{$include /help/_includes/content-design-modules.md}}
+
 ## 添加结构和内容 {#structure-content}
 
 使用可视电子邮件编辑器构建电子邮件。 添加预编译标题，使用列和分隔符构建布局，然后使用内容组件（如图像、按钮和文本）填充这些结构。 您还可以为高级样式应用自定义CSS，并预览设计在深色模式中的呈现方式。
@@ -208,7 +212,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的电子邮件是使用包含锁定内容[&#128279;](./template-content-governance.md)的模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+>如果您的电子邮件是使用包含锁定内容](./template-content-governance.md)的[模板设计的，则无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 ### 添加片段 {#visual-fragments}
 
