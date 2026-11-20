@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: b41193169434abe23589cde8e73bf6c9016ec04d
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1404'
 ht-degree: 1%
 ---
 
@@ -141,7 +141,9 @@ ht-degree: 1%
 
 1. **频率**：潜在客户与该内容交互的次数，已计入人员参与的平均值。
 
-从形式上讲，每个参与度`activity weight × content relevance`平均为&#x200B;**每日得分**，应用了&#x200B;**7天的指数衰减**，因此最近的活动占主导地位，然后将当前群体中的最小最大值标准化为0至1，并分段统计：
+对于[!DNL Marketo Optimizer]，初次引导意图得分会回顾两年的商机活动。
+
+从形式上讲，每次参与：活动权重×内容相关性，平均为每日分数，应用七天的指数衰减，因此最近的活动占主导地位。 衰减机制每七天运行一次：如果潜在客户不参与新活动，则其意图分数会衰减。 然后，在当前群体中将最小 — 最大值标准化为0到1，并分段统计：
 
 | 最终得分 | 意图级别 |
 | --- | --- |
