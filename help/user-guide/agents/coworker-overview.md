@@ -45,7 +45,7 @@ ht-degree: 2%
 
 有关更多信息，请参阅：
 
-* [[!DNL Adobe CX Enterprise Coworker]聊天概述](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)
+* [[!DNL Adobe CX Enterprise Coworker]聊天概述](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)
 * [&#x200B; [!DNL Marketo Optimizer]中的聊天界面](./chat-interface.md)
 * [&#x200B; [!DNL Marketo Optimizer]中的[!DNL Coworker]技能](./skills.md)
 
